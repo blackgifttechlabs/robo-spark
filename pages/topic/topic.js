@@ -1,3 +1,4 @@
+import { icon } from '../../shared/icons.js';
 import { projects } from '../home/projects.js';
 import { createAssemblyPlayer } from './assembly-player.js';
 const $ = id => document.getElementById(id);
@@ -80,7 +81,7 @@ function renderStep(stage, count, progress) {
   $('step-substeps').querySelectorAll('li').forEach((li, i) => {
     li.classList.toggle('is-done', i < done);
     li.classList.toggle('is-current', i === done && !finished);
-    li.querySelector('.step-timeline__dot').innerHTML = i < done ? '<i class="fi fi-rr-check" aria-hidden="true"></i>' : String(i + 1);
+    li.querySelector('.step-timeline__dot').innerHTML = i < done ? '<i class="fa fa-solid fa-check" aria-hidden="true"></i>' : String(i + 1);
   });
   $('step-dots').querySelectorAll('button').forEach((dot, i) => {
     dot.classList.toggle('is-complete', i < idx || finished);
@@ -89,12 +90,12 @@ function renderStep(stage, count, progress) {
   $('step-prev').disabled = progress === 0;
   $('step-next').disabled = false;
   $('step-next').firstElementChild.textContent = finished ? 'Start over' : idx === count - 1 ? 'Finish' : 'Next step';
-  $('step-next').lastElementChild.className = finished ? 'fi fi-rr-rotate-right' : idx === count - 1 ? 'fi fi-rr-check' : 'fi fi-rr-arrow-right';
+  $('step-next').lastElementChild.className = finished ? 'fa fa-solid fa-rotate-right' : idx === count - 1 ? 'fa fa-solid fa-check' : 'fa fa-solid fa-arrow-right';
 }
 async function init() {
   if (!project) {
     document.title = 'Topic not found — Robo Sparks';
-    $('topic-content').innerHTML = '<div class="topic-error"><h1>Choose a learning topic.</h1><p>This topic could not be found.</p><a href="learn.html">Browse all topics →</a></div>';
+    $('topic-content').innerHTML = '<div class="topic-error"><h1>Choose a learning topic.</h1><p>This topic could not be found.</p><a href="learn.html">Browse all topics <i class="fa fa-solid fa-arrow-right" aria-hidden="true"></i></a></div>';
     return;
   }
   document.title = `${project.title} — Robo Sparks`;
@@ -105,7 +106,7 @@ async function init() {
   $('assembly-poster').alt = `Assembled ${project.title}`;
   const next = projects[projects.indexOf(project) + 1];
   $('next-topic').href = next ? `topic/${next.id}/` : 'learn.html';
-  if (!next) $('next-topic').textContent = 'All topics ↗';
+  if (!next) $('next-topic').innerHTML = 'All topics '+icon('arrow-up-right-from-square');
   try {
     const response = await fetch('assets/assemblies/index.json');
     if (!response.ok) throw Error('Assembly index unavailable');
