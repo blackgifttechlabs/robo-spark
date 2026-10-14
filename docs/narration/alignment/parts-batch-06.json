@@ -1,0 +1,2558 @@
+{
+  "batch": "parts-batch-06",
+  "source_filename": "parts-batch-06.wav.wav",
+  "source_sha256": "b2f1fd0aea482b29d67c8392c5072c1731e52c53a2377dbc53934ea7bd895d64",
+  "source_duration": 113.6,
+  "method": "Recognized speech word timestamps matched to known component transcripts; longest nearby quiet interval for cuts",
+  "model": "base.en",
+  "sample_rate": 24000,
+  "clips": [
+    {
+      "id": "part--axle",
+      "part": "axle",
+      "start": 0.0,
+      "end": 9.86,
+      "duration": 9.86,
+      "first_spoken_word": " Here",
+      "last_spoken_word": " shape.",
+      "alignment": [
+        {
+          "word": " Here",
+          "start": 0.3,
+          "end": 0.44,
+          "probability": 0.17939473688602448,
+          "tokens": [
+            3423
+          ]
+        },
+        {
+          "word": " comes",
+          "start": 0.44,
+          "end": 0.72,
+          "probability": 0.9886570572853088,
+          "tokens": [
+            2058
+          ]
+        },
+        {
+          "word": " another",
+          "start": 0.72,
+          "end": 1.4,
+          "probability": 0.9848021864891052,
+          "tokens": [
+            1194
+          ]
+        },
+        {
+          "word": " helper.",
+          "start": 1.4,
+          "end": 1.72,
+          "probability": 0.9906044602394104,
+          "tokens": [
+            31904,
+            13
+          ]
+        },
+        {
+          "word": " This",
+          "start": 3.14,
+          "end": 3.14,
+          "probability": 0.760603666305542,
+          "tokens": [
+            770
+          ]
+        },
+        {
+          "word": " is",
+          "start": 3.14,
+          "end": 3.36,
+          "probability": 0.9938676953315735,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " steel",
+          "start": 3.36,
+          "end": 3.76,
+          "probability": 0.4676954448223114,
+          "tokens": [
+            7771
+          ]
+        },
+        {
+          "word": " axle.",
+          "start": 3.76,
+          "end": 4.28,
+          "probability": 0.9811166524887085,
+          "tokens": [
+            41066,
+            13
+          ]
+        },
+        {
+          "word": " Carries",
+          "start": 5.22,
+          "end": 5.46,
+          "probability": 0.7071478962898254,
+          "tokens": [
+            1879,
+            1678
+          ]
+        },
+        {
+          "word": " a",
+          "start": 5.46,
+          "end": 5.6,
+          "probability": 0.9975095987319946,
+          "tokens": [
+            257
+          ]
+        },
+        {
+          "word": " wheel",
+          "start": 5.6,
+          "end": 5.86,
+          "probability": 0.9980506896972656,
+          "tokens": [
+            7825
+          ]
+        },
+        {
+          "word": " or",
+          "start": 5.86,
+          "end": 6.14,
+          "probability": 0.9921654462814331,
+          "tokens": [
+            393
+          ]
+        },
+        {
+          "word": " gear.",
+          "start": 6.14,
+          "end": 6.4,
+          "probability": 0.9926993250846863,
+          "tokens": [
+            7733,
+            13
+          ]
+        },
+        {
+          "word": " Turn",
+          "start": 7.22,
+          "end": 7.3,
+          "probability": 0.9666634798049927,
+          "tokens": [
+            6756
+          ]
+        },
+        {
+          "word": " it",
+          "start": 7.3,
+          "end": 7.44,
+          "probability": 0.9949365854263306,
+          "tokens": [
+            340
+          ]
+        },
+        {
+          "word": " around",
+          "start": 7.44,
+          "end": 7.78,
+          "probability": 0.9989272952079773,
+          "tokens": [
+            1088
+          ]
+        },
+        {
+          "word": " and",
+          "start": 7.78,
+          "end": 8.12,
+          "probability": 0.9115492105484009,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " notice",
+          "start": 8.12,
+          "end": 8.42,
+          "probability": 0.9932241439819336,
+          "tokens": [
+            4003
+          ]
+        },
+        {
+          "word": " its",
+          "start": 8.42,
+          "end": 8.74,
+          "probability": 0.8519279360771179,
+          "tokens": [
+            663
+          ]
+        },
+        {
+          "word": " shape.",
+          "start": 8.74,
+          "end": 9.14,
+          "probability": 0.9987145662307739,
+          "tokens": [
+            5485,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    },
+    {
+      "id": "part--bearing",
+      "part": "bearing",
+      "start": 9.86,
+      "end": 20.919979,
+      "duration": 11.059979,
+      "first_spoken_word": " Ooh,",
+      "last_spoken_word": " shape.",
+      "alignment": [
+        {
+          "word": " Ooh,",
+          "start": 10.41,
+          "end": 11.26,
+          "probability": 0.6912303864955902,
+          "tokens": [
+            440,
+            1219,
+            11
+          ]
+        },
+        {
+          "word": " look",
+          "start": 11.48,
+          "end": 11.62,
+          "probability": 0.9910256266593933,
+          "tokens": [
+            804
+          ]
+        },
+        {
+          "word": " closely.",
+          "start": 11.62,
+          "end": 11.96,
+          "probability": 0.9981918931007385,
+          "tokens": [
+            7173,
+            13
+          ]
+        },
+        {
+          "word": " This",
+          "start": 13.18,
+          "end": 13.26,
+          "probability": 0.9489030838012695,
+          "tokens": [
+            770
+          ]
+        },
+        {
+          "word": " is",
+          "start": 13.26,
+          "end": 13.48,
+          "probability": 0.9981568455696106,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " ball",
+          "start": 13.72,
+          "end": 13.82,
+          "probability": 0.9863829612731934,
+          "tokens": [
+            2613
+          ]
+        },
+        {
+          "word": " bearing.",
+          "start": 13.82,
+          "end": 14.24,
+          "probability": 0.8709576725959778,
+          "tokens": [
+            14121,
+            13
+          ]
+        },
+        {
+          "word": " Supports",
+          "start": 15.16,
+          "end": 15.26,
+          "probability": 0.8562504649162292,
+          "tokens": [
+            45267
+          ]
+        },
+        {
+          "word": " a",
+          "start": 15.26,
+          "end": 15.62,
+          "probability": 0.9977593421936035,
+          "tokens": [
+            257
+          ]
+        },
+        {
+          "word": " rotating",
+          "start": 15.74,
+          "end": 15.98,
+          "probability": 0.9969319105148315,
+          "tokens": [
+            24012
+          ]
+        },
+        {
+          "word": " shaft",
+          "start": 16.0,
+          "end": 16.5,
+          "probability": 0.9979133009910583,
+          "tokens": [
+            18619
+          ]
+        },
+        {
+          "word": " with",
+          "start": 16.5,
+          "end": 16.86,
+          "probability": 0.9919580221176147,
+          "tokens": [
+            351
+          ]
+        },
+        {
+          "word": " less",
+          "start": 16.86,
+          "end": 17.08,
+          "probability": 0.9990575909614563,
+          "tokens": [
+            1342
+          ]
+        },
+        {
+          "word": " friction.",
+          "start": 17.08,
+          "end": 17.46,
+          "probability": 0.9987651109695435,
+          "tokens": [
+            23822,
+            13
+          ]
+        },
+        {
+          "word": " Turn",
+          "start": 18.36,
+          "end": 18.44,
+          "probability": 0.9824718832969666,
+          "tokens": [
+            6756
+          ]
+        },
+        {
+          "word": " it",
+          "start": 18.44,
+          "end": 18.56,
+          "probability": 0.9984506368637085,
+          "tokens": [
+            340
+          ]
+        },
+        {
+          "word": " around",
+          "start": 18.56,
+          "end": 18.84,
+          "probability": 0.9987719655036926,
+          "tokens": [
+            1088
+          ]
+        },
+        {
+          "word": " and",
+          "start": 18.84,
+          "end": 19.24,
+          "probability": 0.9773529767990112,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " notice",
+          "start": 19.24,
+          "end": 19.52,
+          "probability": 0.9948392510414124,
+          "tokens": [
+            4003
+          ]
+        },
+        {
+          "word": " its",
+          "start": 19.52,
+          "end": 19.8,
+          "probability": 0.9662893414497375,
+          "tokens": [
+            663
+          ]
+        },
+        {
+          "word": " shape.",
+          "start": 19.8,
+          "end": 20.1,
+          "probability": 0.9994983673095703,
+          "tokens": [
+            5485,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    },
+    {
+      "id": "part--fastener-set",
+      "part": "fastener-set",
+      "start": 20.919979,
+      "end": 31.76,
+      "duration": 10.840021,
+      "first_spoken_word": " Hmm,",
+      "last_spoken_word": " shape.",
+      "alignment": [
+        {
+          "word": " Hmm,",
+          "start": 21.7,
+          "end": 21.84,
+          "probability": 0.3921954035758972,
+          "tokens": [
+            43352,
+            11
+          ]
+        },
+        {
+          "word": " what",
+          "start": 22.42,
+          "end": 22.52,
+          "probability": 0.981756865978241,
+          "tokens": [
+            644
+          ]
+        },
+        {
+          "word": " could",
+          "start": 22.52,
+          "end": 22.66,
+          "probability": 0.927532970905304,
+          "tokens": [
+            714
+          ]
+        },
+        {
+          "word": " we",
+          "start": 22.66,
+          "end": 22.82,
+          "probability": 0.9914335012435913,
+          "tokens": [
+            356
+          ]
+        },
+        {
+          "word": " make",
+          "start": 22.82,
+          "end": 23.0,
+          "probability": 0.9990363121032715,
+          "tokens": [
+            787
+          ]
+        },
+        {
+          "word": " with",
+          "start": 23.0,
+          "end": 23.2,
+          "probability": 0.998073935508728,
+          "tokens": [
+            351
+          ]
+        },
+        {
+          "word": " this?",
+          "start": 23.2,
+          "end": 23.46,
+          "probability": 0.9980611205101013,
+          "tokens": [
+            428,
+            30
+          ]
+        },
+        {
+          "word": " This",
+          "start": 24.56,
+          "end": 24.74,
+          "probability": 0.9774550199508667,
+          "tokens": [
+            770
+          ]
+        },
+        {
+          "word": " is",
+          "start": 24.74,
+          "end": 24.96,
+          "probability": 0.9962702989578247,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " screw,",
+          "start": 24.96,
+          "end": 25.36,
+          "probability": 0.8853890299797058,
+          "tokens": [
+            9580,
+            11
+          ]
+        },
+        {
+          "word": " nut,",
+          "start": 25.6,
+          "end": 25.8,
+          "probability": 0.9957717061042786,
+          "tokens": [
+            6701,
+            11
+          ]
+        },
+        {
+          "word": " and",
+          "start": 26.04,
+          "end": 26.06,
+          "probability": 0.9953451752662659,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " spacer",
+          "start": 26.06,
+          "end": 26.58,
+          "probability": 0.9681633710861206,
+          "tokens": [
+            599,
+            11736
+          ]
+        },
+        {
+          "word": " set.",
+          "start": 26.58,
+          "end": 26.78,
+          "probability": 0.9829958081245422,
+          "tokens": [
+            900,
+            13
+          ]
+        },
+        {
+          "word": " Fastens",
+          "start": 27.54,
+          "end": 27.88,
+          "probability": 0.7659850120544434,
+          "tokens": [
+            12549,
+            641
+          ]
+        },
+        {
+          "word": " robot",
+          "start": 27.88,
+          "end": 28.14,
+          "probability": 0.9765915870666504,
+          "tokens": [
+            9379
+          ]
+        },
+        {
+          "word": " parts",
+          "start": 28.42,
+          "end": 28.52,
+          "probability": 0.9992947578430176,
+          "tokens": [
+            3354
+          ]
+        },
+        {
+          "word": " together.",
+          "start": 28.52,
+          "end": 28.88,
+          "probability": 0.9975146055221558,
+          "tokens": [
+            1978,
+            13
+          ]
+        },
+        {
+          "word": " Turn",
+          "start": 29.84,
+          "end": 29.94,
+          "probability": 0.0012950277887284756,
+          "tokens": [
+            6756
+          ]
+        },
+        {
+          "word": " it",
+          "start": 29.94,
+          "end": 30.04,
+          "probability": 0.9897716641426086,
+          "tokens": [
+            340
+          ]
+        },
+        {
+          "word": " around",
+          "start": 30.04,
+          "end": 30.34,
+          "probability": 0.9985377788543701,
+          "tokens": [
+            1088
+          ]
+        },
+        {
+          "word": " and",
+          "start": 30.34,
+          "end": 30.74,
+          "probability": 0.8460752964019775,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " notice",
+          "start": 30.74,
+          "end": 31.0,
+          "probability": 0.9953775405883789,
+          "tokens": [
+            4003
+          ]
+        },
+        {
+          "word": " its",
+          "start": 31.0,
+          "end": 31.22,
+          "probability": 0.9475041031837463,
+          "tokens": [
+            663
+          ]
+        },
+        {
+          "word": " shape.",
+          "start": 31.22,
+          "end": 31.52,
+          "probability": 0.9991118311882019,
+          "tokens": [
+            5485,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    },
+    {
+      "id": "part--spur-gear",
+      "part": "spur-gear",
+      "start": 31.76,
+      "end": 42.715,
+      "duration": 10.955,
+      "first_spoken_word": " Ready",
+      "last_spoken_word": " shape.",
+      "alignment": [
+        {
+          "word": " Ready",
+          "start": 31.88,
+          "end": 31.88,
+          "probability": 0.9339265823364258,
+          "tokens": [
+            23432
+          ]
+        },
+        {
+          "word": " for",
+          "start": 33.08,
+          "end": 33.46,
+          "probability": 0.998654842376709,
+          "tokens": [
+            329
+          ]
+        },
+        {
+          "word": " another",
+          "start": 33.46,
+          "end": 33.76,
+          "probability": 0.9938029050827026,
+          "tokens": [
+            1194
+          ]
+        },
+        {
+          "word": " discovery?",
+          "start": 33.76,
+          "end": 34.24,
+          "probability": 0.9909228682518005,
+          "tokens": [
+            9412,
+            30
+          ]
+        },
+        {
+          "word": " This",
+          "start": 35.5,
+          "end": 35.5,
+          "probability": 0.9430204033851624,
+          "tokens": [
+            770
+          ]
+        },
+        {
+          "word": " is",
+          "start": 35.5,
+          "end": 35.8,
+          "probability": 0.997421145439148,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " spur",
+          "start": 35.8,
+          "end": 36.22,
+          "probability": 0.47517362236976624,
+          "tokens": [
+            26724
+          ]
+        },
+        {
+          "word": " gear.",
+          "start": 36.22,
+          "end": 36.56,
+          "probability": 0.8413372039794922,
+          "tokens": [
+            7733,
+            13
+          ]
+        },
+        {
+          "word": " Transfers",
+          "start": 37.34,
+          "end": 37.8,
+          "probability": 0.900104800860087,
+          "tokens": [
+            3602,
+            69,
+            364
+          ]
+        },
+        {
+          "word": " rotation",
+          "start": 37.8,
+          "end": 38.06,
+          "probability": 0.9887937903404236,
+          "tokens": [
+            13179
+          ]
+        },
+        {
+          "word": " through",
+          "start": 38.06,
+          "end": 38.62,
+          "probability": 0.9947412014007568,
+          "tokens": [
+            832
+          ]
+        },
+        {
+          "word": " matching",
+          "start": 38.62,
+          "end": 38.92,
+          "probability": 0.996266782283783,
+          "tokens": [
+            12336
+          ]
+        },
+        {
+          "word": " teeth.",
+          "start": 38.92,
+          "end": 39.4,
+          "probability": 0.9995946288108826,
+          "tokens": [
+            9941,
+            13
+          ]
+        },
+        {
+          "word": " Turn",
+          "start": 40.2,
+          "end": 40.3,
+          "probability": 0.9764201641082764,
+          "tokens": [
+            6756
+          ]
+        },
+        {
+          "word": " it",
+          "start": 40.3,
+          "end": 40.44,
+          "probability": 0.9987249970436096,
+          "tokens": [
+            340
+          ]
+        },
+        {
+          "word": " around",
+          "start": 40.44,
+          "end": 40.72,
+          "probability": 0.9991804957389832,
+          "tokens": [
+            1088
+          ]
+        },
+        {
+          "word": " and",
+          "start": 40.72,
+          "end": 41.14,
+          "probability": 0.9772287607192993,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " notice",
+          "start": 41.14,
+          "end": 41.38,
+          "probability": 0.9983865022659302,
+          "tokens": [
+            4003
+          ]
+        },
+        {
+          "word": " its",
+          "start": 41.38,
+          "end": 41.64,
+          "probability": 0.9757062196731567,
+          "tokens": [
+            663
+          ]
+        },
+        {
+          "word": " shape.",
+          "start": 41.64,
+          "end": 41.9,
+          "probability": 0.9994974136352539,
+          "tokens": [
+            5485,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    },
+    {
+      "id": "part--pulley",
+      "part": "pulley",
+      "start": 42.715,
+      "end": 52.255,
+      "duration": 9.54,
+      "first_spoken_word": " Here",
+      "last_spoken_word": " shape.",
+      "alignment": [
+        {
+          "word": " Here",
+          "start": 43.4,
+          "end": 43.5,
+          "probability": 0.9637274146080017,
+          "tokens": [
+            3423
+          ]
+        },
+        {
+          "word": " comes",
+          "start": 43.5,
+          "end": 43.72,
+          "probability": 0.9968181848526001,
+          "tokens": [
+            2058
+          ]
+        },
+        {
+          "word": " another",
+          "start": 43.72,
+          "end": 44.12,
+          "probability": 0.9986625909805298,
+          "tokens": [
+            1194
+          ]
+        },
+        {
+          "word": " helper.",
+          "start": 44.12,
+          "end": 44.36,
+          "probability": 0.9978274703025818,
+          "tokens": [
+            31904,
+            13
+          ]
+        },
+        {
+          "word": " This",
+          "start": 45.52,
+          "end": 45.52,
+          "probability": 0.9772030711174011,
+          "tokens": [
+            770
+          ]
+        },
+        {
+          "word": " is",
+          "start": 45.52,
+          "end": 45.8,
+          "probability": 0.9966205358505249,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " grooved",
+          "start": 45.8,
+          "end": 46.4,
+          "probability": 0.95121830701828,
+          "tokens": [
+            7128,
+            2668
+          ]
+        },
+        {
+          "word": " pulley.",
+          "start": 46.4,
+          "end": 46.9,
+          "probability": 0.9809094071388245,
+          "tokens": [
+            17472,
+            1636,
+            13
+          ]
+        },
+        {
+          "word": " Transfers",
+          "start": 47.58,
+          "end": 47.94,
+          "probability": 0.9828185439109802,
+          "tokens": [
+            3602,
+            69,
+            364
+          ]
+        },
+        {
+          "word": " movement",
+          "start": 47.94,
+          "end": 48.28,
+          "probability": 0.9960659146308899,
+          "tokens": [
+            3356
+          ]
+        },
+        {
+          "word": " using",
+          "start": 48.28,
+          "end": 48.7,
+          "probability": 0.9936206936836243,
+          "tokens": [
+            1262
+          ]
+        },
+        {
+          "word": " a",
+          "start": 48.7,
+          "end": 48.92,
+          "probability": 0.998771607875824,
+          "tokens": [
+            257
+          ]
+        },
+        {
+          "word": " belt.",
+          "start": 48.92,
+          "end": 49.1,
+          "probability": 0.9972551465034485,
+          "tokens": [
+            10999,
+            13
+          ]
+        },
+        {
+          "word": " Turn",
+          "start": 49.9,
+          "end": 50.0,
+          "probability": 0.9927533268928528,
+          "tokens": [
+            6756
+          ]
+        },
+        {
+          "word": " it",
+          "start": 50.0,
+          "end": 50.14,
+          "probability": 0.9995384216308594,
+          "tokens": [
+            340
+          ]
+        },
+        {
+          "word": " around",
+          "start": 50.14,
+          "end": 50.38,
+          "probability": 0.9992189407348633,
+          "tokens": [
+            1088
+          ]
+        },
+        {
+          "word": " and",
+          "start": 50.38,
+          "end": 50.76,
+          "probability": 0.9951704144477844,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " notice",
+          "start": 50.76,
+          "end": 51.04,
+          "probability": 0.9984222650527954,
+          "tokens": [
+            4003
+          ]
+        },
+        {
+          "word": " its",
+          "start": 51.04,
+          "end": 51.26,
+          "probability": 0.9882652759552002,
+          "tokens": [
+            663
+          ]
+        },
+        {
+          "word": " shape.",
+          "start": 51.26,
+          "end": 51.58,
+          "probability": 0.9995855689048767,
+          "tokens": [
+            5485,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    },
+    {
+      "id": "part--drive-belt",
+      "part": "drive-belt",
+      "start": 52.255,
+      "end": 63.02,
+      "duration": 10.765,
+      "first_spoken_word": " Ooh,",
+      "last_spoken_word": " ideas.",
+      "alignment": [
+        {
+          "word": " Ooh,",
+          "start": 52.81,
+          "end": 53.46,
+          "probability": 0.8448319733142853,
+          "tokens": [
+            440,
+            1219,
+            11
+          ]
+        },
+        {
+          "word": " look",
+          "start": 53.74,
+          "end": 53.92,
+          "probability": 0.996688187122345,
+          "tokens": [
+            804
+          ]
+        },
+        {
+          "word": " closely.",
+          "start": 53.92,
+          "end": 54.18,
+          "probability": 0.9991751313209534,
+          "tokens": [
+            7173,
+            13
+          ]
+        },
+        {
+          "word": " This",
+          "start": 55.3,
+          "end": 55.44,
+          "probability": 0.9973486661911011,
+          "tokens": [
+            770
+          ]
+        },
+        {
+          "word": " is",
+          "start": 55.44,
+          "end": 55.7,
+          "probability": 0.998446524143219,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " drive",
+          "start": 56.02,
+          "end": 56.16,
+          "probability": 0.9217666983604431,
+          "tokens": [
+            3708
+          ]
+        },
+        {
+          "word": " belt.",
+          "start": 56.16,
+          "end": 56.42,
+          "probability": 0.9374217987060547,
+          "tokens": [
+            10999,
+            13
+          ]
+        },
+        {
+          "word": " Carries",
+          "start": 57.36,
+          "end": 57.6,
+          "probability": 0.803562343120575,
+          "tokens": [
+            1879,
+            1678
+          ]
+        },
+        {
+          "word": " motion",
+          "start": 57.6,
+          "end": 57.84,
+          "probability": 0.995142936706543,
+          "tokens": [
+            6268
+          ]
+        },
+        {
+          "word": " between",
+          "start": 57.84,
+          "end": 58.26,
+          "probability": 0.9973618388175964,
+          "tokens": [
+            1022
+          ]
+        },
+        {
+          "word": " pulleys.",
+          "start": 58.26,
+          "end": 58.91,
+          "probability": 0.9939918220043182,
+          "tokens": [
+            17472,
+            21325,
+            13
+          ]
+        },
+        {
+          "word": " Small",
+          "start": 59.71,
+          "end": 60.36,
+          "probability": 0.01567239686846733,
+          "tokens": [
+            10452
+          ]
+        },
+        {
+          "word": " parts",
+          "start": 60.36,
+          "end": 60.8,
+          "probability": 0.9919801950454712,
+          "tokens": [
+            3354
+          ]
+        },
+        {
+          "word": " can",
+          "start": 60.8,
+          "end": 61.08,
+          "probability": 0.9903801679611206,
+          "tokens": [
+            460
+          ]
+        },
+        {
+          "word": " lead",
+          "start": 61.08,
+          "end": 61.32,
+          "probability": 0.9975783228874207,
+          "tokens": [
+            1085
+          ]
+        },
+        {
+          "word": " to",
+          "start": 61.32,
+          "end": 61.48,
+          "probability": 0.9980505704879761,
+          "tokens": [
+            284
+          ]
+        },
+        {
+          "word": " big",
+          "start": 61.48,
+          "end": 61.74,
+          "probability": 0.9769039750099182,
+          "tokens": [
+            1263
+          ]
+        },
+        {
+          "word": " ideas.",
+          "start": 61.74,
+          "end": 62.3,
+          "probability": 0.9956141710281372,
+          "tokens": [
+            4213,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    },
+    {
+      "id": "part--gripper",
+      "part": "gripper",
+      "start": 63.02,
+      "end": 73.925,
+      "duration": 10.905,
+      "first_spoken_word": " Hmm,",
+      "last_spoken_word": " shape.",
+      "alignment": [
+        {
+          "word": " Hmm,",
+          "start": 63.54,
+          "end": 63.8,
+          "probability": 0.4981757402420044,
+          "tokens": [
+            43352,
+            11
+          ]
+        },
+        {
+          "word": " what",
+          "start": 64.44,
+          "end": 64.56,
+          "probability": 0.9854245781898499,
+          "tokens": [
+            644
+          ]
+        },
+        {
+          "word": " could",
+          "start": 64.56,
+          "end": 64.7,
+          "probability": 0.979762613773346,
+          "tokens": [
+            714
+          ]
+        },
+        {
+          "word": " we",
+          "start": 64.7,
+          "end": 64.86,
+          "probability": 0.9980089068412781,
+          "tokens": [
+            356
+          ]
+        },
+        {
+          "word": " make",
+          "start": 64.86,
+          "end": 65.1,
+          "probability": 0.9984760880470276,
+          "tokens": [
+            787
+          ]
+        },
+        {
+          "word": " with",
+          "start": 65.1,
+          "end": 65.28,
+          "probability": 0.9975619316101074,
+          "tokens": [
+            351
+          ]
+        },
+        {
+          "word": " this?",
+          "start": 65.28,
+          "end": 65.58,
+          "probability": 0.9980126619338989,
+          "tokens": [
+            428,
+            30
+          ]
+        },
+        {
+          "word": " This",
+          "start": 66.84,
+          "end": 66.84,
+          "probability": 0.9822904467582703,
+          "tokens": [
+            770
+          ]
+        },
+        {
+          "word": " is",
+          "start": 66.84,
+          "end": 67.08,
+          "probability": 0.9980903267860413,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " robot",
+          "start": 67.08,
+          "end": 67.5,
+          "probability": 0.4152621030807495,
+          "tokens": [
+            9379
+          ]
+        },
+        {
+          "word": " gripper.",
+          "start": 67.5,
+          "end": 68.04,
+          "probability": 0.9836154580116272,
+          "tokens": [
+            11120,
+            2848,
+            13
+          ]
+        },
+        {
+          "word": " Opens",
+          "start": 68.84,
+          "end": 69.06,
+          "probability": 0.9731588065624237,
+          "tokens": [
+            8670,
+            641
+          ]
+        },
+        {
+          "word": " and",
+          "start": 69.06,
+          "end": 69.22,
+          "probability": 0.9914156794548035,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " closes",
+          "start": 69.22,
+          "end": 69.46,
+          "probability": 0.9974598288536072,
+          "tokens": [
+            20612
+          ]
+        },
+        {
+          "word": " to",
+          "start": 69.46,
+          "end": 69.84,
+          "probability": 0.9984171390533447,
+          "tokens": [
+            284
+          ]
+        },
+        {
+          "word": " hold",
+          "start": 69.84,
+          "end": 70.1,
+          "probability": 0.9988577365875244,
+          "tokens": [
+            1745
+          ]
+        },
+        {
+          "word": " an",
+          "start": 70.1,
+          "end": 70.24,
+          "probability": 0.9972098469734192,
+          "tokens": [
+            281
+          ]
+        },
+        {
+          "word": " object.",
+          "start": 70.24,
+          "end": 70.5,
+          "probability": 0.999383807182312,
+          "tokens": [
+            2134,
+            13
+          ]
+        },
+        {
+          "word": " Turn",
+          "start": 71.32,
+          "end": 71.4,
+          "probability": 0.9950030446052551,
+          "tokens": [
+            6756
+          ]
+        },
+        {
+          "word": " it",
+          "start": 71.4,
+          "end": 71.52,
+          "probability": 0.9986100196838379,
+          "tokens": [
+            340
+          ]
+        },
+        {
+          "word": " around",
+          "start": 71.52,
+          "end": 71.8,
+          "probability": 0.998849630355835,
+          "tokens": [
+            1088
+          ]
+        },
+        {
+          "word": " and",
+          "start": 71.8,
+          "end": 72.22,
+          "probability": 0.8775135278701782,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " notice",
+          "start": 72.22,
+          "end": 72.5,
+          "probability": 0.9974096417427063,
+          "tokens": [
+            4003
+          ]
+        },
+        {
+          "word": " its",
+          "start": 72.5,
+          "end": 72.74,
+          "probability": 0.9455572962760925,
+          "tokens": [
+            663
+          ]
+        },
+        {
+          "word": " shape.",
+          "start": 72.74,
+          "end": 73.04,
+          "probability": 0.9994459748268127,
+          "tokens": [
+            5485,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    },
+    {
+      "id": "part--arm-link",
+      "part": "arm-link",
+      "start": 73.925,
+      "end": 83.54,
+      "duration": 9.615,
+      "first_spoken_word": " Ready",
+      "last_spoken_word": " shape.",
+      "alignment": [
+        {
+          "word": " Ready",
+          "start": 74.56,
+          "end": 74.68,
+          "probability": 0.9920679330825806,
+          "tokens": [
+            23432
+          ]
+        },
+        {
+          "word": " for",
+          "start": 74.68,
+          "end": 75.0,
+          "probability": 0.998898983001709,
+          "tokens": [
+            329
+          ]
+        },
+        {
+          "word": " another",
+          "start": 75.0,
+          "end": 75.28,
+          "probability": 0.9973661303520203,
+          "tokens": [
+            1194
+          ]
+        },
+        {
+          "word": " discovery?",
+          "start": 75.28,
+          "end": 75.64,
+          "probability": 0.9915847778320312,
+          "tokens": [
+            9412,
+            30
+          ]
+        },
+        {
+          "word": " This",
+          "start": 76.88,
+          "end": 76.88,
+          "probability": 0.9920217394828796,
+          "tokens": [
+            770
+          ]
+        },
+        {
+          "word": " is",
+          "start": 76.88,
+          "end": 77.14,
+          "probability": 0.9986463189125061,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " robot",
+          "start": 77.14,
+          "end": 77.46,
+          "probability": 0.8849989175796509,
+          "tokens": [
+            9379
+          ]
+        },
+        {
+          "word": " arm",
+          "start": 77.46,
+          "end": 77.98,
+          "probability": 0.9617754220962524,
+          "tokens": [
+            3211
+          ]
+        },
+        {
+          "word": " link.",
+          "start": 77.98,
+          "end": 78.22,
+          "probability": 0.7039470672607422,
+          "tokens": [
+            2792,
+            13
+          ]
+        },
+        {
+          "word": " Connects",
+          "start": 79.1,
+          "end": 79.3,
+          "probability": 0.9413748979568481,
+          "tokens": [
+            8113,
+            82
+          ]
+        },
+        {
+          "word": " two",
+          "start": 79.3,
+          "end": 79.52,
+          "probability": 0.46867650747299194,
+          "tokens": [
+            734
+          ]
+        },
+        {
+          "word": " robot",
+          "start": 79.52,
+          "end": 79.92,
+          "probability": 0.9927914142608643,
+          "tokens": [
+            9379
+          ]
+        },
+        {
+          "word": " joints.",
+          "start": 79.92,
+          "end": 80.2,
+          "probability": 0.9934306740760803,
+          "tokens": [
+            24039,
+            13
+          ]
+        },
+        {
+          "word": " Turn",
+          "start": 81.02,
+          "end": 81.12,
+          "probability": 0.9952045679092407,
+          "tokens": [
+            6756
+          ]
+        },
+        {
+          "word": " it",
+          "start": 81.12,
+          "end": 81.26,
+          "probability": 0.9987524747848511,
+          "tokens": [
+            340
+          ]
+        },
+        {
+          "word": " around",
+          "start": 81.26,
+          "end": 81.52,
+          "probability": 0.998866081237793,
+          "tokens": [
+            1088
+          ]
+        },
+        {
+          "word": " and",
+          "start": 81.52,
+          "end": 81.96,
+          "probability": 0.9792140126228333,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " notice",
+          "start": 81.96,
+          "end": 82.2,
+          "probability": 0.9986477494239807,
+          "tokens": [
+            4003
+          ]
+        },
+        {
+          "word": " its",
+          "start": 82.2,
+          "end": 82.44,
+          "probability": 0.9756259918212891,
+          "tokens": [
+            663
+          ]
+        },
+        {
+          "word": " shape.",
+          "start": 82.44,
+          "end": 82.74,
+          "probability": 0.999692440032959,
+          "tokens": [
+            5485,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    },
+    {
+      "id": "part--hinge",
+      "part": "hinge",
+      "start": 83.54,
+      "end": 92.035,
+      "duration": 8.495,
+      "first_spoken_word": " Here",
+      "last_spoken_word": " shape.",
+      "alignment": [
+        {
+          "word": " Here",
+          "start": 84.22,
+          "end": 84.32,
+          "probability": 0.9956656098365784,
+          "tokens": [
+            3423
+          ]
+        },
+        {
+          "word": " comes",
+          "start": 84.32,
+          "end": 84.52,
+          "probability": 0.9970458149909973,
+          "tokens": [
+            2058
+          ]
+        },
+        {
+          "word": " another",
+          "start": 84.52,
+          "end": 84.9,
+          "probability": 0.9989734888076782,
+          "tokens": [
+            1194
+          ]
+        },
+        {
+          "word": " helper.",
+          "start": 84.9,
+          "end": 85.18,
+          "probability": 0.998871386051178,
+          "tokens": [
+            31904,
+            13
+          ]
+        },
+        {
+          "word": " This",
+          "start": 86.22,
+          "end": 86.38,
+          "probability": 0.9909611344337463,
+          "tokens": [
+            770
+          ]
+        },
+        {
+          "word": " is",
+          "start": 86.38,
+          "end": 86.66,
+          "probability": 0.997877836227417,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " hinge.",
+          "start": 86.66,
+          "end": 87.06,
+          "probability": 0.962103009223938,
+          "tokens": [
+            41968,
+            13
+          ]
+        },
+        {
+          "word": " Let's",
+          "start": 87.96,
+          "end": 88.14,
+          "probability": 0.9471405446529388,
+          "tokens": [
+            3914,
+            338
+          ]
+        },
+        {
+          "word": " two",
+          "start": 88.2,
+          "end": 88.34,
+          "probability": 0.9302697777748108,
+          "tokens": [
+            734
+          ]
+        },
+        {
+          "word": " parts",
+          "start": 88.34,
+          "end": 88.66,
+          "probability": 0.9935168027877808,
+          "tokens": [
+            3354
+          ]
+        },
+        {
+          "word": " pivot.",
+          "start": 88.66,
+          "end": 89.06,
+          "probability": 0.9938463568687439,
+          "tokens": [
+            30355,
+            13
+          ]
+        },
+        {
+          "word": " Turn",
+          "start": 89.82,
+          "end": 89.94,
+          "probability": 0.0016300833085551858,
+          "tokens": [
+            6756
+          ]
+        },
+        {
+          "word": " it",
+          "start": 89.94,
+          "end": 90.06,
+          "probability": 0.9868614077568054,
+          "tokens": [
+            340
+          ]
+        },
+        {
+          "word": " around",
+          "start": 90.06,
+          "end": 90.34,
+          "probability": 0.9981207251548767,
+          "tokens": [
+            1088
+          ]
+        },
+        {
+          "word": " and",
+          "start": 90.34,
+          "end": 90.72,
+          "probability": 0.8668894171714783,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " notice",
+          "start": 90.72,
+          "end": 90.98,
+          "probability": 0.9943411350250244,
+          "tokens": [
+            4003
+          ]
+        },
+        {
+          "word": " its",
+          "start": 90.98,
+          "end": 91.2,
+          "probability": 0.9379259347915649,
+          "tokens": [
+            663
+          ]
+        },
+        {
+          "word": " shape.",
+          "start": 91.2,
+          "end": 91.3,
+          "probability": 0.9986578226089478,
+          "tokens": [
+            5485,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 0.9444444444444444
+    },
+    {
+      "id": "part--rack-pinion",
+      "part": "rack-pinion",
+      "start": 92.035,
+      "end": 102.52,
+      "duration": 10.485,
+      "first_spoken_word": " Ooh,",
+      "last_spoken_word": " shape.",
+      "alignment": [
+        {
+          "word": " Ooh,",
+          "start": 92.47,
+          "end": 93.22,
+          "probability": 0.7681463360786438,
+          "tokens": [
+            440,
+            1219,
+            11
+          ]
+        },
+        {
+          "word": " look",
+          "start": 93.54,
+          "end": 93.68,
+          "probability": 0.9938057661056519,
+          "tokens": [
+            804
+          ]
+        },
+        {
+          "word": " closely.",
+          "start": 93.68,
+          "end": 93.98,
+          "probability": 0.9987296462059021,
+          "tokens": [
+            7173,
+            13
+          ]
+        },
+        {
+          "word": " This",
+          "start": 95.1,
+          "end": 95.14,
+          "probability": 0.9819466471672058,
+          "tokens": [
+            770
+          ]
+        },
+        {
+          "word": " is",
+          "start": 95.32,
+          "end": 95.42,
+          "probability": 0.9983291029930115,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " rack",
+          "start": 95.42,
+          "end": 95.76,
+          "probability": 0.676880955696106,
+          "tokens": [
+            19127
+          ]
+        },
+        {
+          "word": " and",
+          "start": 95.76,
+          "end": 96.06,
+          "probability": 0.9698783755302429,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " pinion.",
+          "start": 96.06,
+          "end": 96.54,
+          "probability": 0.9742296636104584,
+          "tokens": [
+            6757,
+            295,
+            13
+          ]
+        },
+        {
+          "word": " Changes",
+          "start": 97.44,
+          "end": 97.44,
+          "probability": 0.7147926688194275,
+          "tokens": [
+            19179
+          ]
+        },
+        {
+          "word": " rotation",
+          "start": 97.44,
+          "end": 97.74,
+          "probability": 0.9935524463653564,
+          "tokens": [
+            13179
+          ]
+        },
+        {
+          "word": " into",
+          "start": 97.74,
+          "end": 98.46,
+          "probability": 0.9909952282905579,
+          "tokens": [
+            656
+          ]
+        },
+        {
+          "word": " straight",
+          "start": 98.46,
+          "end": 98.84,
+          "probability": 0.979221761226654,
+          "tokens": [
+            3892
+          ]
+        },
+        {
+          "word": " movement.",
+          "start": 98.84,
+          "end": 99.18,
+          "probability": 0.9964046478271484,
+          "tokens": [
+            3356,
+            13
+          ]
+        },
+        {
+          "word": " Turn",
+          "start": 100.1,
+          "end": 100.2,
+          "probability": 0.9714274406433105,
+          "tokens": [
+            6756
+          ]
+        },
+        {
+          "word": " it",
+          "start": 100.2,
+          "end": 100.34,
+          "probability": 0.9985809326171875,
+          "tokens": [
+            340
+          ]
+        },
+        {
+          "word": " around",
+          "start": 100.34,
+          "end": 100.6,
+          "probability": 0.9988560676574707,
+          "tokens": [
+            1088
+          ]
+        },
+        {
+          "word": " and",
+          "start": 100.6,
+          "end": 101.02,
+          "probability": 0.9761679172515869,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " notice",
+          "start": 101.02,
+          "end": 101.26,
+          "probability": 0.9978417158126831,
+          "tokens": [
+            4003
+          ]
+        },
+        {
+          "word": " its",
+          "start": 101.26,
+          "end": 101.52,
+          "probability": 0.9738211035728455,
+          "tokens": [
+            663
+          ]
+        },
+        {
+          "word": " shape.",
+          "start": 101.52,
+          "end": 101.8,
+          "probability": 0.9995726943016052,
+          "tokens": [
+            5485,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    },
+    {
+      "id": "part--lifting-platform",
+      "part": "lifting-platform",
+      "start": 102.52,
+      "end": 113.6,
+      "duration": 11.08,
+      "first_spoken_word": " Hmm,",
+      "last_spoken_word": " shape.",
+      "alignment": [
+        {
+          "word": " Hmm,",
+          "start": 103.12,
+          "end": 103.42,
+          "probability": 0.5453438758850098,
+          "tokens": [
+            43352,
+            11
+          ]
+        },
+        {
+          "word": " what",
+          "start": 104.06,
+          "end": 104.18,
+          "probability": 0.9834352135658264,
+          "tokens": [
+            644
+          ]
+        },
+        {
+          "word": " could",
+          "start": 104.18,
+          "end": 104.38,
+          "probability": 0.9792791604995728,
+          "tokens": [
+            714
+          ]
+        },
+        {
+          "word": " we",
+          "start": 104.42,
+          "end": 104.52,
+          "probability": 0.9975761771202087,
+          "tokens": [
+            356
+          ]
+        },
+        {
+          "word": " make",
+          "start": 104.52,
+          "end": 104.72,
+          "probability": 0.9978870749473572,
+          "tokens": [
+            787
+          ]
+        },
+        {
+          "word": " with",
+          "start": 104.72,
+          "end": 104.9,
+          "probability": 0.9956066012382507,
+          "tokens": [
+            351
+          ]
+        },
+        {
+          "word": " this?",
+          "start": 104.9,
+          "end": 105.2,
+          "probability": 0.9979462027549744,
+          "tokens": [
+            428,
+            30
+          ]
+        },
+        {
+          "word": " This",
+          "start": 106.32,
+          "end": 106.46,
+          "probability": 0.9942466616630554,
+          "tokens": [
+            770
+          ]
+        },
+        {
+          "word": " is",
+          "start": 106.46,
+          "end": 106.72,
+          "probability": 0.9961058497428894,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " scissor",
+          "start": 107.0,
+          "end": 107.24,
+          "probability": 0.8765263358751932,
+          "tokens": [
+            629,
+            747,
+            273
+          ]
+        },
+        {
+          "word": " lifting",
+          "start": 107.24,
+          "end": 107.46,
+          "probability": 0.8994902968406677,
+          "tokens": [
+            16842
+          ]
+        },
+        {
+          "word": " platform.",
+          "start": 107.46,
+          "end": 107.76,
+          "probability": 0.9965842962265015,
+          "tokens": [
+            3859,
+            13
+          ]
+        },
+        {
+          "word": " Raises",
+          "start": 108.8,
+          "end": 109.06,
+          "probability": 0.8948676884174347,
+          "tokens": [
+            7567,
+            2696
+          ]
+        },
+        {
+          "word": " a",
+          "start": 109.06,
+          "end": 109.2,
+          "probability": 0.967197597026825,
+          "tokens": [
+            257
+          ]
+        },
+        {
+          "word": " platform",
+          "start": 109.2,
+          "end": 109.58,
+          "probability": 0.9974712133407593,
+          "tokens": [
+            3859
+          ]
+        },
+        {
+          "word": " through",
+          "start": 109.62,
+          "end": 109.96,
+          "probability": 0.9971206784248352,
+          "tokens": [
+            832
+          ]
+        },
+        {
+          "word": " linked",
+          "start": 109.98,
+          "end": 110.28,
+          "probability": 0.9350345134735107,
+          "tokens": [
+            6692
+          ]
+        },
+        {
+          "word": " arms.",
+          "start": 110.28,
+          "end": 110.68,
+          "probability": 0.998691737651825,
+          "tokens": [
+            5101,
+            13
+          ]
+        },
+        {
+          "word": " Turn",
+          "start": 111.48,
+          "end": 111.58,
+          "probability": 0.9933680891990662,
+          "tokens": [
+            6756
+          ]
+        },
+        {
+          "word": " it",
+          "start": 111.58,
+          "end": 111.72,
+          "probability": 0.9987926483154297,
+          "tokens": [
+            340
+          ]
+        },
+        {
+          "word": " around",
+          "start": 111.72,
+          "end": 111.96,
+          "probability": 0.9988232254981995,
+          "tokens": [
+            1088
+          ]
+        },
+        {
+          "word": " and",
+          "start": 111.96,
+          "end": 112.42,
+          "probability": 0.98562091588974,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " notice",
+          "start": 112.42,
+          "end": 112.68,
+          "probability": 0.9982353448867798,
+          "tokens": [
+            4003
+          ]
+        },
+        {
+          "word": " its",
+          "start": 112.68,
+          "end": 112.94,
+          "probability": 0.9815521836280823,
+          "tokens": [
+            663
+          ]
+        },
+        {
+          "word": " shape.",
+          "start": 112.94,
+          "end": 113.24,
+          "probability": 0.9995575547218323,
+          "tokens": [
+            5485,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    }
+  ],
+  "boundary_checks": [
+    {
+      "previous_word_end": 9.14,
+      "next_word_start": 10.41,
+      "quiet_interval": [
+        9.325,
+        10.395
+      ],
+      "cut": 9.86,
+      "last_words": [
+        "it",
+        "around",
+        "and",
+        "notice",
+        "its",
+        "shape."
+      ],
+      "first_words": [
+        "Ooh,",
+        "look",
+        "closely!",
+        "This",
+        "is",
+        "ball"
+      ]
+    },
+    {
+      "previous_word_end": 20.1,
+      "next_word_start": 21.7,
+      "quiet_interval": [
+        20.155,
+        21.684958333333334
+      ],
+      "cut": 20.919979166666668,
+      "last_words": [
+        "it",
+        "around",
+        "and",
+        "notice",
+        "its",
+        "shape."
+      ],
+      "first_words": [
+        "Hmm...",
+        "what",
+        "could",
+        "we",
+        "make",
+        "with"
+      ]
+    },
+    {
+      "previous_word_end": 31.52,
+      "next_word_start": 31.88,
+      "quiet_interval": [
+        31.655,
+        31.865
+      ],
+      "cut": 31.759999999999998,
+      "last_words": [
+        "it",
+        "around",
+        "and",
+        "notice",
+        "its",
+        "shape."
+      ],
+      "first_words": [
+        "Ready",
+        "for",
+        "another",
+        "discovery?",
+        "This",
+        "is"
+      ]
+    },
+    {
+      "previous_word_end": 41.9,
+      "next_word_start": 43.4,
+      "quiet_interval": [
+        42.045,
+        43.385
+      ],
+      "cut": 42.715,
+      "last_words": [
+        "it",
+        "around",
+        "and",
+        "notice",
+        "its",
+        "shape."
+      ],
+      "first_words": [
+        "Here",
+        "comes",
+        "another",
+        "helper!",
+        "This",
+        "is"
+      ]
+    },
+    {
+      "previous_word_end": 51.58,
+      "next_word_start": 52.81,
+      "quiet_interval": [
+        51.715,
+        52.795
+      ],
+      "cut": 52.255,
+      "last_words": [
+        "it",
+        "around",
+        "and",
+        "notice",
+        "its",
+        "shape."
+      ],
+      "first_words": [
+        "Ooh,",
+        "look",
+        "closely!",
+        "This",
+        "is",
+        "drive"
+      ]
+    },
+    {
+      "previous_word_end": 62.3,
+      "next_word_start": 63.54,
+      "quiet_interval": [
+        62.515,
+        63.525
+      ],
+      "cut": 63.019999999999996,
+      "last_words": [
+        "parts",
+        "can",
+        "lead",
+        "to",
+        "big",
+        "ideas!"
+      ],
+      "first_words": [
+        "Hmm...",
+        "what",
+        "could",
+        "we",
+        "make",
+        "with"
+      ]
+    },
+    {
+      "previous_word_end": 73.04,
+      "next_word_start": 74.56,
+      "quiet_interval": [
+        73.305,
+        74.545
+      ],
+      "cut": 73.92500000000001,
+      "last_words": [
+        "it",
+        "around",
+        "and",
+        "notice",
+        "its",
+        "shape."
+      ],
+      "first_words": [
+        "Ready",
+        "for",
+        "another",
+        "discovery?",
+        "This",
+        "is"
+      ]
+    },
+    {
+      "previous_word_end": 82.74,
+      "next_word_start": 84.22,
+      "quiet_interval": [
+        82.875,
+        84.205
+      ],
+      "cut": 83.53999999999999,
+      "last_words": [
+        "it",
+        "around",
+        "and",
+        "notice",
+        "its",
+        "shape."
+      ],
+      "first_words": [
+        "Here",
+        "comes",
+        "another",
+        "helper!",
+        "This",
+        "is"
+      ]
+    },
+    {
+      "previous_word_end": 91.3,
+      "next_word_start": 92.47,
+      "quiet_interval": [
+        91.615,
+        92.455
+      ],
+      "cut": 92.035,
+      "last_words": [
+        "it",
+        "around",
+        "and",
+        "notice",
+        "its",
+        "shape."
+      ],
+      "first_words": [
+        "Ooh,",
+        "look",
+        "closely!",
+        "This",
+        "is",
+        "rack"
+      ]
+    },
+    {
+      "previous_word_end": 101.8,
+      "next_word_start": 103.12,
+      "quiet_interval": [
+        101.935,
+        103.105
+      ],
+      "cut": 102.52000000000001,
+      "last_words": [
+        "it",
+        "around",
+        "and",
+        "notice",
+        "its",
+        "shape."
+      ],
+      "first_words": [
+        "Hmm...",
+        "what",
+        "could",
+        "we",
+        "make",
+        "with"
+      ]
+    }
+  ],
+  "review": "Validated against the known transcript and quiet intervals; individual boundary diagnostics are included"
+}

@@ -1,0 +1,2268 @@
+{
+  "batch": "basics-batch-02",
+  "source_filename": "basics-batch-02.wav.wav",
+  "source_sha256": "3574c23497c49155844f1317964163a5ad178849319b5feecbc0ad14e5511a28",
+  "source_duration": 105.52,
+  "method": "Recognized speech word timestamps matched to known component transcripts; longest nearby quiet interval for cuts",
+  "model": "base.en",
+  "sample_rate": 24000,
+  "clips": [
+    {
+      "id": "meet-the-parts--03-led",
+      "part": "led",
+      "start": 0.0,
+      "end": 16.265,
+      "duration": 16.265,
+      "first_spoken_word": " This",
+      "last_spoken_word": " idea.",
+      "alignment": [
+        {
+          "word": " This",
+          "start": 0.28,
+          "end": 0.42,
+          "probability": 0.10428837686777115,
+          "tokens": [
+            770
+          ]
+        },
+        {
+          "word": " tiny",
+          "start": 0.42,
+          "end": 0.76,
+          "probability": 0.9779325723648071,
+          "tokens": [
+            7009
+          ]
+        },
+        {
+          "word": " light",
+          "start": 0.76,
+          "end": 1.34,
+          "probability": 0.994536280632019,
+          "tokens": [
+            1657
+          ]
+        },
+        {
+          "word": " is",
+          "start": 1.34,
+          "end": 1.76,
+          "probability": 0.9862307906150818,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " an",
+          "start": 1.76,
+          "end": 1.92,
+          "probability": 0.9512129426002502,
+          "tokens": [
+            281
+          ]
+        },
+        {
+          "word": " LED.",
+          "start": 1.92,
+          "end": 2.4,
+          "probability": 0.9468472003936768,
+          "tokens": [
+            12365,
+            13
+          ]
+        },
+        {
+          "word": " Look",
+          "start": 3.56,
+          "end": 3.62,
+          "probability": 0.9539598822593689,
+          "tokens": [
+            6803
+          ]
+        },
+        {
+          "word": " closely.",
+          "start": 3.62,
+          "end": 3.92,
+          "probability": 0.9989376664161682,
+          "tokens": [
+            7173,
+            13
+          ]
+        },
+        {
+          "word": " Two",
+          "start": 4.9,
+          "end": 4.94,
+          "probability": 0.4071022868156433,
+          "tokens": [
+            4930
+          ]
+        },
+        {
+          "word": " legs.",
+          "start": 4.94,
+          "end": 5.34,
+          "probability": 0.9898568391799927,
+          "tokens": [
+            7405,
+            13
+          ]
+        },
+        {
+          "word": " One",
+          "start": 6.3,
+          "end": 6.3,
+          "probability": 0.9176915884017944,
+          "tokens": [
+            1881
+          ]
+        },
+        {
+          "word": " is",
+          "start": 6.3,
+          "end": 6.64,
+          "probability": 0.9924121499061584,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " the",
+          "start": 6.64,
+          "end": 6.82,
+          "probability": 0.96515953540802,
+          "tokens": [
+            262
+          ]
+        },
+        {
+          "word": " anode",
+          "start": 6.82,
+          "end": 7.44,
+          "probability": 0.956314891576767,
+          "tokens": [
+            281,
+            1098
+          ]
+        },
+        {
+          "word": " and",
+          "start": 7.44,
+          "end": 7.88,
+          "probability": 0.3782409429550171,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " one",
+          "start": 7.88,
+          "end": 8.2,
+          "probability": 0.9073933362960815,
+          "tokens": [
+            530
+          ]
+        },
+        {
+          "word": " is",
+          "start": 8.2,
+          "end": 8.56,
+          "probability": 0.9871674180030823,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " the",
+          "start": 8.56,
+          "end": 8.74,
+          "probability": 0.9908618927001953,
+          "tokens": [
+            262
+          ]
+        },
+        {
+          "word": " cathode.",
+          "start": 8.74,
+          "end": 9.28,
+          "probability": 0.9982426166534424,
+          "tokens": [
+            32171,
+            1098,
+            13
+          ]
+        },
+        {
+          "word": " It",
+          "start": 9.98,
+          "end": 10.04,
+          "probability": 0.9584171175956726,
+          "tokens": [
+            632
+          ]
+        },
+        {
+          "word": " needs",
+          "start": 10.04,
+          "end": 10.24,
+          "probability": 0.988623857498169,
+          "tokens": [
+            2476
+          ]
+        },
+        {
+          "word": " to",
+          "start": 10.24,
+          "end": 10.52,
+          "probability": 0.9960893392562866,
+          "tokens": [
+            284
+          ]
+        },
+        {
+          "word": " face",
+          "start": 10.66,
+          "end": 10.76,
+          "probability": 0.9962465167045593,
+          "tokens": [
+            1986
+          ]
+        },
+        {
+          "word": " the",
+          "start": 10.76,
+          "end": 11.04,
+          "probability": 0.9923490285873413,
+          "tokens": [
+            262
+          ]
+        },
+        {
+          "word": " right",
+          "start": 11.04,
+          "end": 11.3,
+          "probability": 0.994059681892395,
+          "tokens": [
+            826
+          ]
+        },
+        {
+          "word": " way",
+          "start": 11.3,
+          "end": 11.62,
+          "probability": 0.9844979643821716,
+          "tokens": [
+            835
+          ]
+        },
+        {
+          "word": " in",
+          "start": 11.62,
+          "end": 11.9,
+          "probability": 0.991581380367279,
+          "tokens": [
+            287
+          ]
+        },
+        {
+          "word": " a",
+          "start": 11.9,
+          "end": 11.98,
+          "probability": 0.9902517795562744,
+          "tokens": [
+            257
+          ]
+        },
+        {
+          "word": " circuit.",
+          "start": 11.98,
+          "end": 12.26,
+          "probability": 0.9960013031959534,
+          "tokens": [
+            10349,
+            13
+          ]
+        },
+        {
+          "word": " Tiny",
+          "start": 13.38,
+          "end": 13.38,
+          "probability": 0.9466965198516846,
+          "tokens": [
+            20443
+          ]
+        },
+        {
+          "word": " part.",
+          "start": 13.38,
+          "end": 13.68,
+          "probability": 0.9921697974205017,
+          "tokens": [
+            636,
+            13
+          ]
+        },
+        {
+          "word": " Bright",
+          "start": 14.32,
+          "end": 14.46,
+          "probability": 0.7993168234825134,
+          "tokens": [
+            17558
+          ]
+        },
+        {
+          "word": " idea.",
+          "start": 14.46,
+          "end": 14.88,
+          "probability": 0.9700409770011902,
+          "tokens": [
+            2126,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    },
+    {
+      "id": "meet-the-parts--04-resistor",
+      "part": "resistor",
+      "start": 16.265,
+      "end": 32.465,
+      "duration": 16.2,
+      "first_spoken_word": " Wait",
+      "last_spoken_word": " circuit.",
+      "alignment": [
+        {
+          "word": " Wait",
+          "start": 16.8,
+          "end": 16.9,
+          "probability": 0.9664916396141052,
+          "tokens": [
+            16314
+          ]
+        },
+        {
+          "word": " a",
+          "start": 16.9,
+          "end": 17.04,
+          "probability": 0.9876254200935364,
+          "tokens": [
+            257
+          ]
+        },
+        {
+          "word": " moment.",
+          "start": 17.04,
+          "end": 17.38,
+          "probability": 0.998115062713623,
+          "tokens": [
+            2589,
+            13
+          ]
+        },
+        {
+          "word": " Our",
+          "start": 18.14,
+          "end": 18.24,
+          "probability": 0.9820120334625244,
+          "tokens": [
+            3954
+          ]
+        },
+        {
+          "word": " little",
+          "start": 18.24,
+          "end": 18.46,
+          "probability": 0.9824259281158447,
+          "tokens": [
+            1310
+          ]
+        },
+        {
+          "word": " light",
+          "start": 18.46,
+          "end": 18.82,
+          "probability": 0.9974937438964844,
+          "tokens": [
+            1657
+          ]
+        },
+        {
+          "word": " needs",
+          "start": 18.82,
+          "end": 19.08,
+          "probability": 0.9940113425254822,
+          "tokens": [
+            2476
+          ]
+        },
+        {
+          "word": " a",
+          "start": 19.08,
+          "end": 19.3,
+          "probability": 0.9954356551170349,
+          "tokens": [
+            257
+          ]
+        },
+        {
+          "word": " helper.",
+          "start": 19.3,
+          "end": 19.52,
+          "probability": 0.9901077747344971,
+          "tokens": [
+            31904,
+            13
+          ]
+        },
+        {
+          "word": " This",
+          "start": 20.76,
+          "end": 20.98,
+          "probability": 0.8986979722976685,
+          "tokens": [
+            770
+          ]
+        },
+        {
+          "word": " is",
+          "start": 20.98,
+          "end": 21.26,
+          "probability": 0.9872751235961914,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " a",
+          "start": 21.26,
+          "end": 21.44,
+          "probability": 0.9896823763847351,
+          "tokens": [
+            257
+          ]
+        },
+        {
+          "word": " resistor.",
+          "start": 21.44,
+          "end": 21.84,
+          "probability": 0.9502018690109253,
+          "tokens": [
+            45032,
+            13
+          ]
+        },
+        {
+          "word": " It",
+          "start": 22.8,
+          "end": 22.84,
+          "probability": 0.9701569676399231,
+          "tokens": [
+            632
+          ]
+        },
+        {
+          "word": " limits",
+          "start": 22.84,
+          "end": 23.24,
+          "probability": 0.9986114501953125,
+          "tokens": [
+            7095
+          ]
+        },
+        {
+          "word": " current",
+          "start": 23.24,
+          "end": 23.68,
+          "probability": 0.9844878315925598,
+          "tokens": [
+            1459
+          ]
+        },
+        {
+          "word": " through",
+          "start": 23.68,
+          "end": 24.08,
+          "probability": 0.9863125681877136,
+          "tokens": [
+            832
+          ]
+        },
+        {
+          "word": " the",
+          "start": 24.08,
+          "end": 24.38,
+          "probability": 0.989997148513794,
+          "tokens": [
+            262
+          ]
+        },
+        {
+          "word": " LED.",
+          "start": 24.38,
+          "end": 24.6,
+          "probability": 0.9652519822120667,
+          "tokens": [
+            12365,
+            13
+          ]
+        },
+        {
+          "word": " See",
+          "start": 25.68,
+          "end": 25.74,
+          "probability": 0.9832658767700195,
+          "tokens": [
+            4091
+          ]
+        },
+        {
+          "word": " the",
+          "start": 25.74,
+          "end": 25.9,
+          "probability": 0.9912968873977661,
+          "tokens": [
+            262
+          ]
+        },
+        {
+          "word": " colored",
+          "start": 25.9,
+          "end": 26.2,
+          "probability": 0.948576033115387,
+          "tokens": [
+            16396
+          ]
+        },
+        {
+          "word": " bands?",
+          "start": 26.2,
+          "end": 26.6,
+          "probability": 0.9824977517127991,
+          "tokens": [
+            11760,
+            30
+          ]
+        },
+        {
+          "word": " They",
+          "start": 27.46,
+          "end": 27.56,
+          "probability": 0.9790301322937012,
+          "tokens": [
+            1119
+          ]
+        },
+        {
+          "word": " describe",
+          "start": 27.56,
+          "end": 27.9,
+          "probability": 0.9951657056808472,
+          "tokens": [
+            6901
+          ]
+        },
+        {
+          "word": " its",
+          "start": 27.9,
+          "end": 28.3,
+          "probability": 0.9398910999298096,
+          "tokens": [
+            663
+          ]
+        },
+        {
+          "word": " resistance.",
+          "start": 28.3,
+          "end": 28.66,
+          "probability": 0.9889628291130066,
+          "tokens": [
+            6625,
+            13
+          ]
+        },
+        {
+          "word": " A",
+          "start": 29.58,
+          "end": 29.68,
+          "probability": 0.01108452957123518,
+          "tokens": [
+            317
+          ]
+        },
+        {
+          "word": " suitable",
+          "start": 29.68,
+          "end": 29.94,
+          "probability": 0.9871197938919067,
+          "tokens": [
+            11080
+          ]
+        },
+        {
+          "word": " value",
+          "start": 29.94,
+          "end": 30.52,
+          "probability": 0.9962589740753174,
+          "tokens": [
+            1988
+          ]
+        },
+        {
+          "word": " depends",
+          "start": 30.52,
+          "end": 30.78,
+          "probability": 0.9918168187141418,
+          "tokens": [
+            8338
+          ]
+        },
+        {
+          "word": " on",
+          "start": 30.82,
+          "end": 31.16,
+          "probability": 0.998204231262207,
+          "tokens": [
+            319
+          ]
+        },
+        {
+          "word": " the",
+          "start": 31.16,
+          "end": 31.24,
+          "probability": 0.9897993803024292,
+          "tokens": [
+            262
+          ]
+        },
+        {
+          "word": " real",
+          "start": 31.24,
+          "end": 31.46,
+          "probability": 0.984835147857666,
+          "tokens": [
+            1103
+          ]
+        },
+        {
+          "word": " circuit.",
+          "start": 31.46,
+          "end": 31.8,
+          "probability": 0.9949764013290405,
+          "tokens": [
+            10349,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    },
+    {
+      "id": "meet-the-parts--05-slide-switch",
+      "part": "slide-switch",
+      "start": 32.465,
+      "end": 47.07,
+      "duration": 14.605,
+      "first_spoken_word": " Click.",
+      "last_spoken_word": " circuit.",
+      "alignment": [
+        {
+          "word": " Click.",
+          "start": 32.92,
+          "end": 33.18,
+          "probability": 0.6726701855659485,
+          "tokens": [
+            6914,
+            13
+          ]
+        },
+        {
+          "word": " Here",
+          "start": 35.06,
+          "end": 35.12,
+          "probability": 0.9838303923606873,
+          "tokens": [
+            3423
+          ]
+        },
+        {
+          "word": " comes",
+          "start": 35.12,
+          "end": 35.4,
+          "probability": 0.9976188540458679,
+          "tokens": [
+            2058
+          ]
+        },
+        {
+          "word": " a",
+          "start": 35.4,
+          "end": 35.6,
+          "probability": 0.9760184288024902,
+          "tokens": [
+            257
+          ]
+        },
+        {
+          "word": " switch.",
+          "start": 35.6,
+          "end": 35.84,
+          "probability": 0.9776570200920105,
+          "tokens": [
+            5078,
+            13
+          ]
+        },
+        {
+          "word": " When",
+          "start": 36.74,
+          "end": 36.76,
+          "probability": 0.9939799308776855,
+          "tokens": [
+            1649
+          ]
+        },
+        {
+          "word": " its",
+          "start": 36.76,
+          "end": 36.92,
+          "probability": 0.8096948862075806,
+          "tokens": [
+            663
+          ]
+        },
+        {
+          "word": " contacts",
+          "start": 36.92,
+          "end": 37.16,
+          "probability": 0.988515317440033,
+          "tokens": [
+            13961
+          ]
+        },
+        {
+          "word": " join,",
+          "start": 37.16,
+          "end": 37.84,
+          "probability": 0.9941868782043457,
+          "tokens": [
+            4654,
+            11
+          ]
+        },
+        {
+          "word": " it",
+          "start": 38.3,
+          "end": 38.36,
+          "probability": 0.9903530478477478,
+          "tokens": [
+            340
+          ]
+        },
+        {
+          "word": " closes",
+          "start": 38.66,
+          "end": 38.8,
+          "probability": 0.9966187477111816,
+          "tokens": [
+            20612
+          ]
+        },
+        {
+          "word": " the",
+          "start": 38.8,
+          "end": 39.22,
+          "probability": 0.9962615370750427,
+          "tokens": [
+            262
+          ]
+        },
+        {
+          "word": " path.",
+          "start": 39.22,
+          "end": 39.32,
+          "probability": 0.9980254173278809,
+          "tokens": [
+            3108,
+            13
+          ]
+        },
+        {
+          "word": " When",
+          "start": 40.04,
+          "end": 40.14,
+          "probability": 0.9953858256340027,
+          "tokens": [
+            1649
+          ]
+        },
+        {
+          "word": " they",
+          "start": 40.14,
+          "end": 40.3,
+          "probability": 0.9968445301055908,
+          "tokens": [
+            484
+          ]
+        },
+        {
+          "word": " separate,",
+          "start": 40.3,
+          "end": 40.68,
+          "probability": 0.9896149635314941,
+          "tokens": [
+            4553,
+            11
+          ]
+        },
+        {
+          "word": " it",
+          "start": 41.3,
+          "end": 41.4,
+          "probability": 0.9967795014381409,
+          "tokens": [
+            340
+          ]
+        },
+        {
+          "word": " opens",
+          "start": 41.4,
+          "end": 41.72,
+          "probability": 0.9901807308197021,
+          "tokens": [
+            9808
+          ]
+        },
+        {
+          "word": " the",
+          "start": 41.72,
+          "end": 42.12,
+          "probability": 0.9961077570915222,
+          "tokens": [
+            262
+          ]
+        },
+        {
+          "word": " path.",
+          "start": 42.12,
+          "end": 42.32,
+          "probability": 0.9993162155151367,
+          "tokens": [
+            3108,
+            13
+          ]
+        },
+        {
+          "word": " It's",
+          "start": 43.62,
+          "end": 43.78,
+          "probability": 0.9687133729457855,
+          "tokens": [
+            632,
+            338
+          ]
+        },
+        {
+          "word": " like",
+          "start": 43.8,
+          "end": 43.94,
+          "probability": 0.9976663589477539,
+          "tokens": [
+            588
+          ]
+        },
+        {
+          "word": " a",
+          "start": 43.94,
+          "end": 44.08,
+          "probability": 0.9964404702186584,
+          "tokens": [
+            257
+          ]
+        },
+        {
+          "word": " tiny",
+          "start": 44.08,
+          "end": 44.4,
+          "probability": 0.9909372925758362,
+          "tokens": [
+            7009
+          ]
+        },
+        {
+          "word": " gate",
+          "start": 44.4,
+          "end": 44.84,
+          "probability": 0.991145670413971,
+          "tokens": [
+            8946
+          ]
+        },
+        {
+          "word": " for",
+          "start": 45.06,
+          "end": 45.16,
+          "probability": 0.9927427768707275,
+          "tokens": [
+            329
+          ]
+        },
+        {
+          "word": " this",
+          "start": 45.16,
+          "end": 45.3,
+          "probability": 0.8899965286254883,
+          "tokens": [
+            428
+          ]
+        },
+        {
+          "word": " circuit.",
+          "start": 45.3,
+          "end": 45.64,
+          "probability": 0.9993788003921509,
+          "tokens": [
+            10349,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    },
+    {
+      "id": "meet-the-parts--06-breadboard",
+      "part": "breadboard",
+      "start": 47.07,
+      "end": 64.665,
+      "duration": 17.595,
+      "first_spoken_word": " And",
+      "last_spoken_word": " wiring.",
+      "alignment": [
+        {
+          "word": " And",
+          "start": 47.48,
+          "end": 47.64,
+          "probability": 0.9382247924804688,
+          "tokens": [
+            843
+          ]
+        },
+        {
+          "word": " this",
+          "start": 47.64,
+          "end": 48.02,
+          "probability": 0.976900577545166,
+          "tokens": [
+            428
+          ]
+        },
+        {
+          "word": " is",
+          "start": 48.02,
+          "end": 48.52,
+          "probability": 0.9784500002861023,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " a",
+          "start": 48.52,
+          "end": 48.84,
+          "probability": 0.9918249845504761,
+          "tokens": [
+            257
+          ]
+        },
+        {
+          "word": " breadboard.",
+          "start": 48.84,
+          "end": 49.52,
+          "probability": 0.9263876080513,
+          "tokens": [
+            8509,
+            3526,
+            13
+          ]
+        },
+        {
+          "word": " No",
+          "start": 50.32,
+          "end": 50.44,
+          "probability": 0.9811288118362427,
+          "tokens": [
+            1400
+          ]
+        },
+        {
+          "word": " bread",
+          "start": 50.44,
+          "end": 50.74,
+          "probability": 0.9991711378097534,
+          "tokens": [
+            8509
+          ]
+        },
+        {
+          "word": " inside.",
+          "start": 50.74,
+          "end": 51.08,
+          "probability": 0.9940682649612427,
+          "tokens": [
+            2641,
+            13
+          ]
+        },
+        {
+          "word": " It",
+          "start": 52.72,
+          "end": 52.82,
+          "probability": 0.8852972984313965,
+          "tokens": [
+            632
+          ]
+        },
+        {
+          "word": " holds",
+          "start": 52.82,
+          "end": 53.08,
+          "probability": 0.9975813627243042,
+          "tokens": [
+            6622
+          ]
+        },
+        {
+          "word": " parts",
+          "start": 53.08,
+          "end": 53.48,
+          "probability": 0.9927162528038025,
+          "tokens": [
+            3354
+          ]
+        },
+        {
+          "word": " without",
+          "start": 53.48,
+          "end": 53.84,
+          "probability": 0.9986851811408997,
+          "tokens": [
+            1231
+          ]
+        },
+        {
+          "word": " soldering.",
+          "start": 53.84,
+          "end": 54.58,
+          "probability": 0.9907628297805786,
+          "tokens": [
+            2702,
+            1586,
+            13
+          ]
+        },
+        {
+          "word": " Some",
+          "start": 55.3,
+          "end": 55.4,
+          "probability": 0.9963757395744324,
+          "tokens": [
+            2773
+          ]
+        },
+        {
+          "word": " holes",
+          "start": 55.4,
+          "end": 55.68,
+          "probability": 0.9982631802558899,
+          "tokens": [
+            10421
+          ]
+        },
+        {
+          "word": " are",
+          "start": 55.68,
+          "end": 56.04,
+          "probability": 0.9991937279701233,
+          "tokens": [
+            389
+          ]
+        },
+        {
+          "word": " connected",
+          "start": 56.04,
+          "end": 56.32,
+          "probability": 0.9982479810714722,
+          "tokens": [
+            5884
+          ]
+        },
+        {
+          "word": " together",
+          "start": 56.32,
+          "end": 56.78,
+          "probability": 0.9980918765068054,
+          "tokens": [
+            1978
+          ]
+        },
+        {
+          "word": " underneath.",
+          "start": 56.78,
+          "end": 57.26,
+          "probability": 0.965597927570343,
+          "tokens": [
+            14638,
+            13
+          ]
+        },
+        {
+          "word": " The",
+          "start": 58.3,
+          "end": 58.4,
+          "probability": 0.9952007532119751,
+          "tokens": [
+            383
+          ]
+        },
+        {
+          "word": " center",
+          "start": 58.4,
+          "end": 58.68,
+          "probability": 0.8901783227920532,
+          "tokens": [
+            3641
+          ]
+        },
+        {
+          "word": " gap,",
+          "start": 58.68,
+          "end": 58.98,
+          "probability": 0.9707470536231995,
+          "tokens": [
+            7625,
+            11
+          ]
+        },
+        {
+          "word": " separates",
+          "start": 59.32,
+          "end": 59.6,
+          "probability": 0.11568097025156021,
+          "tokens": [
+            31555
+          ]
+        },
+        {
+          "word": " the",
+          "start": 59.6,
+          "end": 59.88,
+          "probability": 0.997065007686615,
+          "tokens": [
+            262
+          ]
+        },
+        {
+          "word": " two",
+          "start": 59.96,
+          "end": 60.06,
+          "probability": 0.9885793924331665,
+          "tokens": [
+            734
+          ]
+        },
+        {
+          "word": " sides.",
+          "start": 60.06,
+          "end": 60.48,
+          "probability": 0.9994971752166748,
+          "tokens": [
+            5389,
+            13
+          ]
+        },
+        {
+          "word": " Always",
+          "start": 61.5,
+          "end": 61.5,
+          "probability": 0.9815040826797485,
+          "tokens": [
+            16622
+          ]
+        },
+        {
+          "word": " check",
+          "start": 61.5,
+          "end": 61.86,
+          "probability": 0.9979609251022339,
+          "tokens": [
+            2198
+          ]
+        },
+        {
+          "word": " its",
+          "start": 61.86,
+          "end": 62.02,
+          "probability": 0.9313926100730896,
+          "tokens": [
+            663
+          ]
+        },
+        {
+          "word": " layout",
+          "start": 62.02,
+          "end": 62.32,
+          "probability": 0.9974246025085449,
+          "tokens": [
+            12461
+          ]
+        },
+        {
+          "word": " before",
+          "start": 62.32,
+          "end": 62.74,
+          "probability": 0.986652672290802,
+          "tokens": [
+            878
+          ]
+        },
+        {
+          "word": " wiring.",
+          "start": 62.74,
+          "end": 63.4,
+          "probability": 0.9969431757926941,
+          "tokens": [
+            29477,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 0.96875
+    },
+    {
+      "id": "what-is-a-circuit--01-aa-battery",
+      "part": "aa-battery",
+      "start": 64.665,
+      "end": 77.649979,
+      "duration": 12.984979,
+      "first_spoken_word": " Ready",
+      "last_spoken_word": " loop.",
+      "alignment": [
+        {
+          "word": " Ready",
+          "start": 65.12,
+          "end": 65.26,
+          "probability": 0.9745839834213257,
+          "tokens": [
+            23432
+          ]
+        },
+        {
+          "word": " for",
+          "start": 65.26,
+          "end": 65.62,
+          "probability": 0.9973108768463135,
+          "tokens": [
+            329
+          ]
+        },
+        {
+          "word": " a",
+          "start": 65.62,
+          "end": 65.76,
+          "probability": 0.9958899617195129,
+          "tokens": [
+            257
+          ]
+        },
+        {
+          "word": " little",
+          "start": 65.76,
+          "end": 66.02,
+          "probability": 0.9977351427078247,
+          "tokens": [
+            1310
+          ]
+        },
+        {
+          "word": " mystery?",
+          "start": 66.02,
+          "end": 66.42,
+          "probability": 0.9922768473625183,
+          "tokens": [
+            10715,
+            30
+          ]
+        },
+        {
+          "word": " A",
+          "start": 67.4,
+          "end": 67.46,
+          "probability": 0.9749463200569153,
+          "tokens": [
+            317
+          ]
+        },
+        {
+          "word": " battery",
+          "start": 67.6,
+          "end": 67.86,
+          "probability": 0.9984031319618225,
+          "tokens": [
+            6555
+          ]
+        },
+        {
+          "word": " has",
+          "start": 67.86,
+          "end": 68.2,
+          "probability": 0.9975449442863464,
+          "tokens": [
+            468
+          ]
+        },
+        {
+          "word": " two",
+          "start": 68.2,
+          "end": 68.58,
+          "probability": 0.9793089628219604,
+          "tokens": [
+            734
+          ]
+        },
+        {
+          "word": " terminals.",
+          "start": 68.58,
+          "end": 69.06,
+          "probability": 0.9989902377128601,
+          "tokens": [
+            30237,
+            13
+          ]
+        },
+        {
+          "word": " To",
+          "start": 69.72,
+          "end": 69.9,
+          "probability": 0.9955447912216187,
+          "tokens": [
+            1675
+          ]
+        },
+        {
+          "word": " power",
+          "start": 70.0,
+          "end": 70.18,
+          "probability": 0.999228835105896,
+          "tokens": [
+            1176
+          ]
+        },
+        {
+          "word": " our",
+          "start": 70.18,
+          "end": 70.46,
+          "probability": 0.9956188797950745,
+          "tokens": [
+            674
+          ]
+        },
+        {
+          "word": " light,",
+          "start": 70.46,
+          "end": 70.7,
+          "probability": 0.9955910444259644,
+          "tokens": [
+            1657,
+            11
+          ]
+        },
+        {
+          "word": " we",
+          "start": 71.22,
+          "end": 71.28,
+          "probability": 0.9931519031524658,
+          "tokens": [
+            356
+          ]
+        },
+        {
+          "word": " need",
+          "start": 71.28,
+          "end": 71.48,
+          "probability": 0.9993335604667664,
+          "tokens": [
+            761
+          ]
+        },
+        {
+          "word": " a",
+          "start": 71.48,
+          "end": 71.58,
+          "probability": 0.9972667694091797,
+          "tokens": [
+            257
+          ]
+        },
+        {
+          "word": " path",
+          "start": 71.58,
+          "end": 71.86,
+          "probability": 0.9961082339286804,
+          "tokens": [
+            3108
+          ]
+        },
+        {
+          "word": " from",
+          "start": 71.86,
+          "end": 72.3,
+          "probability": 0.9265872836112976,
+          "tokens": [
+            422
+          ]
+        },
+        {
+          "word": " one",
+          "start": 72.3,
+          "end": 72.56,
+          "probability": 0.9903546571731567,
+          "tokens": [
+            530
+          ]
+        },
+        {
+          "word": " terminal",
+          "start": 72.56,
+          "end": 72.92,
+          "probability": 0.9964863061904907,
+          "tokens": [
+            12094
+          ]
+        },
+        {
+          "word": " through",
+          "start": 72.94,
+          "end": 73.54,
+          "probability": 0.6988820433616638,
+          "tokens": [
+            832
+          ]
+        },
+        {
+          "word": " the",
+          "start": 73.62,
+          "end": 73.82,
+          "probability": 0.9970741271972656,
+          "tokens": [
+            262
+          ]
+        },
+        {
+          "word": " parts",
+          "start": 73.82,
+          "end": 74.08,
+          "probability": 0.9936720132827759,
+          "tokens": [
+            3354
+          ]
+        },
+        {
+          "word": " and",
+          "start": 74.08,
+          "end": 74.6,
+          "probability": 0.7898174524307251,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " back",
+          "start": 74.6,
+          "end": 74.84,
+          "probability": 0.9978972673416138,
+          "tokens": [
+            736
+          ]
+        },
+        {
+          "word": " to",
+          "start": 74.94,
+          "end": 75.04,
+          "probability": 0.998335063457489,
+          "tokens": [
+            284
+          ]
+        },
+        {
+          "word": " the",
+          "start": 75.04,
+          "end": 75.16,
+          "probability": 0.9971708655357361,
+          "tokens": [
+            262
+          ]
+        },
+        {
+          "word": " other.",
+          "start": 75.16,
+          "end": 75.32,
+          "probability": 0.9981511235237122,
+          "tokens": [
+            584,
+            13
+          ]
+        },
+        {
+          "word": " A",
+          "start": 76.04,
+          "end": 76.12,
+          "probability": 0.9802385568618774,
+          "tokens": [
+            317
+          ]
+        },
+        {
+          "word": " complete",
+          "start": 76.18,
+          "end": 76.4,
+          "probability": 0.9945393204689026,
+          "tokens": [
+            1844
+          ]
+        },
+        {
+          "word": " loop.",
+          "start": 76.4,
+          "end": 76.66,
+          "probability": 0.991828978061676,
+          "tokens": [
+            9052,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    },
+    {
+      "id": "what-is-a-circuit--02-resistor",
+      "part": "resistor",
+      "start": 77.649979,
+      "end": 92.95,
+      "duration": 15.300021,
+      "first_spoken_word": " Our",
+      "last_spoken_word": " first.",
+      "alignment": [
+        {
+          "word": " Our",
+          "start": 78.46,
+          "end": 78.6,
+          "probability": 0.9723498225212097,
+          "tokens": [
+            3954
+          ]
+        },
+        {
+          "word": " resistor",
+          "start": 78.6,
+          "end": 79.04,
+          "probability": 0.9693348407745361,
+          "tokens": [
+            45032
+          ]
+        },
+        {
+          "word": " joins",
+          "start": 79.04,
+          "end": 79.72,
+          "probability": 0.9968698620796204,
+          "tokens": [
+            15449
+          ]
+        },
+        {
+          "word": " the",
+          "start": 79.72,
+          "end": 79.98,
+          "probability": 0.9986423850059509,
+          "tokens": [
+            262
+          ]
+        },
+        {
+          "word": " path.",
+          "start": 79.98,
+          "end": 80.22,
+          "probability": 0.9989519119262695,
+          "tokens": [
+            3108,
+            13
+          ]
+        },
+        {
+          "word": " Its",
+          "start": 80.98,
+          "end": 81.02,
+          "probability": 0.8506371974945068,
+          "tokens": [
+            6363
+          ]
+        },
+        {
+          "word": " job",
+          "start": 81.02,
+          "end": 81.36,
+          "probability": 0.999243974685669,
+          "tokens": [
+            1693
+          ]
+        },
+        {
+          "word": " is",
+          "start": 81.36,
+          "end": 81.56,
+          "probability": 0.9991637468338013,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " to",
+          "start": 81.56,
+          "end": 81.72,
+          "probability": 0.9979777932167053,
+          "tokens": [
+            284
+          ]
+        },
+        {
+          "word": " limit",
+          "start": 81.72,
+          "end": 81.98,
+          "probability": 0.9963234663009644,
+          "tokens": [
+            4179
+          ]
+        },
+        {
+          "word": " current.",
+          "start": 81.98,
+          "end": 82.26,
+          "probability": 0.994353175163269,
+          "tokens": [
+            1459,
+            13
+          ]
+        },
+        {
+          "word": " Hmm.",
+          "start": 83.24,
+          "end": 83.74,
+          "probability": 0.576280415058136,
+          "tokens": [
+            43352,
+            13
+          ]
+        },
+        {
+          "word": " We",
+          "start": 84.56,
+          "end": 84.66,
+          "probability": 0.9926517605781555,
+          "tokens": [
+            775
+          ]
+        },
+        {
+          "word": " are",
+          "start": 84.66,
+          "end": 84.86,
+          "probability": 0.993183434009552,
+          "tokens": [
+            389
+          ]
+        },
+        {
+          "word": " building",
+          "start": 84.86,
+          "end": 85.22,
+          "probability": 0.999396562576294,
+          "tokens": [
+            2615
+          ]
+        },
+        {
+          "word": " an",
+          "start": 85.22,
+          "end": 85.4,
+          "probability": 0.9970312118530273,
+          "tokens": [
+            281
+          ]
+        },
+        {
+          "word": " idea",
+          "start": 85.4,
+          "end": 85.78,
+          "probability": 0.9778268933296204,
+          "tokens": [
+            2126
+          ]
+        },
+        {
+          "word": " picture",
+          "start": 85.78,
+          "end": 86.16,
+          "probability": 0.9906683564186096,
+          "tokens": [
+            4286
+          ]
+        },
+        {
+          "word": " here.",
+          "start": 86.16,
+          "end": 86.54,
+          "probability": 0.9909223914146423,
+          "tokens": [
+            994,
+            13
+          ]
+        },
+        {
+          "word": " The",
+          "start": 87.14,
+          "end": 87.24,
+          "probability": 0.9965110421180725,
+          "tokens": [
+            383
+          ]
+        },
+        {
+          "word": " correct",
+          "start": 87.24,
+          "end": 87.5,
+          "probability": 0.995827853679657,
+          "tokens": [
+            3376
+          ]
+        },
+        {
+          "word": " resistor",
+          "start": 87.5,
+          "end": 88.02,
+          "probability": 0.9946982860565186,
+          "tokens": [
+            45032
+          ]
+        },
+        {
+          "word": " and",
+          "start": 88.02,
+          "end": 88.52,
+          "probability": 0.9835134148597717,
+          "tokens": [
+            290
+          ]
+        },
+        {
+          "word": " connections",
+          "start": 88.52,
+          "end": 88.82,
+          "probability": 0.8731102347373962,
+          "tokens": [
+            8787
+          ]
+        },
+        {
+          "word": " for",
+          "start": 89.28,
+          "end": 89.38,
+          "probability": 0.2405516654253006,
+          "tokens": [
+            329
+          ]
+        },
+        {
+          "word": " a",
+          "start": 89.38,
+          "end": 89.54,
+          "probability": 0.986956000328064,
+          "tokens": [
+            257
+          ]
+        },
+        {
+          "word": " real",
+          "start": 89.54,
+          "end": 89.94,
+          "probability": 0.8719504475593567,
+          "tokens": [
+            1103
+          ]
+        },
+        {
+          "word": " LED",
+          "start": 89.94,
+          "end": 90.38,
+          "probability": 0.968308687210083,
+          "tokens": [
+            12365
+          ]
+        },
+        {
+          "word": " must",
+          "start": 90.38,
+          "end": 90.94,
+          "probability": 0.9804389476776123,
+          "tokens": [
+            1276
+          ]
+        },
+        {
+          "word": " be",
+          "start": 90.94,
+          "end": 91.2,
+          "probability": 0.9981491565704346,
+          "tokens": [
+            307
+          ]
+        },
+        {
+          "word": " checked",
+          "start": 91.2,
+          "end": 91.46,
+          "probability": 0.9977443218231201,
+          "tokens": [
+            10667
+          ]
+        },
+        {
+          "word": " first.",
+          "start": 91.46,
+          "end": 91.82,
+          "probability": 0.9926608800888062,
+          "tokens": [
+            717,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    },
+    {
+      "id": "what-is-a-circuit--03-led",
+      "part": "led",
+      "start": 92.95,
+      "end": 105.52,
+      "duration": 12.57,
+      "first_spoken_word": " Now",
+      "last_spoken_word": " switch.",
+      "alignment": [
+        {
+          "word": " Now",
+          "start": 93.98,
+          "end": 93.98,
+          "probability": 0.9833961129188538,
+          "tokens": [
+            2735
+          ]
+        },
+        {
+          "word": " the",
+          "start": 93.98,
+          "end": 94.26,
+          "probability": 0.8622536659240723,
+          "tokens": [
+            262
+          ]
+        },
+        {
+          "word": " LED",
+          "start": 94.26,
+          "end": 94.62,
+          "probability": 0.9894143342971802,
+          "tokens": [
+            12365
+          ]
+        },
+        {
+          "word": " arrives.",
+          "start": 94.62,
+          "end": 95.1,
+          "probability": 0.995468258857727,
+          "tokens": [
+            14443,
+            13
+          ]
+        },
+        {
+          "word": " The",
+          "start": 95.84,
+          "end": 95.86,
+          "probability": 0.9872168898582458,
+          "tokens": [
+            383
+          ]
+        },
+        {
+          "word": " path",
+          "start": 95.86,
+          "end": 96.1,
+          "probability": 0.9973036050796509,
+          "tokens": [
+            3108
+          ]
+        },
+        {
+          "word": " continues",
+          "start": 96.1,
+          "end": 96.84,
+          "probability": 0.996658444404602,
+          "tokens": [
+            4477
+          ]
+        },
+        {
+          "word": " through",
+          "start": 96.84,
+          "end": 97.18,
+          "probability": 0.990012526512146,
+          "tokens": [
+            832
+          ]
+        },
+        {
+          "word": " the",
+          "start": 97.18,
+          "end": 97.34,
+          "probability": 0.9941275119781494,
+          "tokens": [
+            262
+          ]
+        },
+        {
+          "word": " light.",
+          "start": 97.34,
+          "end": 97.52,
+          "probability": 0.9973722696304321,
+          "tokens": [
+            1657,
+            13
+          ]
+        },
+        {
+          "word": " Electrical",
+          "start": 98.64,
+          "end": 98.64,
+          "probability": 0.7219732999801636,
+          "tokens": [
+            40224
+          ]
+        },
+        {
+          "word": " energy",
+          "start": 98.7,
+          "end": 99.0,
+          "probability": 0.9720911383628845,
+          "tokens": [
+            2568
+          ]
+        },
+        {
+          "word": " can",
+          "start": 99.0,
+          "end": 99.42,
+          "probability": 0.9971500039100647,
+          "tokens": [
+            460
+          ]
+        },
+        {
+          "word": " become",
+          "start": 99.42,
+          "end": 99.62,
+          "probability": 0.9922078251838684,
+          "tokens": [
+            1716
+          ]
+        },
+        {
+          "word": " light",
+          "start": 99.62,
+          "end": 100.3,
+          "probability": 0.9548977613449097,
+          "tokens": [
+            1657
+          ]
+        },
+        {
+          "word": " energy.",
+          "start": 100.3,
+          "end": 100.72,
+          "probability": 0.9846568703651428,
+          "tokens": [
+            2568,
+            13
+          ]
+        },
+        {
+          "word": " But",
+          "start": 101.84,
+          "end": 101.92,
+          "probability": 0.9325674176216125,
+          "tokens": [
+            887
+          ]
+        },
+        {
+          "word": " there",
+          "start": 101.92,
+          "end": 102.5,
+          "probability": 0.810832142829895,
+          "tokens": [
+            612
+          ]
+        },
+        {
+          "word": " is",
+          "start": 102.5,
+          "end": 102.68,
+          "probability": 0.9620978236198425,
+          "tokens": [
+            318
+          ]
+        },
+        {
+          "word": " still",
+          "start": 102.68,
+          "end": 102.92,
+          "probability": 0.999022364616394,
+          "tokens": [
+            991
+          ]
+        },
+        {
+          "word": " a",
+          "start": 102.92,
+          "end": 103.06,
+          "probability": 0.9963461756706238,
+          "tokens": [
+            257
+          ]
+        },
+        {
+          "word": " gap.",
+          "start": 103.06,
+          "end": 103.3,
+          "probability": 0.9967185854911804,
+          "tokens": [
+            7625,
+            13
+          ]
+        },
+        {
+          "word": " Let's",
+          "start": 104.16,
+          "end": 104.36,
+          "probability": 0.9824063777923584,
+          "tokens": [
+            3914,
+            338
+          ]
+        },
+        {
+          "word": " look",
+          "start": 104.38,
+          "end": 104.5,
+          "probability": 0.9977586269378662,
+          "tokens": [
+            804
+          ]
+        },
+        {
+          "word": " at",
+          "start": 104.5,
+          "end": 104.6,
+          "probability": 0.9970254302024841,
+          "tokens": [
+            379
+          ]
+        },
+        {
+          "word": " our",
+          "start": 104.6,
+          "end": 104.7,
+          "probability": 0.9918161034584045,
+          "tokens": [
+            674
+          ]
+        },
+        {
+          "word": " switch.",
+          "start": 104.7,
+          "end": 104.92,
+          "probability": 0.9388293027877808,
+          "tokens": [
+            5078,
+            13
+          ]
+        }
+      ],
+      "transcript_match": 1.0
+    }
+  ],
+  "boundary_checks": [
+    {
+      "previous_word_end": 14.88,
+      "next_word_start": 16.8,
+      "quiet_interval": [
+        15.765,
+        16.765
+      ],
+      "cut": 16.265,
+      "last_words": [
+        "a",
+        "circuit.",
+        "Tiny",
+        "part,",
+        "bright",
+        "idea."
+      ],
+      "first_words": [
+        "Wait",
+        "a",
+        "moment\u2014our",
+        "little",
+        "light",
+        "needs"
+      ]
+    },
+    {
+      "previous_word_end": 31.8,
+      "next_word_start": 32.92,
+      "quiet_interval": [
+        32.025,
+        32.905
+      ],
+      "cut": 32.465,
+      "last_words": [
+        "value",
+        "depends",
+        "on",
+        "the",
+        "real",
+        "circuit."
+      ],
+      "first_words": [
+        "Click!",
+        "Here",
+        "comes",
+        "a",
+        "switch.",
+        "When"
+      ]
+    },
+    {
+      "previous_word_end": 45.64,
+      "next_word_start": 47.48,
+      "quiet_interval": [
+        46.675,
+        47.465
+      ],
+      "cut": 47.07,
+      "last_words": [
+        "a",
+        "tiny",
+        "gate",
+        "for",
+        "this",
+        "circuit."
+      ],
+      "first_words": [
+        "And",
+        "this",
+        "is",
+        "a",
+        "breadboard.",
+        "No"
+      ]
+    },
+    {
+      "previous_word_end": 63.4,
+      "next_word_start": 65.12,
+      "quiet_interval": [
+        64.225,
+        65.105
+      ],
+      "cut": 64.66499999999999,
+      "last_words": [
+        "Always",
+        "check",
+        "its",
+        "layout",
+        "before",
+        "wiring."
+      ],
+      "first_words": [
+        "Ready",
+        "for",
+        "a",
+        "little",
+        "mystery?",
+        "A"
+      ]
+    },
+    {
+      "previous_word_end": 76.66,
+      "next_word_start": 78.46,
+      "quiet_interval": [
+        76.855,
+        78.44495833333333
+      ],
+      "cut": 77.64997916666667,
+      "last_words": [
+        "to",
+        "the",
+        "other.",
+        "A",
+        "complete",
+        "loop!"
+      ],
+      "first_words": [
+        "Our",
+        "resistor",
+        "joins",
+        "the",
+        "path.",
+        "Its"
+      ]
+    },
+    {
+      "previous_word_end": 91.82,
+      "next_word_start": 93.98,
+      "quiet_interval": [
+        92.105,
+        93.795
+      ],
+      "cut": 92.95,
+      "last_words": [
+        "real",
+        "LED",
+        "must",
+        "be",
+        "checked",
+        "first."
+      ],
+      "first_words": [
+        "Now",
+        "the",
+        "LED",
+        "arrives.",
+        "The",
+        "path"
+      ]
+    }
+  ],
+  "review": "Validated against the known transcript and quiet intervals; individual boundary diagnostics are included"
+}

@@ -17,7 +17,7 @@ Open:
 
 ## Lessons
 
-“Start here” introduces parts before projects. Children can watch components turn and move into place, follow captions, pause/replay and play an individual explanation. Practice supports dragging or tapping a component into its role, gentle sideways dodges for wrong matches, and connecting the placed parts. Progress is saved in the browser.
+“Start here” introduces parts before projects. Beginner lessons are full-screen motion presentations with animated typography, large 3D components, captions and synchronized pause/replay. Loose components sit in a row along the bottom; choosing one plays its explanation. Project lessons use a single minimal workspace: an introduction leads directly to the native 3D assembly, with the actual required parts below. Practice supports dragging or tapping a component into its role, gentle sideways dodges for wrong matches, and connecting the placed parts. Progress is saved in the browser.
 
 Recorded narration controls animation timing through the audio playback clock. Until recordings are added, the site offers device speech where available, or an explicitly labelled caption preview. Expressive AI voices are not pre-generated.
 
@@ -37,6 +37,6 @@ For production, credentials belong in a terminal environment, never in site sour
 
 ## Blender library
 
-Open `models/robotics-kit/robotics-kit.blend`. The kit contains 70 reusable assets, 70 standalone Blender files, 70 web exports and rendered previews. Choose `BROWSE • …` scenes to inspect categories. These are representative educational models with approximate dimensions. Assembly and practice connections show ideas, not validated physical wiring diagrams.
+Open `models/robotics-kit/robotics-kit.blend`. The kit contains 70 reusable assets, 70 standalone Blender files, 70 web exports and rendered previews. Choose `BROWSE • …` scenes to inspect categories. Transparent UI renders of all 70 parts are in `assets/parts-real/`; regenerate them with `models/robotics-kit/render_cutouts.py`. These are representative educational models with approximate dimensions. Assembly and practice connections show ideas, not validated physical wiring diagrams.
 
 See [the kit guide](models/robotics-kit/README.md) and [all-part preview](models/robotics-kit/previews/contact-sheet.jpg).
