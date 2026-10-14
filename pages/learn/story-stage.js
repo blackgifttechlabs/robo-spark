@@ -5,7 +5,7 @@ export async function createStoryStage(host,parts,{cinematic=false}={}){
  const scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(38,1,.01,100);camera.position.set(0,4.4,7.8);camera.lookAt(0,0,0);
  scene.add(new THREE.HemisphereLight(0xffffff,0x8facc3,2.8));const key=new THREE.DirectionalLight(0xffffff,3);key.position.set(-3,5,5);scene.add(key);
  const floor=new THREE.Mesh(new THREE.CylinderGeometry(3,3,.08,64),new THREE.MeshStandardMaterial({color:0xeaf2f7,roughness:.9}));floor.position.y=-.45;floor.visible=!cinematic;scene.add(floor);
- const loader=new GLTFLoader(),models=new Map(),positions=new Map(),placed=new Set();let alive=true,frame,focus=null,fraction=0,wireFraction=0,connected=false,azimuth=0,spinTime=0,lastFrame=0,running=false,dragging=false,lastX=0;
+ const loader=new GLTFLoader(),models=new Map(),positions=new Map(),placed=new Set();let alive=true,frame,focus=null,fraction=0,shown=0,wireFraction=0,connected=false,azimuth=0,spinTime=0,lastFrame=0,running=false,dragging=false,lastX=0;
  const count=parts.length;parts.forEach((id,i)=>{const angle=i/count*Math.PI*2-Math.PI/2;positions.set(id,new THREE.Vector3(Math.cos(angle)*1.9,-.25,Math.sin(angle)*1.35))});
  const lines=new THREE.Group();scene.add(lines);let activeLines=[];
  function makeLines(){for(let i=0;i<count;i++){const a=positions.get(parts[i]),b=positions.get(parts[(i+1)%count]);const mid=a.clone().lerp(b,.5);mid.y=.05;const curve=new THREE.CatmullRomCurve3([a.clone().add(new THREE.Vector3(0,.15,0)),mid,b.clone().add(new THREE.Vector3(0,.15,0))]);const geometry=new THREE.TubeGeometry(curve,24,.024,6,false),material=new THREE.MeshStandardMaterial({color:0x06a6d9,emissive:0x00658a,emissiveIntensity:.5});const line=new THREE.Mesh(geometry,material);line.visible=false;lines.add(line);activeLines.push(line)}}makeLines();
@@ -22,14 +22,25 @@ export async function createStoryStage(host,parts,{cinematic=false}={}){
   }catch{host.dispatchEvent(new CustomEvent('part-model-error',{detail:id}))}
  });
  const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
- function draw(time){if(!alive)return;const delta=Math.min(.05,(time-lastFrame)/1000);lastFrame=time;if(running)spinTime+=Math.max(0,delta);
+ function draw(time){if(!alive)return;const delta=Math.min(.05,(time-lastFrame)/1000);lastFrame=time;if(running)spinTime+=Math.max(0,delta);shown+=(fraction-shown)*(1-Math.exp(-delta*16));
   const wide=host.clientWidth>600,offset=cinematic?new THREE.Vector3(wide?1.8:0,wide?0:-.5,0):new THREE.Vector3();lines.position.copy(offset);
   for(const [id,model] of models){const dest=positions.get(id).clone().add(offset);model.visible=placed.has(id)||focus===id;if(!model.visible)continue;
-   if(focus===id){const move=THREE.MathUtils.smoothstep(fraction,.53,.93);const enter=THREE.MathUtils.smoothstep(fraction,0,.12);const inspection=cinematic?new THREE.Vector3(wide?2.0:0,wide?.65:-.6,.4):new THREE.Vector3(0,.65,.3);if(cinematic)inspection.y-=Math.pow(1-enter,2)*2;model.position.copy(inspection).lerp(dest,move);model.rotation.y=reduced?0:spinTime*.65*(1-move);model.rotation.z=cinematic&&!reduced?Math.sin(spinTime*.8)*.045*(1-move):0;model.scale.setScalar(cinematic?(wide?2.3:1.65)*(1-move)+move:1.5-.5*move)}else{model.position.copy(dest);model.rotation.y=0;model.scale.setScalar(1)}
+   if(focus===id){
+    const f=shown,S=THREE.MathUtils.smoothstep,ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2,back=t=>{const c=1.70158;return 1+(c+1)*Math.pow(t-1,3)+c*Math.pow(t-1,2)};
+    const enter=Math.min(1,Math.max(0,f/.14)),move=ease(S(f,.55,.92)),land=Math.max(0,(f-.92)/.08);
+    const inspection=cinematic?new THREE.Vector3(wide?2.0:0,wide?.65:-.6,.4):new THREE.Vector3(0,.65,.3);
+    const float=reduced?0:Math.sin(spinTime*1.6)*.045*(1-move);
+    const rise=cinematic?(1-back(enter))*-2.2:0;
+    model.position.lerpVectors(inspection,dest,move);model.position.y+=rise+float+Math.sin(Math.PI*move)*.85-Math.exp(-land*6)*Math.sin(land*14)*.05*land;
+    const turn=reduced?0:ease(S(f,.08,.55))*Math.PI*2;
+    model.rotation.y=turn*(1-move);model.rotation.x=reduced?0:Math.sin(Math.PI*move)*.35;model.rotation.z=cinematic&&!reduced?Math.sin(spinTime*.8)*.04*(1-move):0;
+    const base=cinematic?(wide?2.3:1.65):1.5,squash=1+(land>0?Math.sin(land*Math.PI)*.06:0);
+    model.scale.setScalar((base*(1-move)+move)*squash*(cinematic?.82+.18*Math.min(1,enter*1.4):1))
+   }else{model.position.copy(dest);model.rotation.set(0,0,0);model.scale.setScalar(1)}
   }
   activeLines.forEach((line,i)=>line.visible=connected||wireFraction>(i+1)/count);
   const distance=cinematic?(wide?7.5:7):8;camera.position.set(Math.sin(azimuth)*distance,cinematic?3.4:4.4,Math.cos(azimuth)*distance);camera.lookAt(0,cinematic?.2:0,0);renderer.render(scene,camera);frame=requestAnimationFrame(draw)
  }draw(0);
  await Promise.allSettled(loading);
- return {setPlaying(value){running=value},focus(id){focus=id;fraction=0;spinTime=0},progress(value){fraction=value},place(id){placed.add(id);focus=null;fraction=0},connections(value){wireFraction=value;connected=value>=1},reset(){placed.clear();focus=null;connected=false;wireFraction=0},dispose};
+ return {setPlaying(value){running=value},focus(id){focus=id;fraction=0;shown=0;spinTime=0},progress(value,snap){fraction=value;if(snap)shown=value},place(id){placed.add(id);focus=null;fraction=0;shown=0},connections(value){wireFraction=value;connected=value>=1},reset(){placed.clear();focus=null;connected=false;wireFraction=0},dispose};
 }
