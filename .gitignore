@@ -6,3 +6,11 @@ models/robotics-library/preview-build.log
 # OS / editor
 .DS_Store
 .vscode/
+# Local credentials and machine configuration
+.aws/
+.codex/
+.agents/
+.env
+.env.*
+*.pem
+*.key

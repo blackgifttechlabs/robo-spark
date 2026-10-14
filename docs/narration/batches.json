@@ -1,0 +1,232 @@
+[
+  {
+    "id": "basics-batch-01",
+    "family": "basics",
+    "title": "Start here \u00b7 Recording 1",
+    "clipIds": [
+      "what-is-a-robot--01-ultrasonic-sensor",
+      "what-is-a-robot--02-microcontroller",
+      "what-is-a-robot--03-geared-motor",
+      "what-is-a-robot--04-robot-wheel",
+      "what-is-a-robot--05-ultrasonic-sensor",
+      "meet-the-parts--01-aa-battery",
+      "meet-the-parts--02-jumper-wires"
+    ],
+    "text": "<chuckles> Hello, explorer! I\u2019m Sparks. See these two round eyes? This is a distance sensor. It measures how close an object is. Hmm... a block ahead! Better tell the controller.\n\n<long pause>\n\nHere comes the controller. Think of it as a small computer following a recipe. A person writes its instructions. <short pause> The sensor sends a measurement, and the program decides what happens next.\n\n<long pause>\n\nNow meet the motor. It changes electrical energy into movement. A motor driver controls its power. <chuckles> I could tell a wheel to turn all day... but without a motor, it would just sit there!\n\n<long pause>\n\nOoh, here comes a wheel! Fit it to a motor shaft and it can roll. Sensors measure. Programs give instructions. Motors move things. Put those ideas together, and you have the beginnings of a rover.\n\n<long pause>\n\n<gasp> The path is clear! Our picture shows how the parts can work together. Real robots also need a power supply, a suitable driver and checked wiring. Your first challenge: which part notices the obstacle?\n\n<long pause>\n\nLet\u2019s meet the team, one part at a time. I\u2019m a battery! Well... <chuckles> Sparks is talking for the battery. It stores energy. Find the raised positive end and the flat negative end.\n\n<long pause>\n\nThese are jumper wires. Their metal ends make connections. Their coloured covers help us follow the path. Hmm... colours are useful labels, but a red wire does not magically know where to go!",
+    "spoken": "Hello, explorer! I\u2019m Sparks. See these two round eyes? This is a distance sensor. It measures how close an object is. Hmm... a block ahead! Better tell the controller.\n\nHere comes the controller. Think of it as a small computer following a recipe. A person writes its instructions.  The sensor sends a measurement, and the program decides what happens next.\n\nNow meet the motor. It changes electrical energy into movement. A motor driver controls its power.  I could tell a wheel to turn all day... but without a motor, it would just sit there!\n\nOoh, here comes a wheel! Fit it to a motor shaft and it can roll. Sensors measure. Programs give instructions. Motors move things. Put those ideas together, and you have the beginnings of a rover.\n\nThe path is clear! Our picture shows how the parts can work together. Real robots also need a power supply, a suitable driver and checked wiring. Your first challenge: which part notices the obstacle?\n\nLet\u2019s meet the team, one part at a time. I\u2019m a battery! Well...  Sparks is talking for the battery. It stores energy. Find the raised positive end and the flat negative end.\n\nThese are jumper wires. Their metal ends make connections. Their coloured covers help us follow the path. Hmm... colours are useful labels, but a red wire does not magically know where to go!",
+    "style": "A warm, playful robot companion speaking to children aged 8\u201312. Clear conversational English, gentle curiosity, a friendly smile and light comic timing. About 125\u2013140 words per minute. Small natural breaths and thoughtful pauses. Never shout. Treat a wrong guess as a chance to discover. Keep the voice and accent consistent across clips.",
+    "words": 228,
+    "estimatedSeconds": 121
+  },
+  {
+    "id": "basics-batch-02",
+    "family": "basics",
+    "title": "Start here \u00b7 Recording 2",
+    "clipIds": [
+      "meet-the-parts--03-led",
+      "meet-the-parts--04-resistor",
+      "meet-the-parts--05-slide-switch",
+      "meet-the-parts--06-breadboard",
+      "what-is-a-circuit--01-aa-battery",
+      "what-is-a-circuit--02-resistor",
+      "what-is-a-circuit--03-led"
+    ],
+    "text": "This tiny light is an LED. Look closely: two legs! One is the anode, and one is the cathode. It needs to face the right way in a circuit. <short pause> Tiny part, bright idea.\n\n<long pause>\n\nWait a moment\u2014our little light needs a helper. This is a resistor. It limits current through the LED. See the coloured bands? They describe its resistance. A suitable value depends on the real circuit.\n\n<long pause>\n\nClick! Here comes a switch. When its contacts join, it closes the path. When they separate, it opens the path. <chuckles> It\u2019s like a tiny gate for this circuit.\n\n<long pause>\n\nAnd this is a breadboard. No bread inside! <chuckles> It holds parts without soldering. Some holes are connected together underneath. The centre gap separates the two sides. Always check its layout before wiring.\n\n<long pause>\n\nReady for a little mystery? A battery has two terminals. To power our light, we need a path from one terminal, through the parts, and back to the other. <short pause> A complete loop!\n\n<long pause>\n\nOur resistor joins the path. Its job is to limit current. Hmm... we are building an idea picture here. The correct resistor and connections for a real LED must be checked first.\n\n<long pause>\n\nNow the LED arrives. The path continues through the light. Electrical energy can become light energy. <gasp> But there is still a gap! Let\u2019s look at our switch.",
+    "spoken": "This tiny light is an LED. Look closely: two legs! One is the anode, and one is the cathode. It needs to face the right way in a circuit.  Tiny part, bright idea.\n\nWait a moment\u2014our little light needs a helper. This is a resistor. It limits current through the LED. See the coloured bands? They describe its resistance. A suitable value depends on the real circuit.\n\nClick! Here comes a switch. When its contacts join, it closes the path. When they separate, it opens the path.  It\u2019s like a tiny gate for this circuit.\n\nAnd this is a breadboard. No bread inside!  It holds parts without soldering. Some holes are connected together underneath. The centre gap separates the two sides. Always check its layout before wiring.\n\nReady for a little mystery? A battery has two terminals. To power our light, we need a path from one terminal, through the parts, and back to the other.  A complete loop!\n\nOur resistor joins the path. Its job is to limit current. Hmm... we are building an idea picture here. The correct resistor and connections for a real LED must be checked first.\n\nNow the LED arrives. The path continues through the light. Electrical energy can become light energy.  But there is still a gap! Let\u2019s look at our switch.",
+    "style": "A warm, playful robot companion speaking to children aged 8\u201312. Clear conversational English, gentle curiosity, a friendly smile and light comic timing. About 125\u2013140 words per minute. Small natural breaths and thoughtful pauses. Never shout. Treat a wrong guess as a chance to discover. Keep the voice and accent consistent across clips.",
+    "words": 218,
+    "estimatedSeconds": 117
+  },
+  {
+    "id": "basics-batch-03",
+    "family": "basics",
+    "title": "Start here \u00b7 Recording 3",
+    "clipIds": [
+      "what-is-a-circuit--04-slide-switch",
+      "what-is-a-circuit--05-jumper-wires",
+      "one-light--01-led",
+      "one-light--02-resistor",
+      "one-light--03-aa-battery",
+      "one-light--04-jumper-wires",
+      "control-a-light--01-aa-battery"
+    ],
+    "text": "The switch closes its contacts. Now the loop is complete and our screen light glows. Open the contacts and it goes out. <chuckles> Mystery solved: a gap breaks the path.\n\n<long pause>\n\nFollow the blue path around the whole loop. Battery, resistor, light, switch... and back again. Your turn: predict what happens when the switch opens. Then try it in practice mode.\n\n<long pause>\n\nToday\u2019s big invention is... one little light! <chuckles> Every inventor starts somewhere. Turn this LED around. Find its two legs and the flat edge on its body. They help us identify the terminals.\n\n<long pause>\n\nHere comes our resistor. It limits current through the light. More energy is not always better. Hmm... even a tiny LED needs the right circuit to stay happy.\n\n<long pause>\n\nThe battery supplies energy. In a real build, ask an adult to help choose a suitable supply, resistor and LED connections. Our picture shows the idea, so you can understand each part\u2019s job first.\n\n<long pause>\n\nWe join our idea picture into a loop. <gasp> Look at that glow! An LED makes light, a resistor limits current, and a battery supplies energy. Try placing those helpers in practice mode.\n\n<long pause>\n\nWe have energy, a resistor and a little light. But I want to choose WHEN it shines. Hmm... could a tiny gate help? Let\u2019s find out.",
+    "spoken": "The switch closes its contacts. Now the loop is complete and our screen light glows. Open the contacts and it goes out.  Mystery solved: a gap breaks the path.\n\nFollow the blue path around the whole loop. Battery, resistor, light, switch... and back again. Your turn: predict what happens when the switch opens. Then try it in practice mode.\n\nToday\u2019s big invention is... one little light!  Every inventor starts somewhere. Turn this LED around. Find its two legs and the flat edge on its body. They help us identify the terminals.\n\nHere comes our resistor. It limits current through the light. More energy is not always better. Hmm... even a tiny LED needs the right circuit to stay happy.\n\nThe battery supplies energy. In a real build, ask an adult to help choose a suitable supply, resistor and LED connections. Our picture shows the idea, so you can understand each part\u2019s job first.\n\nWe join our idea picture into a loop.  Look at that glow! An LED makes light, a resistor limits current, and a battery supplies energy. Try placing those helpers in practice mode.\n\nWe have energy, a resistor and a little light. But I want to choose WHEN it shines. Hmm... could a tiny gate help? Let\u2019s find out.",
+    "style": "A warm, playful robot companion speaking to children aged 8\u201312. Clear conversational English, gentle curiosity, a friendly smile and light comic timing. About 125\u2013140 words per minute. Small natural breaths and thoughtful pauses. Never shout. Treat a wrong guess as a chance to discover. Keep the voice and accent consistent across clips.",
+    "words": 211,
+    "estimatedSeconds": 113
+  },
+  {
+    "id": "basics-batch-04",
+    "family": "basics",
+    "title": "Start here \u00b7 Recording 4",
+    "clipIds": [
+      "control-a-light--02-slide-switch",
+      "control-a-light--03-resistor",
+      "control-a-light--04-led",
+      "meet-the-controller--01-microcontroller",
+      "meet-the-controller--02-push-button",
+      "meet-the-controller--03-led",
+      "meet-the-controller--04-microcontroller"
+    ],
+    "text": "Here is our switch! Slide its handle and the contacts move. Open means a gap. Closed means the contacts join. <short pause> Say it with me: open... closed!\n\n<long pause>\n\nThe resistor stays in our circuit while we test the switch. It still limits current. <chuckles> We are changing the path, not forgetting our little light\u2019s helper.\n\n<long pause>\n\nClose the path... light on! Open the path... light off! <gasp> You\u2019re in charge. Try it again and explain what changed in the connections.\n\n<long pause>\n\nMeet the controller. It\u2019s a small computer that runs a program. It doesn\u2019t think like you do. <chuckles> You supply the clever instructions, and it follows them.\n\n<long pause>\n\nHere comes a button. Pressing it can give the controller information. We call that an input. A sensor can provide an input too. Hmm... has someone pressed the button yet?\n\n<long pause>\n\nAn LED is an output: it does something we can notice. A program can tell it to turn on, wait, turn off, and wait again. The LED still needs suitable connections and current limiting.\n\n<long pause>\n\nOn... wait... off... wait! Repeat those instructions and the light blinks. <gasp> Order matters. Try sorting the parts into input, controller and output in practice mode.",
+    "spoken": "Here is our switch! Slide its handle and the contacts move. Open means a gap. Closed means the contacts join.  Say it with me: open... closed!\n\nThe resistor stays in our circuit while we test the switch. It still limits current.  We are changing the path, not forgetting our little light\u2019s helper.\n\nClose the path... light on! Open the path... light off!  You\u2019re in charge. Try it again and explain what changed in the connections.\n\nMeet the controller. It\u2019s a small computer that runs a program. It doesn\u2019t think like you do.  You supply the clever instructions, and it follows them.\n\nHere comes a button. Pressing it can give the controller information. We call that an input. A sensor can provide an input too. Hmm... has someone pressed the button yet?\n\nAn LED is an output: it does something we can notice. A program can tell it to turn on, wait, turn off, and wait again. The LED still needs suitable connections and current limiting.\n\nOn... wait... off... wait! Repeat those instructions and the light blinks.  Order matters. Try sorting the parts into input, controller and output in practice mode.",
+    "style": "A warm, playful robot companion speaking to children aged 8\u201312. Clear conversational English, gentle curiosity, a friendly smile and light comic timing. About 125\u2013140 words per minute. Small natural breaths and thoughtful pauses. Never shout. Treat a wrong guess as a chance to discover. Keep the voice and accent consistent across clips.",
+    "words": 190,
+    "estimatedSeconds": 103
+  },
+  {
+    "id": "parts-batch-01",
+    "family": "parts",
+    "title": "Parts library \u00b7 Recording 1",
+    "clipIds": [
+      "part--ultrasonic-sensor",
+      "part--servo-actuator",
+      "part--geared-motor",
+      "part--microcontroller",
+      "part--breadboard",
+      "part--motor-driver",
+      "part--motion-sensor",
+      "part--temperature-sensor",
+      "part--light-sensor",
+      "part--buzzer"
+    ],
+    "text": "Ooh, look closely! This is ultrasonic distance sensor. Measures how close an object is using sound pulses.  <chuckles> Small parts can lead to big ideas!\n\n<long pause>\n\nHmm... what could we make with this? This is servo actuator. Turns an arm to a commanded position. Turn it around and notice its shape.\n\n<long pause>\n\nReady for another discovery? This is geared dc motor. Turns electrical energy into rotation, using gears to change speed and torque. Turn it around and notice its shape.\n\n<long pause>\n\nHere comes another helper! This is microcontroller board. Runs the instructions in your program. Turn it around and notice its shape.\n\n<long pause>\n\nOoh, look closely! This is breadboard. Holds small circuit parts. Groups of holes are connected underneath. Turn it around and notice its shape.\n\n<long pause>\n\nHmm... what could we make with this? This is motor driver. Controls power to a motor when the controller sends instructions. Turn it around and notice its shape.\n\n<long pause>\n\nReady for another discovery? This is pir motion sensor. Detects changes in infrared radiation that can indicate movement. Turn it around and notice its shape.\n\n<long pause>\n\nHere comes another helper! This is temperature and humidity sensor. Measures temperature and humidity.  <chuckles> Small parts can lead to big ideas!\n\n<long pause>\n\nOoh, look closely! This is light sensor. Measures changes in light level. Turn it around and notice its shape.\n\n<long pause>\n\nHmm... what could we make with this? This is piezo buzzer. Turns an electrical signal into a buzzing sound. Turn it around and notice its shape.",
+    "spoken": "Ooh, look closely! This is ultrasonic distance sensor. Measures how close an object is using sound pulses.   Small parts can lead to big ideas!\n\nHmm... what could we make with this? This is servo actuator. Turns an arm to a commanded position. Turn it around and notice its shape.\n\nReady for another discovery? This is geared dc motor. Turns electrical energy into rotation, using gears to change speed and torque. Turn it around and notice its shape.\n\nHere comes another helper! This is microcontroller board. Runs the instructions in your program. Turn it around and notice its shape.\n\nOoh, look closely! This is breadboard. Holds small circuit parts. Groups of holes are connected underneath. Turn it around and notice its shape.\n\nHmm... what could we make with this? This is motor driver. Controls power to a motor when the controller sends instructions. Turn it around and notice its shape.\n\nReady for another discovery? This is pir motion sensor. Detects changes in infrared radiation that can indicate movement. Turn it around and notice its shape.\n\nHere comes another helper! This is temperature and humidity sensor. Measures temperature and humidity.   Small parts can lead to big ideas!\n\nOoh, look closely! This is light sensor. Measures changes in light level. Turn it around and notice its shape.\n\nHmm... what could we make with this? This is piezo buzzer. Turns an electrical signal into a buzzing sound. Turn it around and notice its shape.",
+    "style": "A warm, playful robot companion speaking to children aged 8\u201312. Clear conversational English, gentle curiosity, a friendly smile and light comic timing. About 125\u2013140 words per minute. Small natural breaths and thoughtful pauses. Never shout. Treat a wrong guess as a chance to discover. Keep the voice and accent consistent across clips.",
+    "words": 240,
+    "estimatedSeconds": 133
+  },
+  {
+    "id": "parts-batch-02",
+    "family": "parts",
+    "title": "Parts library \u00b7 Recording 2",
+    "clipIds": [
+      "part--stepper-motor",
+      "part--battery-holder",
+      "part--led",
+      "part--potentiometer",
+      "part--push-button",
+      "part--jumper-wires",
+      "part--robot-wheel",
+      "part--relay",
+      "part--infrared-sensor",
+      "part--linear-actuator"
+    ],
+    "text": "Ready for another discovery? This is stepper motor. Turns in controlled steps with a suitable driver. Turn it around and notice its shape.\n\n<long pause>\n\nHere comes another helper! This is battery holder. Holds batteries and connects their terminals. Turn it around and notice its shape.\n\n<long pause>\n\nOoh, look closely! This is led. Makes light when connected the right way with suitable current limiting. Turn it around and notice its shape.\n\n<long pause>\n\nHmm... what could we make with this? This is potentiometer. Changes resistance when you turn its knob. Turn it around and notice its shape.\n\n<long pause>\n\nReady for another discovery? This is push button. Changes a connection when you press it.  <chuckles> Small parts can lead to big ideas!\n\n<long pause>\n\nHere comes another helper! This is jumper wires. Connect circuit parts together. Turn it around and notice its shape.\n\n<long pause>\n\nOoh, look closely! This is robot wheel. Rolls to help a rover move. Turn it around and notice its shape.\n\n<long pause>\n\nHmm... what could we make with this? This is relay module. Uses an electrically controlled switch to change a connection. Turn it around and notice its shape.\n\n<long pause>\n\nReady for another discovery? This is infrared sensor. Uses infrared light to detect nearby objects. Turn it around and notice its shape.\n\n<long pause>\n\nHere comes another helper! This is linear actuator. Moves a rod in or out. Turn it around and notice its shape.",
+    "spoken": "Ready for another discovery? This is stepper motor. Turns in controlled steps with a suitable driver. Turn it around and notice its shape.\n\nHere comes another helper! This is battery holder. Holds batteries and connects their terminals. Turn it around and notice its shape.\n\nOoh, look closely! This is led. Makes light when connected the right way with suitable current limiting. Turn it around and notice its shape.\n\nHmm... what could we make with this? This is potentiometer. Changes resistance when you turn its knob. Turn it around and notice its shape.\n\nReady for another discovery? This is push button. Changes a connection when you press it.   Small parts can lead to big ideas!\n\nHere comes another helper! This is jumper wires. Connect circuit parts together. Turn it around and notice its shape.\n\nOoh, look closely! This is robot wheel. Rolls to help a rover move. Turn it around and notice its shape.\n\nHmm... what could we make with this? This is relay module. Uses an electrically controlled switch to change a connection. Turn it around and notice its shape.\n\nReady for another discovery? This is infrared sensor. Uses infrared light to detect nearby objects. Turn it around and notice its shape.\n\nHere comes another helper! This is linear actuator. Moves a rod in or out. Turn it around and notice its shape.",
+    "style": "A warm, playful robot companion speaking to children aged 8\u201312. Clear conversational English, gentle curiosity, a friendly smile and light comic timing. About 125\u2013140 words per minute. Small natural breaths and thoughtful pauses. Never shout. Treat a wrong guess as a chance to discover. Keep the voice and accent consistent across clips.",
+    "words": 223,
+    "estimatedSeconds": 125
+  },
+  {
+    "id": "parts-batch-03",
+    "family": "parts",
+    "title": "Parts library \u00b7 Recording 3",
+    "clipIds": [
+      "part--aa-battery",
+      "part--battery-pack",
+      "part--usb-cable",
+      "part--resistor",
+      "part--slide-switch",
+      "part--nano-controller",
+      "part--microbit",
+      "part--esp32",
+      "part--servo-driver",
+      "part--rgb-led",
+      "part--led-strip"
+    ],
+    "text": "Ooh, look closely! This is aa battery. Stores energy to power a small circuit. Turn it around and notice its shape.\n\n<long pause>\n\nHmm... what could we make with this? This is rechargeable battery pack. Supplies energy for a moving robot.  <chuckles> Small parts can lead to big ideas!\n\n<long pause>\n\nReady for another discovery? This is usb cable. Connects a controller to a computer. Turn it around and notice its shape.\n\n<long pause>\n\nHere comes another helper! This is resistor. Limits current through a circuit. Turn it around and notice its shape.\n\n<long pause>\n\nOoh, look closely! This is slide switch. Opens or closes an electrical path. Turn it around and notice its shape.\n\n<long pause>\n\nHmm... what could we make with this? This is nano-style controller. Runs instructions on a compact board. Turn it around and notice its shape.\n\n<long pause>\n\nReady for another discovery? This is micro:bit-style board. Combines buttons, lights and a programmable controller. Turn it around and notice its shape.\n\n<long pause>\n\nHere comes another helper! This is esp32-style controller. Runs instructions and supports wireless projects. Turn it around and notice its shape.\n\n<long pause>\n\nOoh, look closely! This is 16-channel servo driver. Sends position commands to several servos.  <chuckles> Small parts can lead to big ideas!\n\n<long pause>\n\nHmm... what could we make with this? This is rgb led. Combines red, green and blue light. Turn it around and notice its shape.\n\n<long pause>\n\nReady for another discovery? This is addressable led strip. Contains a row of individually controlled lights. Turn it around and notice its shape.",
+    "spoken": "Ooh, look closely! This is aa battery. Stores energy to power a small circuit. Turn it around and notice its shape.\n\nHmm... what could we make with this? This is rechargeable battery pack. Supplies energy for a moving robot.   Small parts can lead to big ideas!\n\nReady for another discovery? This is usb cable. Connects a controller to a computer. Turn it around and notice its shape.\n\nHere comes another helper! This is resistor. Limits current through a circuit. Turn it around and notice its shape.\n\nOoh, look closely! This is slide switch. Opens or closes an electrical path. Turn it around and notice its shape.\n\nHmm... what could we make with this? This is nano-style controller. Runs instructions on a compact board. Turn it around and notice its shape.\n\nReady for another discovery? This is micro:bit-style board. Combines buttons, lights and a programmable controller. Turn it around and notice its shape.\n\nHere comes another helper! This is esp32-style controller. Runs instructions and supports wireless projects. Turn it around and notice its shape.\n\nOoh, look closely! This is 16-channel servo driver. Sends position commands to several servos.   Small parts can lead to big ideas!\n\nHmm... what could we make with this? This is rgb led. Combines red, green and blue light. Turn it around and notice its shape.\n\nReady for another discovery? This is addressable led strip. Contains a row of individually controlled lights. Turn it around and notice its shape.",
+    "style": "A warm, playful robot companion speaking to children aged 8\u201312. Clear conversational English, gentle curiosity, a friendly smile and light comic timing. About 125\u2013140 words per minute. Small natural breaths and thoughtful pauses. Never shout. Treat a wrong guess as a chance to discover. Keep the voice and accent consistent across clips.",
+    "words": 241,
+    "estimatedSeconds": 136
+  },
+  {
+    "id": "parts-batch-04",
+    "family": "parts",
+    "title": "Parts library \u00b7 Recording 4",
+    "clipIds": [
+      "part--led-matrix",
+      "part--speaker",
+      "part--line-sensor",
+      "part--soil-probe",
+      "part--rain-sensor",
+      "part--touch-sensor",
+      "part--tilt-sensor",
+      "part--hall-sensor",
+      "part--sound-sensor",
+      "part--colour-sensor"
+    ],
+    "text": "Here comes another helper! This is 8 x 8 led matrix. Displays pictures using a grid of lights. Turn it around and notice its shape.\n\n<long pause>\n\nOoh, look closely! This is small speaker. Turns an electrical signal into sound. Turn it around and notice its shape.\n\n<long pause>\n\nHmm... what could we make with this? This is line-tracking sensor array. Detects dark and light patches under a rover. Turn it around and notice its shape.\n\n<long pause>\n\nReady for another discovery? This is soil moisture probe. Measures changes related to soil moisture. Turn it around and notice its shape.\n\n<long pause>\n\nHere comes another helper! This is rain sensor plate. Detects water bridging conductive tracks.  <chuckles> Small parts can lead to big ideas!\n\n<long pause>\n\nOoh, look closely! This is capacitive touch sensor. Detects a finger touching its sensing area. Turn it around and notice its shape.\n\n<long pause>\n\nHmm... what could we make with this? This is tilt sensor module. Detects a change in orientation. Turn it around and notice its shape.\n\n<long pause>\n\nReady for another discovery? This is magnetic sensor. Detects a nearby magnet. Turn it around and notice its shape.\n\n<long pause>\n\nHere comes another helper! This is microphone sensor. Measures sound level. Turn it around and notice its shape.\n\n<long pause>\n\nOoh, look closely! This is colour sensor. Measures the colour of reflected light. Turn it around and notice its shape.",
+    "spoken": "Here comes another helper! This is 8 x 8 led matrix. Displays pictures using a grid of lights. Turn it around and notice its shape.\n\nOoh, look closely! This is small speaker. Turns an electrical signal into sound. Turn it around and notice its shape.\n\nHmm... what could we make with this? This is line-tracking sensor array. Detects dark and light patches under a rover. Turn it around and notice its shape.\n\nReady for another discovery? This is soil moisture probe. Measures changes related to soil moisture. Turn it around and notice its shape.\n\nHere comes another helper! This is rain sensor plate. Detects water bridging conductive tracks.   Small parts can lead to big ideas!\n\nOoh, look closely! This is capacitive touch sensor. Detects a finger touching its sensing area. Turn it around and notice its shape.\n\nHmm... what could we make with this? This is tilt sensor module. Detects a change in orientation. Turn it around and notice its shape.\n\nReady for another discovery? This is magnetic sensor. Detects a nearby magnet. Turn it around and notice its shape.\n\nHere comes another helper! This is microphone sensor. Measures sound level. Turn it around and notice its shape.\n\nOoh, look closely! This is colour sensor. Measures the colour of reflected light. Turn it around and notice its shape.",
+    "style": "A warm, playful robot companion speaking to children aged 8\u201312. Clear conversational English, gentle curiosity, a friendly smile and light comic timing. About 125\u2013140 words per minute. Small natural breaths and thoughtful pauses. Never shout. Treat a wrong guess as a chance to discover. Keep the voice and accent consistent across clips.",
+    "words": 218,
+    "estimatedSeconds": 123
+  },
+  {
+    "id": "parts-batch-05",
+    "family": "parts",
+    "title": "Parts library \u00b7 Recording 5",
+    "clipIds": [
+      "part--rotary-encoder",
+      "part--imu-sensor",
+      "part--large-servo",
+      "part--water-pump",
+      "part--fan",
+      "part--caster",
+      "part--robot-tracks",
+      "part--chassis",
+      "part--bracket",
+      "part--beam"
+    ],
+    "text": "Hmm... what could we make with this? This is rotary encoder. Measures steps as a knob or shaft turns. Turn it around and notice its shape.\n\n<long pause>\n\nReady for another discovery? This is motion and orientation sensor. Measures acceleration and rotation.  <chuckles> Small parts can lead to big ideas!\n\n<long pause>\n\nHere comes another helper! This is metal-gear servo. Moves an arm to a chosen position. Turn it around and notice its shape.\n\n<long pause>\n\nOoh, look closely! This is mini water pump. Moves water through tubing. Turn it around and notice its shape.\n\n<long pause>\n\nHmm... what could we make with this? This is small cooling fan. Spins blades to move air. Turn it around and notice its shape.\n\n<long pause>\n\nReady for another discovery? This is ball caster. Supports a rover while allowing it to turn. Turn it around and notice its shape.\n\n<long pause>\n\nHere comes another helper! This is robot track assembly. Uses a continuous tread to move a rover. Turn it around and notice its shape.\n\n<long pause>\n\nOoh, look closely! This is rover chassis plate. Supports the robot parts. Turn it around and notice its shape.\n\n<long pause>\n\nHmm... what could we make with this? This is motor mounting bracket. Holds a motor on the chassis.  <chuckles> Small parts can lead to big ideas!\n\n<long pause>\n\nReady for another discovery? This is perforated construction beam. Joins parts into a strong structure. Turn it around and notice its shape.",
+    "spoken": "Hmm... what could we make with this? This is rotary encoder. Measures steps as a knob or shaft turns. Turn it around and notice its shape.\n\nReady for another discovery? This is motion and orientation sensor. Measures acceleration and rotation.   Small parts can lead to big ideas!\n\nHere comes another helper! This is metal-gear servo. Moves an arm to a chosen position. Turn it around and notice its shape.\n\nOoh, look closely! This is mini water pump. Moves water through tubing. Turn it around and notice its shape.\n\nHmm... what could we make with this? This is small cooling fan. Spins blades to move air. Turn it around and notice its shape.\n\nReady for another discovery? This is ball caster. Supports a rover while allowing it to turn. Turn it around and notice its shape.\n\nHere comes another helper! This is robot track assembly. Uses a continuous tread to move a rover. Turn it around and notice its shape.\n\nOoh, look closely! This is rover chassis plate. Supports the robot parts. Turn it around and notice its shape.\n\nHmm... what could we make with this? This is motor mounting bracket. Holds a motor on the chassis.   Small parts can lead to big ideas!\n\nReady for another discovery? This is perforated construction beam. Joins parts into a strong structure. Turn it around and notice its shape.",
+    "style": "A warm, playful robot companion speaking to children aged 8\u201312. Clear conversational English, gentle curiosity, a friendly smile and light comic timing. About 125\u2013140 words per minute. Small natural breaths and thoughtful pauses. Never shout. Treat a wrong guess as a chance to discover. Keep the voice and accent consistent across clips.",
+    "words": 225,
+    "estimatedSeconds": 126
+  },
+  {
+    "id": "parts-batch-06",
+    "family": "parts",
+    "title": "Parts library \u00b7 Recording 6",
+    "clipIds": [
+      "part--axle",
+      "part--bearing",
+      "part--fastener-set",
+      "part--spur-gear",
+      "part--pulley",
+      "part--drive-belt",
+      "part--gripper",
+      "part--arm-link",
+      "part--hinge",
+      "part--rack-pinion",
+      "part--lifting-platform"
+    ],
+    "text": "Here comes another helper! This is steel axle. Carries a wheel or gear. Turn it around and notice its shape.\n\n<long pause>\n\nOoh, look closely! This is ball bearing. Supports a rotating shaft with less friction. Turn it around and notice its shape.\n\n<long pause>\n\nHmm... what could we make with this? This is screw, nut and spacer set. Fastens robot parts together. Turn it around and notice its shape.\n\n<long pause>\n\nReady for another discovery? This is spur gear. Transfers rotation through matching teeth. Turn it around and notice its shape.\n\n<long pause>\n\nHere comes another helper! This is grooved pulley. Transfers movement using a belt. Turn it around and notice its shape.\n\n<long pause>\n\nOoh, look closely! This is drive belt. Carries motion between pulleys.  <chuckles> Small parts can lead to big ideas!\n\n<long pause>\n\nHmm... what could we make with this? This is robot gripper. Opens and closes to hold an object. Turn it around and notice its shape.\n\n<long pause>\n\nReady for another discovery? This is robot arm link. Connects two robot joints. Turn it around and notice its shape.\n\n<long pause>\n\nHere comes another helper! This is hinge. Lets two parts pivot. Turn it around and notice its shape.\n\n<long pause>\n\nOoh, look closely! This is rack and pinion. Changes rotation into straight movement. Turn it around and notice its shape.\n\n<long pause>\n\nHmm... what could we make with this? This is scissor lifting platform. Raises a platform through linked arms. Turn it around and notice its shape.",
+    "spoken": "Here comes another helper! This is steel axle. Carries a wheel or gear. Turn it around and notice its shape.\n\nOoh, look closely! This is ball bearing. Supports a rotating shaft with less friction. Turn it around and notice its shape.\n\nHmm... what could we make with this? This is screw, nut and spacer set. Fastens robot parts together. Turn it around and notice its shape.\n\nReady for another discovery? This is spur gear. Transfers rotation through matching teeth. Turn it around and notice its shape.\n\nHere comes another helper! This is grooved pulley. Transfers movement using a belt. Turn it around and notice its shape.\n\nOoh, look closely! This is drive belt. Carries motion between pulleys.   Small parts can lead to big ideas!\n\nHmm... what could we make with this? This is robot gripper. Opens and closes to hold an object. Turn it around and notice its shape.\n\nReady for another discovery? This is robot arm link. Connects two robot joints. Turn it around and notice its shape.\n\nHere comes another helper! This is hinge. Lets two parts pivot. Turn it around and notice its shape.\n\nOoh, look closely! This is rack and pinion. Changes rotation into straight movement. Turn it around and notice its shape.\n\nHmm... what could we make with this? This is scissor lifting platform. Raises a platform through linked arms. Turn it around and notice its shape.",
+    "style": "A warm, playful robot companion speaking to children aged 8\u201312. Clear conversational English, gentle curiosity, a friendly smile and light comic timing. About 125\u2013140 words per minute. Small natural breaths and thoughtful pauses. Never shout. Treat a wrong guess as a chance to discover. Keep the voice and accent consistent across clips.",
+    "words": 232,
+    "estimatedSeconds": 131
+  },
+  {
+    "id": "parts-batch-07",
+    "family": "parts",
+    "title": "Parts library \u00b7 Recording 7",
+    "clipIds": [
+      "part--oled-display",
+      "part--seven-segment",
+      "part--joystick",
+      "part--keypad",
+      "part--remote-control",
+      "part--water-tubing",
+      "part--conveyor",
+      "part--pen-holder"
+    ],
+    "text": "Ready for another discovery? This is small oled display. Shows words and numbers. Turn it around and notice its shape.\n\n<long pause>\n\nHere comes another helper! This is seven-segment display. Shows a digit using seven light segments.  <chuckles> Small parts can lead to big ideas!\n\n<long pause>\n\nOoh, look closely! This is joystick module. Lets you choose direction with a thumb. Turn it around and notice its shape.\n\n<long pause>\n\nHmm... what could we make with this? This is 4 x 4 keypad. Lets you enter commands using buttons. Turn it around and notice its shape.\n\n<long pause>\n\nReady for another discovery? This is infrared remote. Sends button commands using infrared light. Turn it around and notice its shape.\n\n<long pause>\n\nHere comes another helper! This is flexible water tubing. Carries water from a pump. Turn it around and notice its shape.\n\n<long pause>\n\nOoh, look closely! This is mini conveyor. Carries objects on a moving belt. Turn it around and notice its shape.\n\n<long pause>\n\nHmm... what could we make with this? This is drawing robot pen holder. Holds a pen above the drawing surface. Turn it around and notice its shape.",
+    "spoken": "Ready for another discovery? This is small oled display. Shows words and numbers. Turn it around and notice its shape.\n\nHere comes another helper! This is seven-segment display. Shows a digit using seven light segments.   Small parts can lead to big ideas!\n\nOoh, look closely! This is joystick module. Lets you choose direction with a thumb. Turn it around and notice its shape.\n\nHmm... what could we make with this? This is 4 x 4 keypad. Lets you enter commands using buttons. Turn it around and notice its shape.\n\nReady for another discovery? This is infrared remote. Sends button commands using infrared light. Turn it around and notice its shape.\n\nHere comes another helper! This is flexible water tubing. Carries water from a pump. Turn it around and notice its shape.\n\nOoh, look closely! This is mini conveyor. Carries objects on a moving belt. Turn it around and notice its shape.\n\nHmm... what could we make with this? This is drawing robot pen holder. Holds a pen above the drawing surface. Turn it around and notice its shape.",
+    "style": "A warm, playful robot companion speaking to children aged 8\u201312. Clear conversational English, gentle curiosity, a friendly smile and light comic timing. About 125\u2013140 words per minute. Small natural breaths and thoughtful pauses. Never shout. Treat a wrong guess as a chance to discover. Keep the voice and accent consistent across clips.",
+    "words": 178,
+    "estimatedSeconds": 99
+  }
+]
