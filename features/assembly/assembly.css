@@ -1,0 +1,35 @@
+.assembly{position:relative;height:400svh;background:#080d13;color:#fff}
+.assembly__stage{position:sticky;top:0;height:100svh;overflow:hidden;display:flex;align-items:center;background:radial-gradient(ellipse 60% 55% at 70% 50%,#0f2230 0%,#080d13 70%)}
+.assembly__inner{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:60px;align-items:center}
+.assembly .eyebrow{color:#7fd3f7}
+.assembly h2,.assembly__step h3{font-family:'Nulshock',var(--font);text-transform:uppercase;font-weight:400;letter-spacing:.01em;line-height:1.15}
+.assembly h2{color:#fff;font-size:clamp(1.7rem,2.7vw,2.6rem);margin-bottom:36px}
+.assembly__steps{position:relative;min-height:190px}
+.assembly__step{position:absolute;inset:0 0 auto 0;pointer-events:none}
+.assembly__word{display:inline-block;white-space:nowrap}
+.assembly__char{display:inline-block;will-change:transform,opacity}
+.assembly__step>span{display:block;color:#00b8ff;font-size:13px;font-weight:700;letter-spacing:.16em;margin-bottom:14px}
+.assembly__step h3{font-size:clamp(1.4rem,2.1vw,2rem);margin-bottom:16px;color:#fff}
+.assembly__step p{font-size:18px;line-height:1.6;color:#d5dde3;max-width:430px;margin:0}
+.assembly__progress{margin-top:34px;height:3px;max-width:430px;background:#ffffff22;border-radius:2px;overflow:hidden}
+.assembly__progress i{display:block;height:100%;background:#00b8ff;transform-origin:left;transform:scaleX(0)}
+.assembly__rig{position:relative;width:min(100%,680px);aspect-ratio:1/.95;margin-inline:auto;will-change:transform}
+.assembly__glow{position:absolute;inset:8% 6%;border-radius:50%;background:radial-gradient(circle,#00b8ff40,transparent 68%);opacity:0;filter:blur(20px)}
+.assembly__part{position:absolute;height:auto;opacity:0;will-change:transform,opacity;filter:drop-shadow(0 18px 24px #0009)}
+@media(max-width:900px){
+  .assembly{height:400svh}
+  .assembly__inner{grid-template-columns:1fr;gap:10px;align-content:center}
+  .assembly h2{font-size:1.4rem;margin-bottom:14px}
+  .assembly .eyebrow{margin-bottom:10px}
+  .assembly__steps{min-height:150px}
+  .assembly__step p{font-size:15px}
+  .assembly__progress{margin-top:16px}
+  .assembly__rig{width:min(88%,420px)}
+}
+@media(prefers-reduced-motion:reduce){
+  .assembly{height:auto}
+  .assembly__stage{position:static;height:auto;padding-block:80px}
+  .assembly__steps{min-height:0;display:grid;gap:24px}
+  .assembly__step{position:static}
+  .assembly__progress{display:none}
+}

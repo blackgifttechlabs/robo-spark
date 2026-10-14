@@ -1,0 +1,9 @@
+{
+  "frames": 518,
+  "fps": 24,
+  "duration_seconds": 21.58,
+  "path_length_m": 4.551,
+  "blocks": 3,
+  "collision_check": "All frames clear of all three blocks, including an 18 mm safety margin.",
+  "wheel_rotation": "Distance / 34.8 mm rolling radius, with differential steering at 186 mm track width."
+}

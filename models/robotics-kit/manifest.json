@@ -1,0 +1,931 @@
+{
+  "units": "mm",
+  "accuracy": "Representative educational models. Nominal proportions; not manufacturer CAD or validated wiring diagrams.",
+  "references": {
+    "nano-controller": "https://docs.arduino.cc/resources/datasheets/A000005-datasheet.pdf",
+    "microbit": "https://tech.microbit.org/docs/hardware/assets/Microbit_V2_Assembly.pdf",
+    "servo-driver": "https://learn.adafruit.com/16-channel-pwm-servo-driver/downloads"
+  },
+  "components": [
+    {
+      "id": "ultrasonic-sensor",
+      "name": "Ultrasonic distance sensor",
+      "nominal_envelope_mm": [
+        45,
+        20,
+        15
+      ],
+      "objects": 97,
+      "blend": "components/ultrasonic-sensor.blend",
+      "reference": "assets/parts/ultrasonic-sensor.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/ultrasonic-sensor.glb",
+      "preview": "previews/ultrasonic-sensor.png"
+    },
+    {
+      "id": "servo-actuator",
+      "name": "Servo actuator",
+      "nominal_envelope_mm": [
+        23,
+        12,
+        32
+      ],
+      "objects": 19,
+      "blend": "components/servo-actuator.blend",
+      "reference": "assets/parts/servo-actuator.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/servo-actuator.glb",
+      "preview": "previews/servo-actuator.png"
+    },
+    {
+      "id": "geared-motor",
+      "name": "Geared DC motor",
+      "nominal_envelope_mm": [
+        70,
+        23,
+        22
+      ],
+      "objects": 8,
+      "blend": "components/geared-motor.blend",
+      "reference": "assets/parts/geared-motor.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/geared-motor.glb",
+      "preview": "previews/geared-motor.png"
+    },
+    {
+      "id": "microcontroller",
+      "name": "Microcontroller board",
+      "nominal_envelope_mm": [
+        68.6,
+        53.4,
+        15
+      ],
+      "objects": 203,
+      "blend": "components/microcontroller.blend",
+      "reference": "assets/parts/microcontroller.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/microcontroller.glb",
+      "preview": "previews/microcontroller.png"
+    },
+    {
+      "id": "breadboard",
+      "name": "Breadboard",
+      "nominal_envelope_mm": [
+        85,
+        55,
+        10
+      ],
+      "objects": 372,
+      "blend": "components/breadboard.blend",
+      "reference": "assets/parts/breadboard.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/breadboard.glb",
+      "preview": "previews/breadboard.png"
+    },
+    {
+      "id": "motor-driver",
+      "name": "Motor driver",
+      "nominal_envelope_mm": [
+        43,
+        43,
+        30
+      ],
+      "objects": 70,
+      "blend": "components/motor-driver.blend",
+      "reference": "assets/parts/motor-driver.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/motor-driver.glb",
+      "preview": "previews/motor-driver.png"
+    },
+    {
+      "id": "motion-sensor",
+      "name": "PIR motion sensor",
+      "nominal_envelope_mm": [
+        32,
+        24,
+        28
+      ],
+      "objects": 18,
+      "blend": "components/motion-sensor.blend",
+      "reference": "assets/parts/motion-sensor.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/motion-sensor.glb",
+      "preview": "previews/motion-sensor.png"
+    },
+    {
+      "id": "temperature-sensor",
+      "name": "Temperature and humidity sensor",
+      "nominal_envelope_mm": [
+        30,
+        16,
+        18
+      ],
+      "objects": 39,
+      "blend": "components/temperature-sensor.blend",
+      "reference": "assets/parts/temperature-sensor.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/temperature-sensor.glb",
+      "preview": "previews/temperature-sensor.png"
+    },
+    {
+      "id": "light-sensor",
+      "name": "Light sensor",
+      "nominal_envelope_mm": [
+        32,
+        14,
+        17
+      ],
+      "objects": 32,
+      "blend": "components/light-sensor.blend",
+      "reference": "assets/parts/light-sensor.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/light-sensor.glb",
+      "preview": "previews/light-sensor.png"
+    },
+    {
+      "id": "buzzer",
+      "name": "Piezo buzzer",
+      "nominal_envelope_mm": [
+        22,
+        22,
+        15
+      ],
+      "objects": 11,
+      "blend": "components/buzzer.blend",
+      "reference": "assets/parts/buzzer.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/buzzer.glb",
+      "preview": "previews/buzzer.png"
+    },
+    {
+      "id": "stepper-motor",
+      "name": "Stepper motor",
+      "nominal_envelope_mm": [
+        42,
+        42,
+        45
+      ],
+      "objects": 36,
+      "blend": "components/stepper-motor.blend",
+      "reference": "assets/parts/stepper-motor.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/stepper-motor.glb",
+      "preview": "previews/stepper-motor.png"
+    },
+    {
+      "id": "battery-holder",
+      "name": "Battery holder",
+      "nominal_envelope_mm": [
+        60,
+        32,
+        17
+      ],
+      "objects": 16,
+      "blend": "components/battery-holder.blend",
+      "reference": "assets/parts/battery-holder.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/battery-holder.glb",
+      "preview": "previews/battery-holder.png"
+    },
+    {
+      "id": "led",
+      "name": "LED",
+      "nominal_envelope_mm": [
+        5,
+        5,
+        27
+      ],
+      "objects": 6,
+      "blend": "components/led.blend",
+      "reference": "assets/parts/led.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/led.glb",
+      "preview": "previews/led.png"
+    },
+    {
+      "id": "potentiometer",
+      "name": "Potentiometer",
+      "nominal_envelope_mm": [
+        16,
+        16,
+        30
+      ],
+      "objects": 24,
+      "blend": "components/potentiometer.blend",
+      "reference": "assets/parts/potentiometer.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/potentiometer.glb",
+      "preview": "previews/potentiometer.png"
+    },
+    {
+      "id": "push-button",
+      "name": "Push button",
+      "nominal_envelope_mm": [
+        25,
+        20,
+        14
+      ],
+      "objects": 25,
+      "blend": "components/push-button.blend",
+      "reference": "assets/parts/push-button.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/push-button.glb",
+      "preview": "previews/push-button.png"
+    },
+    {
+      "id": "jumper-wires",
+      "name": "Jumper wires",
+      "nominal_envelope_mm": [
+        65,
+        65,
+        20
+      ],
+      "objects": 50,
+      "blend": "components/jumper-wires.blend",
+      "reference": "assets/parts/jumper-wires.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/jumper-wires.glb",
+      "preview": "previews/jumper-wires.png"
+    },
+    {
+      "id": "robot-wheel",
+      "name": "Robot wheel",
+      "nominal_envelope_mm": [
+        65,
+        26,
+        65
+      ],
+      "objects": 89,
+      "blend": "components/robot-wheel.blend",
+      "reference": "assets/parts/robot-wheel.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/robot-wheel.glb",
+      "preview": "previews/robot-wheel.png"
+    },
+    {
+      "id": "relay",
+      "name": "Relay module",
+      "nominal_envelope_mm": [
+        50,
+        26,
+        20
+      ],
+      "objects": 38,
+      "blend": "components/relay.blend",
+      "reference": "assets/parts/relay.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/relay.glb",
+      "preview": "previews/relay.png"
+    },
+    {
+      "id": "infrared-sensor",
+      "name": "Infrared sensor",
+      "nominal_envelope_mm": [
+        32,
+        14,
+        14
+      ],
+      "objects": 29,
+      "blend": "components/infrared-sensor.blend",
+      "reference": "assets/parts/infrared-sensor.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/infrared-sensor.glb",
+      "preview": "previews/infrared-sensor.png"
+    },
+    {
+      "id": "linear-actuator",
+      "name": "Linear actuator",
+      "nominal_envelope_mm": [
+        130,
+        30,
+        30
+      ],
+      "objects": 13,
+      "blend": "components/linear-actuator.blend",
+      "reference": "assets/parts/linear-actuator.webp",
+      "category": "Existing library",
+      "provenance": "Existing approximate reconstruction",
+      "web": "web/linear-actuator.glb",
+      "preview": "previews/linear-actuator.png"
+    },
+    {
+      "id": "aa-battery",
+      "name": "AA battery",
+      "category": "Power",
+      "lesson": "Stores energy to power a small circuit.",
+      "objects": 6,
+      "blend": "components/aa-battery.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/aa-battery.glb",
+      "preview": "previews/aa-battery.png"
+    },
+    {
+      "id": "battery-pack",
+      "name": "Rechargeable battery pack",
+      "category": "Power",
+      "lesson": "Supplies energy for a moving robot.",
+      "objects": 7,
+      "blend": "components/battery-pack.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/battery-pack.glb",
+      "preview": "previews/battery-pack.png"
+    },
+    {
+      "id": "usb-cable",
+      "name": "USB cable",
+      "category": "Power",
+      "lesson": "Connects a controller to a computer.",
+      "objects": 10,
+      "blend": "components/usb-cable.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/usb-cable.glb",
+      "preview": "previews/usb-cable.png"
+    },
+    {
+      "id": "resistor",
+      "name": "Resistor",
+      "category": "Circuits",
+      "lesson": "Limits current through a circuit.",
+      "objects": 7,
+      "blend": "components/resistor.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/resistor.glb",
+      "preview": "previews/resistor.png"
+    },
+    {
+      "id": "slide-switch",
+      "name": "Slide switch",
+      "category": "Circuits",
+      "lesson": "Opens or closes an electrical path.",
+      "objects": 13,
+      "blend": "components/slide-switch.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/slide-switch.glb",
+      "preview": "previews/slide-switch.png"
+    },
+    {
+      "id": "nano-controller",
+      "name": "Nano-style controller",
+      "category": "Controllers",
+      "lesson": "Runs instructions on a compact board.",
+      "objects": 102,
+      "blend": "components/nano-controller.blend",
+      "reference": "https://docs.arduino.cc/resources/datasheets/A000005-datasheet.pdf",
+      "accuracy": "Representative proportions",
+      "web": "web/nano-controller.glb",
+      "preview": "previews/nano-controller.png"
+    },
+    {
+      "id": "microbit",
+      "name": "micro:bit-style board",
+      "category": "Controllers",
+      "lesson": "Combines buttons, lights and a programmable controller.",
+      "objects": 50,
+      "blend": "components/microbit.blend",
+      "reference": "https://tech.microbit.org/docs/hardware/assets/Microbit_V2_Assembly.pdf",
+      "accuracy": "Representative proportions",
+      "web": "web/microbit.glb",
+      "preview": "previews/microbit.png"
+    },
+    {
+      "id": "esp32",
+      "name": "ESP32-style controller",
+      "category": "Controllers",
+      "lesson": "Runs instructions and supports wireless projects.",
+      "objects": 93,
+      "blend": "components/esp32.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/esp32.glb",
+      "preview": "previews/esp32.png"
+    },
+    {
+      "id": "servo-driver",
+      "name": "16-channel servo driver",
+      "category": "Controllers",
+      "lesson": "Sends position commands to several servos.",
+      "objects": 148,
+      "blend": "components/servo-driver.blend",
+      "reference": "https://learn.adafruit.com/16-channel-pwm-servo-driver/downloads",
+      "accuracy": "Representative proportions",
+      "web": "web/servo-driver.glb",
+      "preview": "previews/servo-driver.png"
+    },
+    {
+      "id": "rgb-led",
+      "name": "RGB LED",
+      "category": "Lights and sound",
+      "lesson": "Combines red, green and blue light.",
+      "objects": 10,
+      "blend": "components/rgb-led.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/rgb-led.glb",
+      "preview": "previews/rgb-led.png"
+    },
+    {
+      "id": "led-strip",
+      "name": "Addressable LED strip",
+      "category": "Lights and sound",
+      "lesson": "Contains a row of individually controlled lights.",
+      "objects": 43,
+      "blend": "components/led-strip.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/led-strip.glb",
+      "preview": "previews/led-strip.png"
+    },
+    {
+      "id": "led-matrix",
+      "name": "8 x 8 LED matrix",
+      "category": "Lights and sound",
+      "lesson": "Displays pictures using a grid of lights.",
+      "objects": 88,
+      "blend": "components/led-matrix.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/led-matrix.glb",
+      "preview": "previews/led-matrix.png"
+    },
+    {
+      "id": "speaker",
+      "name": "Small speaker",
+      "category": "Lights and sound",
+      "lesson": "Turns an electrical signal into sound.",
+      "objects": 7,
+      "blend": "components/speaker.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/speaker.glb",
+      "preview": "previews/speaker.png"
+    },
+    {
+      "id": "line-sensor",
+      "name": "Line-tracking sensor array",
+      "category": "Sensors",
+      "lesson": "Detects dark and light patches under a rover.",
+      "objects": 39,
+      "blend": "components/line-sensor.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/line-sensor.glb",
+      "preview": "previews/line-sensor.png"
+    },
+    {
+      "id": "soil-probe",
+      "name": "Soil moisture probe",
+      "category": "Sensors",
+      "lesson": "Measures changes related to soil moisture.",
+      "objects": 20,
+      "blend": "components/soil-probe.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/soil-probe.glb",
+      "preview": "previews/soil-probe.png"
+    },
+    {
+      "id": "rain-sensor",
+      "name": "Rain sensor plate",
+      "category": "Sensors",
+      "lesson": "Detects water bridging conductive tracks.",
+      "objects": 37,
+      "blend": "components/rain-sensor.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/rain-sensor.glb",
+      "preview": "previews/rain-sensor.png"
+    },
+    {
+      "id": "touch-sensor",
+      "name": "Capacitive touch sensor",
+      "category": "Sensors",
+      "lesson": "Detects a finger touching its sensing area.",
+      "objects": 30,
+      "blend": "components/touch-sensor.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/touch-sensor.glb",
+      "preview": "previews/touch-sensor.png"
+    },
+    {
+      "id": "tilt-sensor",
+      "name": "Tilt sensor module",
+      "category": "Sensors",
+      "lesson": "Detects a change in orientation.",
+      "objects": 30,
+      "blend": "components/tilt-sensor.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/tilt-sensor.glb",
+      "preview": "previews/tilt-sensor.png"
+    },
+    {
+      "id": "hall-sensor",
+      "name": "Magnetic sensor",
+      "category": "Sensors",
+      "lesson": "Detects a nearby magnet.",
+      "objects": 35,
+      "blend": "components/hall-sensor.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/hall-sensor.glb",
+      "preview": "previews/hall-sensor.png"
+    },
+    {
+      "id": "sound-sensor",
+      "name": "Microphone sensor",
+      "category": "Sensors",
+      "lesson": "Measures sound level.",
+      "objects": 30,
+      "blend": "components/sound-sensor.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/sound-sensor.glb",
+      "preview": "previews/sound-sensor.png"
+    },
+    {
+      "id": "colour-sensor",
+      "name": "Colour sensor",
+      "category": "Sensors",
+      "lesson": "Measures the colour of reflected light.",
+      "objects": 34,
+      "blend": "components/colour-sensor.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/colour-sensor.glb",
+      "preview": "previews/colour-sensor.png"
+    },
+    {
+      "id": "rotary-encoder",
+      "name": "Rotary encoder",
+      "category": "Sensors",
+      "lesson": "Measures steps as a knob or shaft turns.",
+      "objects": 59,
+      "blend": "components/rotary-encoder.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/rotary-encoder.glb",
+      "preview": "previews/rotary-encoder.png"
+    },
+    {
+      "id": "imu-sensor",
+      "name": "Motion and orientation sensor",
+      "category": "Sensors",
+      "lesson": "Measures acceleration and rotation.",
+      "objects": 41,
+      "blend": "components/imu-sensor.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/imu-sensor.glb",
+      "preview": "previews/imu-sensor.png"
+    },
+    {
+      "id": "large-servo",
+      "name": "Metal-gear servo",
+      "category": "Movement",
+      "lesson": "Moves an arm to a chosen position.",
+      "objects": 19,
+      "blend": "components/large-servo.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/large-servo.glb",
+      "preview": "previews/large-servo.png"
+    },
+    {
+      "id": "water-pump",
+      "name": "Mini water pump",
+      "category": "Movement",
+      "lesson": "Moves water through tubing.",
+      "objects": 7,
+      "blend": "components/water-pump.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/water-pump.glb",
+      "preview": "previews/water-pump.png"
+    },
+    {
+      "id": "fan",
+      "name": "Small cooling fan",
+      "category": "Movement",
+      "lesson": "Spins blades to move air.",
+      "objects": 13,
+      "blend": "components/fan.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/fan.glb",
+      "preview": "previews/fan.png"
+    },
+    {
+      "id": "caster",
+      "name": "Ball caster",
+      "category": "Structures",
+      "lesson": "Supports a rover while allowing it to turn.",
+      "objects": 3,
+      "blend": "components/caster.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/caster.glb",
+      "preview": "previews/caster.png"
+    },
+    {
+      "id": "robot-tracks",
+      "name": "Robot track assembly",
+      "category": "Structures",
+      "lesson": "Uses a continuous tread to move a rover.",
+      "objects": 43,
+      "blend": "components/robot-tracks.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/robot-tracks.glb",
+      "preview": "previews/robot-tracks.png"
+    },
+    {
+      "id": "chassis",
+      "name": "Rover chassis plate",
+      "category": "Structures",
+      "lesson": "Supports the robot parts.",
+      "objects": 4,
+      "blend": "components/chassis.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/chassis.glb",
+      "preview": "previews/chassis.png"
+    },
+    {
+      "id": "bracket",
+      "name": "Motor mounting bracket",
+      "category": "Structures",
+      "lesson": "Holds a motor on the chassis.",
+      "objects": 2,
+      "blend": "components/bracket.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/bracket.glb",
+      "preview": "previews/bracket.png"
+    },
+    {
+      "id": "beam",
+      "name": "Perforated construction beam",
+      "category": "Structures",
+      "lesson": "Joins parts into a strong structure.",
+      "objects": 1,
+      "blend": "components/beam.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/beam.glb",
+      "preview": "previews/beam.png"
+    },
+    {
+      "id": "axle",
+      "name": "Steel axle",
+      "category": "Structures",
+      "lesson": "Carries a wheel or gear.",
+      "objects": 3,
+      "blend": "components/axle.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/axle.glb",
+      "preview": "previews/axle.png"
+    },
+    {
+      "id": "bearing",
+      "name": "Ball bearing",
+      "category": "Structures",
+      "lesson": "Supports a rotating shaft with less friction.",
+      "objects": 13,
+      "blend": "components/bearing.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/bearing.glb",
+      "preview": "previews/bearing.png"
+    },
+    {
+      "id": "fastener-set",
+      "name": "Screw, nut and spacer set",
+      "category": "Structures",
+      "lesson": "Fastens robot parts together.",
+      "objects": 21,
+      "blend": "components/fastener-set.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/fastener-set.glb",
+      "preview": "previews/fastener-set.png"
+    },
+    {
+      "id": "spur-gear",
+      "name": "Spur gear",
+      "category": "Mechanisms",
+      "lesson": "Transfers rotation through matching teeth.",
+      "objects": 26,
+      "blend": "components/spur-gear.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/spur-gear.glb",
+      "preview": "previews/spur-gear.png"
+    },
+    {
+      "id": "pulley",
+      "name": "Grooved pulley",
+      "category": "Mechanisms",
+      "lesson": "Transfers movement using a belt.",
+      "objects": 3,
+      "blend": "components/pulley.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/pulley.glb",
+      "preview": "previews/pulley.png"
+    },
+    {
+      "id": "drive-belt",
+      "name": "Drive belt",
+      "category": "Mechanisms",
+      "lesson": "Carries motion between pulleys.",
+      "objects": 49,
+      "blend": "components/drive-belt.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/drive-belt.glb",
+      "preview": "previews/drive-belt.png"
+    },
+    {
+      "id": "gripper",
+      "name": "Robot gripper",
+      "category": "Mechanisms",
+      "lesson": "Opens and closes to hold an object.",
+      "objects": 16,
+      "blend": "components/gripper.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/gripper.glb",
+      "preview": "previews/gripper.png"
+    },
+    {
+      "id": "arm-link",
+      "name": "Robot arm link",
+      "category": "Mechanisms",
+      "lesson": "Connects two robot joints.",
+      "objects": 3,
+      "blend": "components/arm-link.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/arm-link.glb",
+      "preview": "previews/arm-link.png"
+    },
+    {
+      "id": "hinge",
+      "name": "Hinge",
+      "category": "Mechanisms",
+      "lesson": "Lets two parts pivot.",
+      "objects": 8,
+      "blend": "components/hinge.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/hinge.glb",
+      "preview": "previews/hinge.png"
+    },
+    {
+      "id": "rack-pinion",
+      "name": "Rack and pinion",
+      "category": "Mechanisms",
+      "lesson": "Changes rotation into straight movement.",
+      "objects": 39,
+      "blend": "components/rack-pinion.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/rack-pinion.glb",
+      "preview": "previews/rack-pinion.png"
+    },
+    {
+      "id": "lifting-platform",
+      "name": "Scissor lifting platform",
+      "category": "Mechanisms",
+      "lesson": "Raises a platform through linked arms.",
+      "objects": 11,
+      "blend": "components/lifting-platform.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/lifting-platform.glb",
+      "preview": "previews/lifting-platform.png"
+    },
+    {
+      "id": "oled-display",
+      "name": "Small OLED display",
+      "category": "Controls",
+      "lesson": "Shows words and numbers.",
+      "objects": 20,
+      "blend": "components/oled-display.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/oled-display.glb",
+      "preview": "previews/oled-display.png"
+    },
+    {
+      "id": "seven-segment",
+      "name": "Seven-segment display",
+      "category": "Controls",
+      "lesson": "Shows a digit using seven light segments.",
+      "objects": 19,
+      "blend": "components/seven-segment.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/seven-segment.glb",
+      "preview": "previews/seven-segment.png"
+    },
+    {
+      "id": "joystick",
+      "name": "Joystick module",
+      "category": "Controls",
+      "lesson": "Lets you choose direction with a thumb.",
+      "objects": 36,
+      "blend": "components/joystick.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/joystick.glb",
+      "preview": "previews/joystick.png"
+    },
+    {
+      "id": "keypad",
+      "name": "4 x 4 keypad",
+      "category": "Controls",
+      "lesson": "Lets you enter commands using buttons.",
+      "objects": 50,
+      "blend": "components/keypad.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/keypad.glb",
+      "preview": "previews/keypad.png"
+    },
+    {
+      "id": "remote-control",
+      "name": "Infrared remote",
+      "category": "Controls",
+      "lesson": "Sends button commands using infrared light.",
+      "objects": 33,
+      "blend": "components/remote-control.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/remote-control.glb",
+      "preview": "previews/remote-control.png"
+    },
+    {
+      "id": "water-tubing",
+      "name": "Flexible water tubing",
+      "category": "Accessories",
+      "lesson": "Carries water from a pump.",
+      "objects": 3,
+      "blend": "components/water-tubing.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/water-tubing.glb",
+      "preview": "previews/water-tubing.png"
+    },
+    {
+      "id": "conveyor",
+      "name": "Mini conveyor",
+      "category": "Accessories",
+      "lesson": "Carries objects on a moving belt.",
+      "objects": 28,
+      "blend": "components/conveyor.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/conveyor.glb",
+      "preview": "previews/conveyor.png"
+    },
+    {
+      "id": "pen-holder",
+      "name": "Drawing robot pen holder",
+      "category": "Accessories",
+      "lesson": "Holds a pen above the drawing surface.",
+      "objects": 5,
+      "blend": "components/pen-holder.blend",
+      "reference": null,
+      "accuracy": "Representative proportions",
+      "web": "web/pen-holder.glb",
+      "preview": "previews/pen-holder.png"
+    }
+  ]
+}

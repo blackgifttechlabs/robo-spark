@@ -1,0 +1,7 @@
+Generated with the built-in image_gen tool, transparent_background=true.
+
+Shared prompt: product-mockup; transparent PNG sprite atlas; exactly ten separate realistic 3D robotics parts in five columns and two rows; centered isolated objects; generous transparent gaps; consistent three-quarter isometric view; realistic materials and soft studio lighting; no ground, labels or text.
+
+Sheet 1, in row order: HC-SR04 ultrasonic sensor, blue micro servo actuator, yellow TT geared motor, Arduino Uno style microcontroller, white breadboard, red dual H-bridge motor driver, PIR motion sensor, temperature humidity sensor, photoresistor sensor, piezo buzzer.
+
+Sheet 2, in row order: silver stepper motor, two-AA battery holder, red LED, blue potentiometer, green push button module, multicolored jumper wires, black robot wheel with yellow hub, blue relay module, red infrared obstacle sensor, silver linear actuator.

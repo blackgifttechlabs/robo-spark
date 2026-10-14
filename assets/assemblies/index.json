@@ -1,0 +1,678 @@
+{
+  "led-traffic-light": {
+    "model": "assets/assemblies/led-traffic-light.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "plant-soil-moisture-sensor": {
+    "model": "assets/assemblies/plant-soil-moisture-sensor.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "laser-tripwire-alarm": {
+    "model": "assets/assemblies/laser-tripwire-alarm.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Light Sensor",
+        "component": "light-sensor"
+      },
+      {
+        "label": "Buzzer",
+        "component": "buzzer"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "sweeping-radar": {
+    "model": "assets/assemblies/sweeping-radar.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Servo Actuator",
+        "component": "servo-actuator"
+      },
+      {
+        "label": "Ultrasonic Sensor",
+        "component": "ultrasonic-sensor"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "automatic-night-light": {
+    "model": "assets/assemblies/automatic-night-light.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Light Sensor",
+        "component": "light-sensor"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "auto-plant-waterer": {
+    "model": "assets/assemblies/auto-plant-waterer.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Motor Driver",
+        "component": "motor-driver"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "mood-lamp": {
+    "model": "assets/assemblies/mood-lamp.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "motion-activated-hallway-light": {
+    "model": "assets/assemblies/motion-activated-hallway-light.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Motion Sensor",
+        "component": "motion-sensor"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "countdown-timer": {
+    "model": "assets/assemblies/countdown-timer.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Push Button",
+        "component": "push-button"
+      },
+      {
+        "label": "Push Button",
+        "component": "push-button"
+      },
+      {
+        "label": "Buzzer",
+        "component": "buzzer"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "desk-thermometer": {
+    "model": "assets/assemblies/desk-thermometer.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Temperature Sensor",
+        "component": "temperature-sensor"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "servo-turret": {
+    "model": "assets/assemblies/servo-turret.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Servo Actuator",
+        "component": "servo-actuator"
+      },
+      {
+        "label": "Ultrasonic Sensor",
+        "component": "ultrasonic-sensor"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "tv-style-remote-lamp": {
+    "model": "assets/assemblies/tv-style-remote-lamp.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "camera-slider": {
+    "model": "assets/assemblies/camera-slider.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Stepper Motor",
+        "component": "stepper-motor"
+      },
+      {
+        "label": "Motor Driver",
+        "component": "motor-driver"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "bluetooth-lamp-control": {
+    "model": "assets/assemblies/bluetooth-lamp-control.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "pedestrian-crossing-lights": {
+    "model": "assets/assemblies/pedestrian-crossing-lights.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Push Button",
+        "component": "push-button"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "temperature-warning-system": {
+    "model": "assets/assemblies/temperature-warning-system.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Temperature Sensor",
+        "component": "temperature-sensor"
+      },
+      {
+        "label": "Buzzer",
+        "component": "buzzer"
+      },
+      {
+        "label": "Led",
+        "component": "led"
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "mini-musical-piano": {
+    "model": "assets/assemblies/mini-musical-piano.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Buzzer",
+        "component": "buzzer"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "smart-doorbell": {
+    "model": "assets/assemblies/smart-doorbell.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Push Button",
+        "component": "push-button"
+      },
+      {
+        "label": "Buzzer",
+        "component": "buzzer"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "electronic-dice": {
+    "model": "assets/assemblies/electronic-dice.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Push Button",
+        "component": "push-button"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "rainbow-led-button-game": {
+    "model": "assets/assemblies/rainbow-led-button-game.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Push Button",
+        "component": "push-button"
+      },
+      {
+        "label": "Led",
+        "component": "led"
+      },
+      {
+        "label": "Push Button",
+        "component": "push-button"
+      },
+      {
+        "label": "Led",
+        "component": "led"
+      },
+      {
+        "label": "Push Button",
+        "component": "push-button"
+      },
+      {
+        "label": "Led",
+        "component": "led"
+      },
+      {
+        "label": "Push Button",
+        "component": "push-button"
+      },
+      {
+        "label": "Led",
+        "component": "led"
+      },
+      {
+        "label": "Push Button",
+        "component": "push-button"
+      },
+      {
+        "label": "Led",
+        "component": "led"
+      },
+      {
+        "label": "Push Button",
+        "component": "push-button"
+      },
+      {
+        "label": "Led",
+        "component": "led"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "mini-parking-sensor": {
+    "model": "assets/assemblies/mini-parking-sensor.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Ultrasonic Sensor",
+        "component": "ultrasonic-sensor"
+      },
+      {
+        "label": "Buzzer",
+        "component": "buzzer"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "electronic-reaction-game": {
+    "model": "assets/assemblies/electronic-reaction-game.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Push Button",
+        "component": "push-button"
+      },
+      {
+        "label": "Push Button",
+        "component": "push-button"
+      },
+      {
+        "label": "Buzzer",
+        "component": "buzzer"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "rain-detector-alarm": {
+    "model": "assets/assemblies/rain-detector-alarm.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Buzzer",
+        "component": "buzzer"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  },
+  "mini-smart-house": {
+    "model": "assets/assemblies/mini-smart-house.glb",
+    "stages": [
+      {
+        "label": "Breadboard",
+        "component": "breadboard"
+      },
+      {
+        "label": "Microcontroller",
+        "component": "microcontroller"
+      },
+      {
+        "label": "Motion Sensor",
+        "component": "motion-sensor"
+      },
+      {
+        "label": "Temperature Sensor",
+        "component": "temperature-sensor"
+      },
+      {
+        "label": "Servo Actuator",
+        "component": "servo-actuator"
+      },
+      {
+        "label": "Project structure",
+        "component": null
+      },
+      {
+        "label": "Jumper connections",
+        "component": null
+      }
+    ]
+  }
+}

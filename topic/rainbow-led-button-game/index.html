@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><base href="/"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="assets/brand/robosparks-mark.svg">
+  <title>Rainbow LED Button Game — Robo Sparks</title>
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css"><link rel="stylesheet" href="shared/base.css"><link rel="stylesheet" href="pages/topic/topic.css">
+  <script type="importmap">{"imports":{"three":"./assets/vendor/three/three.module.js"}}</script>
+</head>
+<body class="topic-page">
+  <a class="skip-link" href="#workbench">Skip to assembly playback</a>
+  <main id="topic-content">
+    <header class="topic-heading"><a class="topic-back" href="learn.html" aria-label="Back to learning studio"><i class="fi fi-rr-arrow-left" aria-hidden="true"></i></a><p class="eyebrow" id="topic-category">YOUR WORKBENCH</p><h1 id="topic-title">Loading your project…</h1><p id="topic-description"></p>
+      <a class="topic-next" id="next-topic" href="index.html#learn">Next topic ↗</a></header>
+    <div class="topic-layout">
+      <aside class="instructions" aria-label="Step-by-step build guide">
+        <article class="step-card" id="step-card" aria-live="polite">
+          <header class="step-card__ribbon"><span class="step-card__icon"><i class="fi fi-rr-cube" aria-hidden="true"></i></span><h2 id="step-title">Loading…</h2></header>
+          <div class="step-card__body">
+            <p class="step-card__label" id="step-label">STEP 1</p>
+            <p class="step-card__text" id="step-text"></p>
+            <ol class="step-timeline" id="step-substeps" aria-label="Instructions for this step"></ol>
+            <div class="step-card__nav"><div class="step-card__dots" id="step-dots" role="group" aria-label="Steps"></div></div>
+          </div>
+          <div class="step-card__actions"><button class="step-card__prev" id="step-prev" type="button" disabled><i class="fi fi-rr-arrow-left" aria-hidden="true"></i><span>Prev</span></button><button class="step-card__next" id="step-next" type="button" disabled><span>Next step</span><i class="fi fi-rr-arrow-right" aria-hidden="true"></i></button></div>
+        </article>
+      </aside>
+      <section class="workbench" id="workbench" aria-label="3D assembly scene">
+        <div class="assembly-view" id="assembly-view">
+          <img id="assembly-poster" class="assembly-poster" alt="">
+          <div class="view-label"><span class="view-dot"></span><span id="view-status" role="status">Loading the 3D parts…</span></div>
+          <p class="view-hint" id="view-hint">Drag to look around · Scroll to zoom</p>
+        </div>
+      </section>
+    </div>
+  </main>
+  <div class="topic-controls" role="group" aria-label="3D assembly controls">
+    <button class="play-button" id="assembly-play" type="button" aria-label="Play assembly" aria-pressed="false" disabled><i class="fi fi-rr-play" aria-hidden="true"></i><i class="fi fi-rr-pause" aria-hidden="true"></i></button>
+    <div class="playback__now"><span id="stage-count">STEP 01</span><strong id="stage-title">Prepare your workbench</strong></div>
+    <label class="sr-only" for="assembly-progress">Assembly progress</label><input id="assembly-progress" type="range" min="0" max="100" step="0.1" value="0" disabled>
+    <span id="progress-label">0%</span>
+    <button class="icon-button" id="assembly-replay" type="button" aria-label="Replay" title="Replay" disabled><i class="fi fi-rr-rotate-right" aria-hidden="true"></i></button>
+    <button class="icon-button" id="reset-view" type="button" aria-label="Reset view" title="Reset view"><i class="fi fi-rr-expand" aria-hidden="true"></i></button>
+    <label class="speed-label"><span class="sr-only">Speed</span><select id="assembly-speed" aria-label="Speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></label>
+  </div>
+  <script type="module" src="pages/topic/topic.js"></script>
+</body>
+</html>

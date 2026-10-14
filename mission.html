@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Redirecting…</title>
+<script>
+// Old links used mission.html?topic=<id>; send them to the clean URL /topic/<id>/.
+const id = new URLSearchParams(location.search).get('topic');
+location.replace(id ? `/topic/${encodeURIComponent(id)}/` : '/#learn');
+</script></head>
+<body><p><a href="/#learn">Go to all topics</a></p></body></html>

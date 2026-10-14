@@ -1,0 +1,360 @@
+{
+  "parts": 70,
+  "unique_ids": true,
+  "editable_asset_collections": 70,
+  "standalone_blend_files": 70,
+  "web_exports": [
+    {
+      "id": "ultrasonic-sensor",
+      "meshes": 5,
+      "bytes": 1081456
+    },
+    {
+      "id": "servo-actuator",
+      "meshes": 9,
+      "bytes": 324388
+    },
+    {
+      "id": "geared-motor",
+      "meshes": 5,
+      "bytes": 47988
+    },
+    {
+      "id": "microcontroller",
+      "meshes": 7,
+      "bytes": 1643412
+    },
+    {
+      "id": "breadboard",
+      "meshes": 4,
+      "bytes": 2519268
+    },
+    {
+      "id": "motor-driver",
+      "meshes": 6,
+      "bytes": 556868
+    },
+    {
+      "id": "motion-sensor",
+      "meshes": 4,
+      "bytes": 242932
+    },
+    {
+      "id": "temperature-sensor",
+      "meshes": 5,
+      "bytes": 332972
+    },
+    {
+      "id": "light-sensor",
+      "meshes": 5,
+      "bytes": 307704
+    },
+    {
+      "id": "buzzer",
+      "meshes": 5,
+      "bytes": 106644
+    },
+    {
+      "id": "stepper-motor",
+      "meshes": 4,
+      "bytes": 118236
+    },
+    {
+      "id": "battery-holder",
+      "meshes": 4,
+      "bytes": 1356880
+    },
+    {
+      "id": "led",
+      "meshes": 2,
+      "bytes": 59936
+    },
+    {
+      "id": "potentiometer",
+      "meshes": 3,
+      "bytes": 124556
+    },
+    {
+      "id": "push-button",
+      "meshes": 5,
+      "bytes": 213200
+    },
+    {
+      "id": "jumper-wires",
+      "meshes": 10,
+      "bytes": 533536
+    },
+    {
+      "id": "robot-wheel",
+      "meshes": 3,
+      "bytes": 566688
+    },
+    {
+      "id": "relay",
+      "meshes": 6,
+      "bytes": 570712
+    },
+    {
+      "id": "infrared-sensor",
+      "meshes": 6,
+      "bytes": 253372
+    },
+    {
+      "id": "linear-actuator",
+      "meshes": 2,
+      "bytes": 88648
+    },
+    {
+      "id": "aa-battery",
+      "meshes": 3,
+      "bytes": 68060
+    },
+    {
+      "id": "battery-pack",
+      "meshes": 5,
+      "bytes": 361808
+    },
+    {
+      "id": "usb-cable",
+      "meshes": 4,
+      "bytes": 87392
+    },
+    {
+      "id": "resistor",
+      "meshes": 5,
+      "bytes": 71468
+    },
+    {
+      "id": "slide-switch",
+      "meshes": 3,
+      "bytes": 143196
+    },
+    {
+      "id": "nano-controller",
+      "meshes": 5,
+      "bytes": 710572
+    },
+    {
+      "id": "microbit",
+      "meshes": 5,
+      "bytes": 613552
+    },
+    {
+      "id": "esp32",
+      "meshes": 4,
+      "bytes": 718352
+    },
+    {
+      "id": "servo-driver",
+      "meshes": 8,
+      "bytes": 1362964
+    },
+    {
+      "id": "rgb-led",
+      "meshes": 5,
+      "bytes": 84456
+    },
+    {
+      "id": "led-strip",
+      "meshes": 7,
+      "bytes": 129136
+    },
+    {
+      "id": "led-matrix",
+      "meshes": 4,
+      "bytes": 401360
+    },
+    {
+      "id": "speaker",
+      "meshes": 4,
+      "bytes": 110492
+    },
+    {
+      "id": "line-sensor",
+      "meshes": 5,
+      "bytes": 615752
+    },
+    {
+      "id": "soil-probe",
+      "meshes": 4,
+      "bytes": 167100
+    },
+    {
+      "id": "rain-sensor",
+      "meshes": 3,
+      "bytes": 180620
+    },
+    {
+      "id": "touch-sensor",
+      "meshes": 5,
+      "bytes": 405280
+    },
+    {
+      "id": "tilt-sensor",
+      "meshes": 5,
+      "bytes": 269544
+    },
+    {
+      "id": "hall-sensor",
+      "meshes": 5,
+      "bytes": 297424
+    },
+    {
+      "id": "sound-sensor",
+      "meshes": 5,
+      "bytes": 353008
+    },
+    {
+      "id": "colour-sensor",
+      "meshes": 6,
+      "bytes": 406076
+    },
+    {
+      "id": "rotary-encoder",
+      "meshes": 7,
+      "bytes": 418776
+    },
+    {
+      "id": "imu-sensor",
+      "meshes": 5,
+      "bytes": 343676
+    },
+    {
+      "id": "large-servo",
+      "meshes": 7,
+      "bytes": 302508
+    },
+    {
+      "id": "water-pump",
+      "meshes": 4,
+      "bytes": 72568
+    },
+    {
+      "id": "fan",
+      "meshes": 9,
+      "bytes": 152116
+    },
+    {
+      "id": "caster",
+      "meshes": 2,
+      "bytes": 101276
+    },
+    {
+      "id": "robot-tracks",
+      "meshes": 43,
+      "bytes": 247416
+    },
+    {
+      "id": "chassis",
+      "meshes": 2,
+      "bytes": 438944
+    },
+    {
+      "id": "bracket",
+      "meshes": 1,
+      "bytes": 86888
+    },
+    {
+      "id": "beam",
+      "meshes": 1,
+      "bytes": 129632
+    },
+    {
+      "id": "axle",
+      "meshes": 3,
+      "bytes": 18520
+    },
+    {
+      "id": "bearing",
+      "meshes": 2,
+      "bytes": 381788
+    },
+    {
+      "id": "fastener-set",
+      "meshes": 3,
+      "bytes": 462512
+    },
+    {
+      "id": "spur-gear",
+      "meshes": 26,
+      "bytes": 192700
+    },
+    {
+      "id": "pulley",
+      "meshes": 1,
+      "bytes": 84080
+    },
+    {
+      "id": "drive-belt",
+      "meshes": 1,
+      "bytes": 1111768
+    },
+    {
+      "id": "gripper",
+      "meshes": 9,
+      "bytes": 103496
+    },
+    {
+      "id": "arm-link",
+      "meshes": 1,
+      "bytes": 91492
+    },
+    {
+      "id": "hinge",
+      "meshes": 2,
+      "bytes": 104340
+    },
+    {
+      "id": "rack-pinion",
+      "meshes": 16,
+      "bytes": 251232
+    },
+    {
+      "id": "lifting-platform",
+      "meshes": 11,
+      "bytes": 122280
+    },
+    {
+      "id": "oled-display",
+      "meshes": 6,
+      "bytes": 158456
+    },
+    {
+      "id": "seven-segment",
+      "meshes": 3,
+      "bytes": 113568
+    },
+    {
+      "id": "joystick",
+      "meshes": 8,
+      "bytes": 442844
+    },
+    {
+      "id": "keypad",
+      "meshes": 5,
+      "bytes": 574412
+    },
+    {
+      "id": "remote-control",
+      "meshes": 4,
+      "bytes": 550964
+    },
+    {
+      "id": "water-tubing",
+      "meshes": 2,
+      "bytes": 85528
+    },
+    {
+      "id": "conveyor",
+      "meshes": 17,
+      "bytes": 164648
+    },
+    {
+      "id": "pen-holder",
+      "meshes": 5,
+      "bytes": 82088
+    }
+  ],
+  "errors": [],
+  "limits": "Visual models; no manufacturing or electrical validation"
+}

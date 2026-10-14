@@ -1,0 +1,335 @@
+{
+  "robot_count": 20,
+  "recipes": [
+    {
+      "name": "Remote-controlled rover",
+      "parts": [
+        "chassis",
+        "geared-motor",
+        "robot-wheel",
+        "caster",
+        "motor-driver",
+        "esp32",
+        "battery-pack",
+        "joystick"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Obstacle-avoiding rover",
+      "parts": [
+        "chassis",
+        "geared-motor",
+        "robot-wheel",
+        "caster",
+        "motor-driver",
+        "microcontroller",
+        "battery-pack",
+        "ultrasonic-sensor"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Line-following robot",
+      "parts": [
+        "chassis",
+        "geared-motor",
+        "robot-wheel",
+        "caster",
+        "motor-driver",
+        "microcontroller",
+        "battery-pack",
+        "line-sensor"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Light-following robot",
+      "parts": [
+        "chassis",
+        "geared-motor",
+        "robot-wheel",
+        "caster",
+        "motor-driver",
+        "microcontroller",
+        "battery-pack",
+        "light-sensor"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Maze robot",
+      "parts": [
+        "chassis",
+        "geared-motor",
+        "robot-wheel",
+        "caster",
+        "motor-driver",
+        "microcontroller",
+        "battery-pack",
+        "ultrasonic-sensor",
+        "rotary-encoder"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Parking robot",
+      "parts": [
+        "chassis",
+        "geared-motor",
+        "robot-wheel",
+        "caster",
+        "motor-driver",
+        "microcontroller",
+        "battery-pack",
+        "ultrasonic-sensor",
+        "buzzer"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Delivery rover",
+      "parts": [
+        "chassis",
+        "geared-motor",
+        "robot-wheel",
+        "caster",
+        "motor-driver",
+        "esp32",
+        "battery-pack",
+        "beam"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Tracked explorer",
+      "parts": [
+        "chassis",
+        "robot-tracks",
+        "geared-motor",
+        "motor-driver",
+        "esp32",
+        "battery-pack",
+        "ultrasonic-sensor"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Robotic arm",
+      "parts": [
+        "arm-link",
+        "large-servo",
+        "servo-driver",
+        "microcontroller",
+        "battery-pack",
+        "bracket",
+        "fastener-set"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Pick-and-place robot",
+      "parts": [
+        "arm-link",
+        "gripper",
+        "large-servo",
+        "servo-driver",
+        "microcontroller",
+        "battery-pack",
+        "bracket"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Colour-sorting robot",
+      "parts": [
+        "colour-sensor",
+        "gripper",
+        "arm-link",
+        "large-servo",
+        "servo-driver",
+        "microcontroller",
+        "battery-pack"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Conveyor sorting machine",
+      "parts": [
+        "conveyor",
+        "colour-sensor",
+        "servo-actuator",
+        "microcontroller",
+        "motor-driver",
+        "battery-pack"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Drawing robot",
+      "parts": [
+        "chassis",
+        "stepper-motor",
+        "motor-driver",
+        "pen-holder",
+        "robot-wheel",
+        "caster",
+        "microcontroller",
+        "battery-pack"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Walking robot",
+      "parts": [
+        "beam",
+        "arm-link",
+        "large-servo",
+        "servo-driver",
+        "microcontroller",
+        "battery-pack",
+        "fastener-set"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Dancing robot",
+      "parts": [
+        "chassis",
+        "servo-actuator",
+        "large-servo",
+        "servo-driver",
+        "microbit",
+        "speaker",
+        "battery-pack"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Robot pet",
+      "parts": [
+        "chassis",
+        "servo-actuator",
+        "large-servo",
+        "servo-driver",
+        "touch-sensor",
+        "ultrasonic-sensor",
+        "microbit",
+        "battery-pack"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Pan-and-tilt tracking robot",
+      "parts": [
+        "bracket",
+        "servo-actuator",
+        "large-servo",
+        "servo-driver",
+        "ultrasonic-sensor",
+        "microcontroller",
+        "battery-pack"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Plant-care robot",
+      "parts": [
+        "soil-probe",
+        "water-pump",
+        "water-tubing",
+        "motor-driver",
+        "microcontroller",
+        "battery-pack"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Robotic crane",
+      "parts": [
+        "beam",
+        "pulley",
+        "drive-belt",
+        "geared-motor",
+        "motor-driver",
+        "gripper",
+        "microcontroller",
+        "battery-pack"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    },
+    {
+      "name": "Colour-based recycling sorter",
+      "parts": [
+        "conveyor",
+        "colour-sensor",
+        "servo-actuator",
+        "microcontroller",
+        "motor-driver",
+        "battery-pack"
+      ],
+      "status": "Build concept, requires electrical design and mechanical layout",
+      "additional_items": [
+        "Appropriate wiring, power regulation and connectors as required"
+      ]
+    }
+  ],
+  "notes": "Part types listed; quantities, exact electronics compatibility and wiring are not specified. Speaker needs an appropriate amplifier; steppers need a compatible driver."
+}

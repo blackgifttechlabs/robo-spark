@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <title>RoboSparks robot logo</title>
+  <!-- Open circular silhouette and a friendly, tilted robot face. -->
+  <path fill="#0B2861" d="M15 74C19 37 48 12 84 12c39 0 67 29 67 67 0 31-19 56-47 66 9-20 10-43-1-63-17-31-49-37-88-8Z"/>
+  <path fill="#0B2861" d="M20 87c23-18 49-25 68-9 18 15 23 45 13 66-3 6-9 8-15 4-15-12-24-23-42-27-12-3-27-6-28-17-1-6 0-12 4-17Z"/>
+  <path stroke="#FFF" stroke-width="7" stroke-linecap="round" d="m87 68 13-20"/>
+  <circle cx="103" cy="44" r="7" fill="#FFF"/>
+  <path stroke="#00DAE7" stroke-width="8" stroke-linecap="round" d="m51 89-4 7m33 13-4 7"/>
+</svg>

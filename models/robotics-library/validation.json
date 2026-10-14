@@ -1,0 +1,13 @@
+{
+  "components": 20,
+  "projects": 24,
+  "shared_component_collections": 20,
+  "checks": [
+    "Every component has editable geometry and an asset marker",
+    "All 24 projects have a camera and saved standalone file",
+    "Project component instances point to the shared library collections",
+    "Weighted normals enabled on manufactured meshes"
+  ],
+  "errors": [],
+  "accuracy": "Visual and structural checks only. No dimensional reference or electrical validation."
+}

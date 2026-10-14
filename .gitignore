@@ -1,0 +1,8 @@
+# Blender backups and build noise
+*.blend1
+__pycache__/
+*.log
+models/robotics-library/preview-build.log
+# OS / editor
+.DS_Store
+.vscode/

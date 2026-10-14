@@ -1,0 +1,568 @@
+{
+  "units": "mm",
+  "accuracy": "Visual reconstructions of generated references; nominal dimensions are assumptions. Not manufacturing CAD or validated electrical circuits.",
+  "components": [
+    {
+      "id": "ultrasonic-sensor",
+      "name": "Ultrasonic distance sensor",
+      "nominal_envelope_mm": [
+        45,
+        20,
+        15
+      ],
+      "objects": 97,
+      "blend": "components/ultrasonic-sensor.blend",
+      "reference": "assets/parts/ultrasonic-sensor.webp"
+    },
+    {
+      "id": "servo-actuator",
+      "name": "Servo actuator",
+      "nominal_envelope_mm": [
+        23,
+        12,
+        32
+      ],
+      "objects": 19,
+      "blend": "components/servo-actuator.blend",
+      "reference": "assets/parts/servo-actuator.webp"
+    },
+    {
+      "id": "geared-motor",
+      "name": "Geared DC motor",
+      "nominal_envelope_mm": [
+        70,
+        23,
+        22
+      ],
+      "objects": 8,
+      "blend": "components/geared-motor.blend",
+      "reference": "assets/parts/geared-motor.webp"
+    },
+    {
+      "id": "microcontroller",
+      "name": "Microcontroller board",
+      "nominal_envelope_mm": [
+        68.6,
+        53.4,
+        15
+      ],
+      "objects": 203,
+      "blend": "components/microcontroller.blend",
+      "reference": "assets/parts/microcontroller.webp"
+    },
+    {
+      "id": "breadboard",
+      "name": "Breadboard",
+      "nominal_envelope_mm": [
+        85,
+        55,
+        10
+      ],
+      "objects": 372,
+      "blend": "components/breadboard.blend",
+      "reference": "assets/parts/breadboard.webp"
+    },
+    {
+      "id": "motor-driver",
+      "name": "Motor driver",
+      "nominal_envelope_mm": [
+        43,
+        43,
+        30
+      ],
+      "objects": 70,
+      "blend": "components/motor-driver.blend",
+      "reference": "assets/parts/motor-driver.webp"
+    },
+    {
+      "id": "motion-sensor",
+      "name": "PIR motion sensor",
+      "nominal_envelope_mm": [
+        32,
+        24,
+        28
+      ],
+      "objects": 18,
+      "blend": "components/motion-sensor.blend",
+      "reference": "assets/parts/motion-sensor.webp"
+    },
+    {
+      "id": "temperature-sensor",
+      "name": "Temperature and humidity sensor",
+      "nominal_envelope_mm": [
+        30,
+        16,
+        18
+      ],
+      "objects": 39,
+      "blend": "components/temperature-sensor.blend",
+      "reference": "assets/parts/temperature-sensor.webp"
+    },
+    {
+      "id": "light-sensor",
+      "name": "Light sensor",
+      "nominal_envelope_mm": [
+        32,
+        14,
+        17
+      ],
+      "objects": 32,
+      "blend": "components/light-sensor.blend",
+      "reference": "assets/parts/light-sensor.webp"
+    },
+    {
+      "id": "buzzer",
+      "name": "Piezo buzzer",
+      "nominal_envelope_mm": [
+        22,
+        22,
+        15
+      ],
+      "objects": 11,
+      "blend": "components/buzzer.blend",
+      "reference": "assets/parts/buzzer.webp"
+    },
+    {
+      "id": "stepper-motor",
+      "name": "Stepper motor",
+      "nominal_envelope_mm": [
+        42,
+        42,
+        45
+      ],
+      "objects": 36,
+      "blend": "components/stepper-motor.blend",
+      "reference": "assets/parts/stepper-motor.webp"
+    },
+    {
+      "id": "battery-holder",
+      "name": "Battery holder",
+      "nominal_envelope_mm": [
+        60,
+        32,
+        17
+      ],
+      "objects": 16,
+      "blend": "components/battery-holder.blend",
+      "reference": "assets/parts/battery-holder.webp"
+    },
+    {
+      "id": "led",
+      "name": "LED",
+      "nominal_envelope_mm": [
+        5,
+        5,
+        27
+      ],
+      "objects": 6,
+      "blend": "components/led.blend",
+      "reference": "assets/parts/led.webp"
+    },
+    {
+      "id": "potentiometer",
+      "name": "Potentiometer",
+      "nominal_envelope_mm": [
+        16,
+        16,
+        30
+      ],
+      "objects": 24,
+      "blend": "components/potentiometer.blend",
+      "reference": "assets/parts/potentiometer.webp"
+    },
+    {
+      "id": "push-button",
+      "name": "Push button",
+      "nominal_envelope_mm": [
+        25,
+        20,
+        14
+      ],
+      "objects": 25,
+      "blend": "components/push-button.blend",
+      "reference": "assets/parts/push-button.webp"
+    },
+    {
+      "id": "jumper-wires",
+      "name": "Jumper wires",
+      "nominal_envelope_mm": [
+        65,
+        65,
+        20
+      ],
+      "objects": 50,
+      "blend": "components/jumper-wires.blend",
+      "reference": "assets/parts/jumper-wires.webp"
+    },
+    {
+      "id": "robot-wheel",
+      "name": "Robot wheel",
+      "nominal_envelope_mm": [
+        65,
+        26,
+        65
+      ],
+      "objects": 89,
+      "blend": "components/robot-wheel.blend",
+      "reference": "assets/parts/robot-wheel.webp"
+    },
+    {
+      "id": "relay",
+      "name": "Relay module",
+      "nominal_envelope_mm": [
+        50,
+        26,
+        20
+      ],
+      "objects": 38,
+      "blend": "components/relay.blend",
+      "reference": "assets/parts/relay.webp"
+    },
+    {
+      "id": "infrared-sensor",
+      "name": "Infrared sensor",
+      "nominal_envelope_mm": [
+        32,
+        14,
+        14
+      ],
+      "objects": 29,
+      "blend": "components/infrared-sensor.blend",
+      "reference": "assets/parts/infrared-sensor.webp"
+    },
+    {
+      "id": "linear-actuator",
+      "name": "Linear actuator",
+      "nominal_envelope_mm": [
+        130,
+        30,
+        30
+      ],
+      "objects": 13,
+      "blend": "components/linear-actuator.blend",
+      "reference": "assets/parts/linear-actuator.webp"
+    }
+  ],
+  "projects": [
+    {
+      "id": "led-traffic-light",
+      "title": "LED Traffic Light",
+      "blend": "projects/led-traffic-light.blend",
+      "reused_components": [
+        "breadboard",
+        "microcontroller"
+      ],
+      "rule": "Change one light at a time, then repeat the sequence.",
+      "reference": "assets/projects/led-traffic-light.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "plant-soil-moisture-sensor",
+      "title": "Plant Soil Moisture Sensor",
+      "blend": "projects/plant-soil-moisture-sensor.blend",
+      "reused_components": [
+        "breadboard",
+        "microcontroller"
+      ],
+      "rule": "Compare readings in dry and damp soil to choose a useful threshold.",
+      "reference": "assets/projects/plant-soil-moisture-sensor.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "laser-tripwire-alarm",
+      "title": "Laser Tripwire Alarm",
+      "blend": "projects/laser-tripwire-alarm.blend",
+      "reused_components": [
+        "breadboard",
+        "buzzer",
+        "light-sensor",
+        "microcontroller"
+      ],
+      "rule": "Watch the sensor reading change when the light path is blocked.",
+      "reference": "assets/projects/laser-tripwire-alarm.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "sweeping-radar",
+      "title": "Sweeping Radar",
+      "blend": "projects/sweeping-radar.blend",
+      "reused_components": [
+        "breadboard",
+        "microcontroller",
+        "servo-actuator",
+        "ultrasonic-sensor"
+      ],
+      "rule": "Turn the servo a little, measure distance, then repeat across the scan.",
+      "reference": "assets/projects/sweeping-radar.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "automatic-night-light",
+      "title": "Automatic Night Light",
+      "blend": "projects/automatic-night-light.blend",
+      "reused_components": [
+        "breadboard",
+        "light-sensor",
+        "microcontroller"
+      ],
+      "rule": "Read the light level and turn on the LED below a chosen threshold.",
+      "reference": "assets/projects/automatic-night-light.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "auto-plant-waterer",
+      "title": "Auto Plant Waterer",
+      "blend": "projects/auto-plant-waterer.blend",
+      "reused_components": [
+        "breadboard",
+        "microcontroller",
+        "motor-driver"
+      ],
+      "rule": "Read the soil, run the pump briefly if dry, then pause before measuring again.",
+      "reference": "assets/projects/auto-plant-waterer.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "mood-lamp",
+      "title": "Mood Lamp",
+      "blend": "projects/mood-lamp.blend",
+      "reused_components": [
+        "breadboard",
+        "microcontroller"
+      ],
+      "rule": "Change the brightness of the three colour channels to mix a new colour.",
+      "reference": "assets/projects/mood-lamp.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "motion-activated-hallway-light",
+      "title": "Motion-Activated Hallway Light",
+      "blend": "projects/motion-activated-hallway-light.blend",
+      "reused_components": [
+        "breadboard",
+        "microcontroller",
+        "motion-sensor"
+      ],
+      "rule": "When motion is detected, light the LED and keep it on for a short time.",
+      "reference": "assets/projects/motion-activated-hallway-light.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "countdown-timer",
+      "title": "Countdown Timer",
+      "blend": "projects/countdown-timer.blend",
+      "reused_components": [
+        "breadboard",
+        "buzzer",
+        "microcontroller",
+        "push-button"
+      ],
+      "rule": "Choose a starting time, subtract one each second, and buzz at zero.",
+      "reference": "assets/projects/countdown-timer.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "desk-thermometer",
+      "title": "Desk Thermometer",
+      "blend": "projects/desk-thermometer.blend",
+      "reused_components": [
+        "breadboard",
+        "microcontroller",
+        "temperature-sensor"
+      ],
+      "rule": "Read the sensor regularly and update the display with the temperature.",
+      "reference": "assets/projects/desk-thermometer.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "servo-turret",
+      "title": "Servo Turret",
+      "blend": "projects/servo-turret.blend",
+      "reused_components": [
+        "breadboard",
+        "microcontroller",
+        "servo-actuator",
+        "ultrasonic-sensor"
+      ],
+      "rule": "Choose an angle within the servo range and move the platform to it.",
+      "reference": "assets/projects/servo-turret.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "tv-style-remote-lamp",
+      "title": "TV-Style Remote Lamp",
+      "blend": "projects/tv-style-remote-lamp.blend",
+      "reused_components": [
+        "breadboard",
+        "microcontroller"
+      ],
+      "rule": "Read the received button code and toggle the LED for your chosen button.",
+      "reference": "assets/projects/tv-style-remote-lamp.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "camera-slider",
+      "title": "Camera Slider",
+      "blend": "projects/camera-slider.blend",
+      "reused_components": [
+        "breadboard",
+        "microcontroller",
+        "motor-driver",
+        "stepper-motor"
+      ],
+      "rule": "Move the motor in small steps and stop before the carriage reaches the rail end.",
+      "reference": "assets/projects/camera-slider.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "bluetooth-lamp-control",
+      "title": "Bluetooth Lamp Control",
+      "blend": "projects/bluetooth-lamp-control.blend",
+      "reused_components": [
+        "breadboard",
+        "microcontroller"
+      ],
+      "rule": "Send an on or off command and let the controller update the LED.",
+      "reference": "assets/projects/bluetooth-lamp-control.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "pedestrian-crossing-lights",
+      "title": "Pedestrian Crossing Lights",
+      "blend": "projects/pedestrian-crossing-lights.blend",
+      "reused_components": [
+        "breadboard",
+        "microcontroller",
+        "push-button"
+      ],
+      "rule": "Wait for a button press, change the signals in order, then reset.",
+      "reference": "assets/projects/pedestrian-crossing-lights.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "temperature-warning-system",
+      "title": "Temperature Warning System",
+      "blend": "projects/temperature-warning-system.blend",
+      "reused_components": [
+        "breadboard",
+        "buzzer",
+        "led",
+        "microcontroller",
+        "temperature-sensor"
+      ],
+      "rule": "Compare the measured temperature with a threshold and alert above it.",
+      "reference": "assets/projects/temperature-warning-system.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "mini-musical-piano",
+      "title": "Mini Musical Piano",
+      "blend": "projects/mini-musical-piano.blend",
+      "reused_components": [
+        "breadboard",
+        "buzzer",
+        "microcontroller"
+      ],
+      "rule": "Give each button a note and play that frequency while the button is pressed.",
+      "reference": "assets/projects/mini-musical-piano.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "smart-doorbell",
+      "title": "Smart Doorbell",
+      "blend": "projects/smart-doorbell.blend",
+      "reused_components": [
+        "breadboard",
+        "buzzer",
+        "microcontroller",
+        "push-button"
+      ],
+      "rule": "Detect one press, play the chime, then wait for the next press.",
+      "reference": "assets/projects/smart-doorbell.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "electronic-dice",
+      "title": "Electronic Dice",
+      "blend": "projects/electronic-dice.blend",
+      "reused_components": [
+        "breadboard",
+        "microcontroller",
+        "push-button"
+      ],
+      "rule": "Pick a number from one to six and show its matching LED pattern.",
+      "reference": "assets/projects/electronic-dice.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "rainbow-led-button-game",
+      "title": "Rainbow LED Button Game",
+      "blend": "projects/rainbow-led-button-game.blend",
+      "reused_components": [
+        "breadboard",
+        "led",
+        "microcontroller",
+        "push-button"
+      ],
+      "rule": "Show a short light sequence and check whether the player repeats it.",
+      "reference": "assets/projects/rainbow-led-button-game.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "mini-parking-sensor",
+      "title": "Mini Parking Sensor",
+      "blend": "projects/mini-parking-sensor.blend",
+      "reused_components": [
+        "breadboard",
+        "buzzer",
+        "microcontroller",
+        "ultrasonic-sensor"
+      ],
+      "rule": "Measure the distance and make the warning faster as the object gets closer.",
+      "reference": "assets/projects/mini-parking-sensor.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "electronic-reaction-game",
+      "title": "Electronic Reaction Game",
+      "blend": "projects/electronic-reaction-game.blend",
+      "reused_components": [
+        "breadboard",
+        "buzzer",
+        "microcontroller",
+        "push-button"
+      ],
+      "rule": "Wait a random time, turn on the LED, then measure the delay until the press.",
+      "reference": "assets/projects/electronic-reaction-game.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "rain-detector-alarm",
+      "title": "Rain Detector Alarm",
+      "blend": "projects/rain-detector-alarm.blend",
+      "reused_components": [
+        "breadboard",
+        "buzzer",
+        "microcontroller"
+      ],
+      "rule": "Compare dry and wet readings and trigger a buzzer when water is detected.",
+      "reference": "assets/projects/rain-detector-alarm.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    },
+    {
+      "id": "mini-smart-house",
+      "title": "Mini Smart House",
+      "blend": "projects/mini-smart-house.blend",
+      "reused_components": [
+        "breadboard",
+        "microcontroller",
+        "motion-sensor",
+        "servo-actuator",
+        "temperature-sensor"
+      ],
+      "rule": "Create separate rules for the lights and door, then test how they work together.",
+      "reference": "assets/projects/mini-smart-house.webp",
+      "circuit_status": "Illustrative, not electrically validated"
+    }
+  ]
+}
